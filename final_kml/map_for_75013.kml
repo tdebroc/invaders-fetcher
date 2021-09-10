@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Copy of Space Invader 15eme</name>
+    <description/>
+    <Style id="icon-1899-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-A52714-nodesc-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-A52714-nodesc-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-A52714-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-A52714-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-A52714-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-nodesc-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-F57C00-nodesc-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-F57C00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F57C00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F57C00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F9A825-nodesc-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-F9A825-nodesc-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-F9A825-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F9A825-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F9A825-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name><Placemark><name>PA_0055</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3529516,48.8276311,0</coordinates></Point></Placemark><Placemark><name>PA_0385</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3684366,48.8314744,0</coordinates></Point></Placemark><Placemark><name>PA_0079</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3514771,48.8278305,0</coordinates></Point></Placemark><Placemark><name>PA_0350</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.365782,48.8230594,0</coordinates></Point></Placemark><Placemark><name>PA_1330</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3550261,48.8363019,0</coordinates></Point></Placemark><Placemark><name>PA_0937</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3464024,48.8306896,0</coordinates></Point></Placemark><Placemark><name>PA_1371</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3425734,48.8279036,0</coordinates></Point></Placemark><Placemark><name>PA_0130</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3823993802394483,48.82356447780059,0</coordinates></Point></Placemark><Placemark><name>PA_1331</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3544629,48.8270981,0</coordinates></Point></Placemark><Placemark><name>PA_0613</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.359204,48.830759,0</coordinates></Point></Placemark><Placemark><name>PA_0078</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3529045,48.8290406,0</coordinates></Point></Placemark><Placemark><name>PA_0146</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3551138,48.834086,0</coordinates></Point></Placemark><Placemark><name>PA_1199</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.351986,48.820357,0</coordinates></Point></Placemark><Placemark><name>PA_0272</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.364013,48.8268474,0</coordinates></Point></Placemark><Placemark><name>PA_0225</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3731180294622347,48.819620897552085,0</coordinates></Point></Placemark><Placemark><name>PA_0527</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3662309,48.833329,0</coordinates></Point></Placemark><Placemark><name>PA_0209</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3788474,48.8327009,0</coordinates></Point></Placemark><Placemark><name>PA_0024</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3548224,48.8334825,0</coordinates></Point></Placemark><Placemark><name>PA_0053</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3723157,48.8370053,0</coordinates></Point></Placemark><Placemark><name>PA_1300</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3759693232743233,48.821171367924414,0</coordinates></Point></Placemark><Placemark><name>PA_1316</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3623135,48.8248113,0</coordinates></Point></Placemark><Placemark><name>PA_1228</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3572781,48.8345348,0</coordinates></Point></Placemark><Placemark><name>PA_0069</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3541526,48.8346955,0</coordinates></Point></Placemark><Placemark><name>PA_1044</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3603690221523634,48.81648968105963,0</coordinates></Point></Placemark><Placemark><name>PA_0706</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3675992,48.8307773,0</coordinates></Point></Placemark><Placemark><name>PA_0300</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3538554620068632,48.833728039286065,0</coordinates></Point></Placemark><Placemark><name>PA_0087</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3759614610500797,48.83596060239206,0</coordinates></Point></Placemark><Placemark><name>PA_1205</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.368784733170622,48.83554056351097,0</coordinates></Point></Placemark><Placemark><name>PA_0863</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3446302418692224,48.819307015502986,0</coordinates></Point></Placemark><Placemark><name>PA_0422</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3691935,48.8313262,0</coordinates></Point></Placemark><Placemark><name>PA_0875</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3537604,48.8254058,0</coordinates></Point></Placemark><Placemark><name>PA_0623</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3884866408427063,48.82532912376967,0</coordinates></Point></Placemark><Placemark><name>PA_0459</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.368147514117512,48.83501843764899,0</coordinates></Point></Placemark><Placemark><name>PA_0460</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3691499,48.8343996,0</coordinates></Point></Placemark><Placemark><name>PA_0303</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3505642,48.8268424,0</coordinates></Point></Placemark><Placemark><name>PA_1400</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.360645530819078,48.81686215009528,0</coordinates></Point></Placemark><Placemark><name>PA_1103</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3533811,48.8291486,0</coordinates></Point></Placemark><Placemark><name>PA_0315</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3513689,48.8306943,0</coordinates></Point></Placemark><Placemark><name>PA_1178</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3683187,48.8216489,0</coordinates></Point></Placemark><Placemark><name>PA_1093</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3701617,48.84070149999999,0</coordinates></Point></Placemark><Placemark><name>PA_1180</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3533838,48.835172,0</coordinates></Point></Placemark><Placemark><name>PA_1179</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3569288,48.8308545,0</coordinates></Point></Placemark><Placemark><name>PA_0705</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.374874,48.825539,0</coordinates></Point></Placemark><Placemark><name>PA_1134</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3668453,48.8272439,0</coordinates></Point></Placemark><Placemark><name>PA_0363</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3600857,48.8262844,0</coordinates></Point></Placemark><Placemark><name>PA_0714</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.378593,48.826424,0</coordinates></Point></Placemark><Placemark><name>PA_0942</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3527509,48.82592959999999,0</coordinates></Point></Placemark><Placemark><name>PA_1353</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3551784,48.83293219999999,0</coordinates></Point></Placemark><Placemark><name>PA_0427</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3752718,48.8299028,0</coordinates></Point></Placemark><Placemark><name>PA_1109</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.365404,48.8233071,0</coordinates></Point></Placemark><Placemark><name>PA_0036</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3733447,48.8369441,0</coordinates></Point></Placemark><Placemark><name>PA_1037</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3570453,48.82595670000001,0</coordinates></Point></Placemark><Placemark><name>PA_0667</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3621742,48.8235329,0</coordinates></Point></Placemark><Placemark><name>PA_1173</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3703339815493343,48.840192114538404,0</coordinates></Point></Placemark><Placemark><name>PA_0220</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3730884955352805,48.83695025294801,0</coordinates></Point></Placemark><Placemark><name>PA_1108</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3636422,48.8268746,0</coordinates></Point></Placemark><Placemark><name>PA_0076</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.356899899237167,48.83833419412833,0</coordinates></Point></Placemark><Placemark><name>PA_0426</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.356346841635432,48.81574870472021,0</coordinates></Point></Placemark><Placemark><name>PA_0922</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.373819887109627,48.83760187918386,0</coordinates></Point></Placemark><Placemark><name>PA_0543</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3710068,48.8326356,0</coordinates></Point></Placemark><Placemark><name>PA_1352</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3600672,48.8255718,0</coordinates></Point></Placemark><Placemark><name>PA_1240</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3630555,48.8335307,0</coordinates></Point></Placemark><Placemark><name>PA_0778</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.375023,48.8207448,0</coordinates></Point></Placemark><Placemark><name>PA_0017</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3898493,48.8522398,0</coordinates></Point></Placemark><Placemark><name>PA_0943</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3790147512901245,48.83123852724542,0</coordinates></Point></Placemark><Placemark><name>PA_0938</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3464916,48.8298922,0</coordinates></Point></Placemark><Placemark><name>PA_0129</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3823993802394483,48.82356447780059,0</coordinates></Point></Placemark><Placemark><name>PA_1104</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3643471,48.83427529999999,0</coordinates></Point></Placemark><Placemark><name>PA_0216</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3432042,48.821389,0</coordinates></Point></Placemark><Placemark><name>PA_1145</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3823278,48.82673750000001,0</coordinates></Point></Placemark><Placemark><name>PA_0779</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.375023,48.8207448,0</coordinates></Point></Placemark><Placemark><name>PA_0782</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.375023,48.8207448,0</coordinates></Point></Placemark><Placemark><name>PA_0783</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.375023,48.8207448,0</coordinates></Point></Placemark><Placemark><name>PA_0784</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.375023,48.8207448,0</coordinates></Point></Placemark><Placemark><name>PA_0786</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.375023,48.8207448,0</coordinates></Point></Placemark><Placemark><name>PA_0787</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.375023,48.8207448,0</coordinates></Point></Placemark><Placemark><name>PA_0788</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.375023,48.8207448,0</coordinates></Point></Placemark><Placemark><name>PA_0789</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.375023,48.8207448,0</coordinates></Point></Placemark><Placemark><name>PA_0790</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.375023,48.8207448,0</coordinates></Point></Placemark><Placemark><name>PA_0299</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3722272,48.8242918,0</coordinates></Point></Placemark><Placemark><name>PA_0791</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.375023,48.8207448,0</coordinates></Point></Placemark><Placemark><name>PA_0792</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.375023,48.8207448,0</coordinates></Point></Placemark><Placemark><name>PA_0793</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.375023,48.8207448,0</coordinates></Point></Placemark><Placemark><name>PA_0794</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.375023,48.8207448,0</coordinates></Point></Placemark><Placemark><name>PA_0804</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.375023,48.8207448,0</coordinates></Point></Placemark><Placemark><name>PA_0805</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.375023,48.8207448,0</coordinates></Point></Placemark><Placemark><name>PA_0564</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.360693467361637,48.838327643522206,0</coordinates></Point></Placemark><Placemark><name>PA_0361</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3526437478423063,48.830772539144014,0</coordinates></Point></Placemark><Placemark><name>PA_0876</name><styleUrl>#icon-1899-F9A825-nodesc</styleUrl><Point><coordinates>2.3635465748451203,48.826377690064156,0</coordinates></Point></Placemark></Folder></Document></kml>

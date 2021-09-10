@@ -1,0 +1,1847 @@
+{'pa_name': 'PA_0055', 'address': ', 43 rue du Moulin des Prés', 'district': 'Butte-aux-Cailles'}
+PA_0055 is here: 48.8276406, 2.3529412
+{'pa_name': 'PA_0405', 'address': ', face au 110 rue Castagnary', 'district': 'Brassens'}
+We can't find geoloc for PA_0405,, face au 110 rue Castagnary, Paris
+{'pa_name': 'PA_0956', 'address': ', 5 rue Papin', 'district': 'Saint-Martin'}
+PA_0956 is here: 48.8668763, 2.3534143
+{'pa_name': 'PA_1214', 'address': ', 42 rue Leroy Dupré', 'district': 'Bel-Air'}
+PA_1214 is here: 48.8429314, 2.4017809
+{'pa_name': 'PA_0813', 'address': ', passerelle Richerand', 'district': 'Hôpital Saint-Louis'}
+PA_0813 is here: 48.8717085, 2.3647761
+{'pa_name': 'PA_1351', 'address': ', 63 rue du Montparnasse', 'district': 'Parnasse'}
+PA_1351 is here: 48.841818, 2.3254415
+{'pa_name': 'PA_0110', 'address': ', 91 rue Quincampoix', 'district': 'Beaubourg'}
+PA_0110 is here: 48.8625781, 2.3512338
+{'pa_name': 'PA_0540', 'address': ', impasse Questre', 'district': 'La Courtille'}
+PA_0540 is here: 48.868084, 2.3809999
+{'pa_name': 'PA_1428', 'address': ", Gare de l'Avenue Foch", 'district': 'Dauphine'}
+We can't find geoloc for PA_1428,, Gare de l'Avenue Foch, Paris
+{'pa_name': 'PA_0669', 'address': ', pont ferroviaire de la porte des Poissonniers', 'district': 'Poissonniers'}
+We can't find geoloc for PA_0669,, pont ferroviaire de la porte des Poissonniers, Paris
+{'pa_name': 'PA_0686', 'address': ', 1 rue Marius Delcher', 'district': 'Charenton-le-Pont'}
+We can't find geoloc for PA_0686,, 1 rue Marius Delcher, Paris
+{'pa_name': 'PA_1243', 'address': ', 15 boulevard de Ménilmontant', 'district': 'Folie-Regnault'}
+PA_1243 is here: 48.8594091, 2.3888303
+{'pa_name': 'PA_0901', 'address': ', 1 rue Léon Delhomme', 'district': 'Alleray'}
+PA_0901 is here: 48.8384781, 2.3001954
+{'pa_name': 'PA_0452', 'address': ', 5 passage Saint-Antoine', 'district': 'Faubourg Saint-Antoine'}
+PA_0452 is here: 48.852847, 2.3763733
+{'pa_name': 'PA_0002', 'address': ', 45 rue Quincampoix', 'district': 'Beaubourg'}
+PA_0002 is here: 48.8610319, 2.3504652
+{'pa_name': 'PA_0517', 'address': ', 13 rue Froissart', 'district': 'Temple'}
+PA_0517 is here: 48.8616712, 2.3654194
+{'pa_name': 'PA_1306', 'address': ', 46 avenue Pierre Brossolette', 'district': 'Malakoff'}
+PA_1306 is here: 48.820553000000004, 2.311197847697919
+{'pa_name': 'PA_0844', 'address': ' & PA_0918, 20 rue de Courcelles', 'district': 'Faubourg Saint-Honoré'}
+We can't find geoloc for PA_0844, & PA_0918, 20 rue de Courcelles, Paris
+{'pa_name': 'PA_0794', 'address': None, 'district': None}
+{'pa_name': 'PA_1185', 'address': ', 59 rue de Charonne', 'district': 'Roquette'}
+PA_1185 is here: 48.8534566, 2.3793898
+{'pa_name': 'PA_0014', 'address': ', 59 avenue Ledru-Rollin', 'district': 'Quinze-Vingts'}
+PA_0014 is here: 48.848931, 2.37277
+{'pa_name': 'PA_0444', 'address': ', 14 rue Chaudron', 'district': "Gare de l'Est"}
+PA_0444 is here: 48.8831837, 2.3656192
+{'pa_name': 'PA_0917', 'address': ', 2 rue de Fourcroy', 'district': 'Ternes'}
+PA_0917 is here: 48.8804323, 2.2963959
+{'pa_name': 'PA_1255', 'address': ', 5 place des Petits Pères', 'district': 'Richelieu'}
+PA_1255 is here: 48.8665281, 2.3405858
+{'pa_name': 'PA_0852', 'address': ', 10 rue Saint-Maur', 'district': 'Folie-Regnault'}
+PA_0852 is here: 48.8593082, 2.3830611
+{'pa_name': 'PA_1310', 'address': ', 14 rue Penthièvre', 'district': 'Élysée'}
+PA_1310 is here: 48.8729512, 2.3161631
+{'pa_name': 'PA_0151', 'address': ', 28 rue Lhomond', 'district': 'Val-de-Grâce'}
+PA_0151 is here: 48.8429665, 2.3468876
+{'pa_name': 'PA_0501', 'address': ', au pied des escaliers du boulevard du Temple', 'district': 'Temple'}
+We can't find geoloc for PA_0501,, au pied des escaliers du boulevard du Temple, Paris
+{'pa_name': 'PA_1039', 'address': ', 1 impasse Delaunay', 'district': 'Folie-Regnault'}
+PA_1039 is here: 48.855055, 2.3859663
+{'pa_name': 'PA_1193', 'address': None, 'district': None}
+{'pa_name': 'PA_0628', 'address': None, 'district': None}
+{'pa_name': 'PA_0278', 'address': ', 53 rue des Maraîchers', 'district': 'Charonne'}
+PA_0278 is here: 48.852937, 2.4065373
+{'pa_name': 'PA_0782', 'address': None, 'district': None}
+{'pa_name': 'PA_0297', 'address': None, 'district': None}
+{'pa_name': 'PA_1202', 'address': ', 129 avenue de Wagram', 'district': 'Pereire'}
+PA_1202 is here: 48.8831786, 2.3016473
+{'pa_name': 'PA_0940', 'address': None, 'district': 'Montsouris'}
+{'pa_name': 'PA_0413', 'address': ', 3 boulevard Malsherbes', 'district': 'Élysée'}
+PA_0413 is here: 48.88898, 2.304458
+{'pa_name': 'PA_0043', 'address': ", 26 rue de l'Hirondelle", 'district': 'Saint-Michel'}
+PA_0043 is here: 48.8536233, 2.342903
+{'pa_name': 'PA_0556', 'address': ", 2 rue de l'Hôtel Colbert", 'district': 'Saint-Michel'}
+PA_0556 is here: 48.8516767, 2.3486761
+{'pa_name': 'PA_0106', 'address': ', 2 rue Charlemagne', 'district': 'Saint-Paul'}
+PA_0106 is here: 48.8539155, 2.361876
+{'pa_name': 'PA_1347', 'address': ', 6 rue Notre-Dame-de-Nazareth', 'district': 'Saint-Martin'}
+PA_1347 is here: 48.8670049, 2.3617684
+{'pa_name': 'PA_0805', 'address': None, 'district': None}
+{'pa_name': 'PA_0385', 'address': ', 41 rue Dunois', 'district': "Jeanne d'Arc"}
+PA_0385 is here: 48.8315009, 2.3685223
+{'pa_name': 'PA_1081', 'address': None, 'district': None}
+{'pa_name': 'PA_0690', 'address': ', 12 rue Jean-Henri Fabre', 'district': 'Saint-Ouen'}
+PA_0690 is here: 48.9013353, 2.3428739
+{'pa_name': 'PA_0487', 'address': ', 75 rue Monsieur le Prince', 'district': 'Mont Sainte-Geneviève'}
+PA_0487 is here: 48.8488252, 2.3404888
+{'pa_name': 'PA_1296', 'address': ', 1 rue Albert Sorel', 'district': 'Petit Montrouge'}
+PA_1296 is here: 48.8236423, 2.322451
+{'pa_name': 'PA_1279', 'address': ', 86 Boulevard Lefebvre', 'district': 'Brassens'}
+PA_1279 is here: 48.8287382, 2.2995827
+{'pa_name': 'PA_0468', 'address': ', 65 rue Montorgueil', 'district': 'Sentier'}
+PA_0468 is here: 48.8658583, 2.3470562
+{'pa_name': 'PA_0192', 'address': ' & PA_0785, face au 130 rue de Bagnolet', 'district': 'Charonne'}
+We can't find geoloc for PA_0192, & PA_0785, face au 130 rue de Bagnolet, Paris
+{'pa_name': 'PA_1150', 'address': ', quai Saint-Bernard', 'district': 'Jardin des Plantes'}
+PA_1150 is here: 48.8469601, 2.3607911
+{'pa_name': 'PA_0741', 'address': ', 194 boulevard de la Villette', 'district': 'Buttes Chaumont'}
+PA_0741 is here: 48.8821453, 2.370523
+{'pa_name': 'PA_0254', 'address': ', 101 avenue des Champs-Élysées', 'district': 'Chaillot'}
+PA_0254 is here: 48.8716418, 2.3005258
+{'pa_name': 'PA_0604', 'address': ', 36 rue Erard', 'district': 'Aligre'}
+PA_0604 is here: 48.8467097, 2.386903
+{'pa_name': 'PA_1445', 'address': ', 202 rue de Vaugirard', 'district': 'Cambronne'}
+PA_1445 is here: 48.8413766, 2.3073013
+{'pa_name': 'PA_1015', 'address': ', 29 rue de la Villette', 'district': 'Vieux Belleville'}
+PA_1015 is here: 48.8762759, 2.3875297
+{'pa_name': 'PA_0829', 'address': ', 104 rue de Buzenval', 'district': 'Fontarabie'}
+PA_0829 is here: 48.8549962, 2.3989704
+{'pa_name': 'PA_0983', 'address': ', rue Mondoville', 'district': 'Saint-Fargeau'}
+We can't find geoloc for PA_0983,, rue Mondoville, Paris
+{'pa_name': 'PA_0080', 'address': ', 5 rue Ballu', 'district': 'Pigalle'}
+PA_0080 is here: 48.8815967, 2.3310366
+{'pa_name': 'PA_0595', 'address': ', 183 rue de Lourmel', 'district': 'Vaugirard'}
+PA_0595 is here: 48.8379512, 2.2818878
+{'pa_name': 'PA_1384', 'address': ', 25 rue Daubenton', 'district': 'Jardin des Plantes'}
+PA_1384 is here: 48.841169, 2.3529181
+{'pa_name': 'PA_0346', 'address': ', 16 boulevard Pasteur', 'district': 'Cambronne'}
+PA_0346 is here: 48.8434625, 2.3117386
+{'pa_name': 'PA_1107', 'address': ', place Saint-André des Arts', 'district': 'Saint-Michel'}
+PA_1107 is here: 48.8530689, 2.342910085002902
+{'pa_name': 'PA_1042', 'address': ', A86 côté cimetière nouveau de Vitry', 'district': 'Vitry'}
+We can't find geoloc for PA_1042,, A86 côté cimetière nouveau de Vitry, Paris
+{'pa_name': 'PA_1412', 'address': ', 34 boulevard Pereire', 'district': 'Pereire'}
+PA_1412 is here: 48.887901, 2.306693
+{'pa_name': 'PA_0995', 'address': ', place du Docteur Félix Lobligeois', 'district': 'Batignolles'}
+PA_0995 is here: 48.8866908, 2.3183641
+{'pa_name': 'PA_1238', 'address': ', Cimetière de la Courneuve', 'district': 'La Courneuve'}
+We can't find geoloc for PA_1238,, Cimetière de la Courneuve, Paris
+{'pa_name': 'PA_1392', 'address': ", 8 rue d'Hauteville", 'district': 'Faubourg Saint-Denis'}
+PA_1392 is here: 48.8710787, 2.349823
+{'pa_name': 'PA_0429', 'address': ', 22 avenue Carnot', 'district': 'Ternes'}
+PA_0429 is here: 48.8764269, 2.2930212
+{'pa_name': 'PA_0079', 'address': ', 5 rue Chéreau', 'district': 'Butte-aux-Cailles'}
+PA_0079 is here: 48.8274782, 2.3516282
+{'pa_name': 'PA_0583', 'address': ", 2 impasse d'Amsterdam", 'district': 'Europe'}
+PA_0583 is here: 48.8777909, 2.3264525
+{'pa_name': 'PA_1111', 'address': ', 80 avenue Charles de Gaulle', 'district': 'Neuilly-sur-Seine'}
+PA_1111 is here: 48.8785474, 2.2793058
+{'pa_name': 'PA_0350', 'address': ", école primaire de l'avenue d'Ivry", 'district': 'Chinatown'}
+We can't find geoloc for PA_0350,, école primaire de l'avenue d'Ivry, Paris
+{'pa_name': 'PA_0700', 'address': ', 65 rue des Pyrénées', 'district': 'Avron'}
+PA_0700 is here: 48.852518, 2.4060054
+{'pa_name': 'PA_0645', 'address': ', rue Charles Monselet', 'district': 'Amérique'}
+PA_0645 is here: 48.8797176, 2.4009417
+{'pa_name': 'PA_1404', 'address': ', 14 boulevard Diderot', 'district': 'Gare de Lyon'}
+PA_1404 is here: 48.8453844, 2.3708411
+{'pa_name': 'PA_1054', 'address': ', 26 rue Chanzy', 'district': 'Faubourg Saint-Antoine'}
+PA_1054 is here: 48.8526154, 2.3850162
+{'pa_name': 'PA_0868', 'address': ', 1 boulevard Malsherbes', 'district': 'Élysée'}
+We can't find geoloc for PA_0868,, 1 boulevard Malsherbes, Paris
+{'pa_name': 'PA_1280', 'address': ', 14 rue de Lévis', 'district': 'Monceau'}
+PA_1280 is here: 48.8822031, 2.3156007
+{'pa_name': 'PA_0184', 'address': ', 2 rue Mignon', 'district': 'Saint-Michel'}
+PA_0184 is here: 48.8521769, 2.3416251
+{'pa_name': 'PA_0887', 'address': ', sur le bastion de Bercy', 'district': 'Saint-Émilion'}
+PA_0887 is here: 48.8279983, 2.389574
+{'pa_name': 'PA_0757', 'address': ', place Marcel Sembat', 'district': 'Billancourt'}
+PA_0757 is here: 48.8986738, 2.338332311101719
+{'pa_name': 'PA_0307', 'address': ', 77 rue de Ménilmontant', 'district': 'Amandiers'}
+PA_0307 is here: 48.8685822, 2.3890214
+{'pa_name': 'PA_1146', 'address': ', 154 rue du Chemin Vert', 'district': 'Folie-Regnault'}
+PA_1146 is here: 48.8627311, 2.3870252
+{'pa_name': 'PA_1003', 'address': None, 'district': None}
+{'pa_name': 'PA_1453', 'address': ', 157 avenue de Suffren', 'district': 'École Militaire'}
+PA_1453 is here: 48.8463089, 2.3090198
+{'pa_name': 'PA_0612', 'address': ', 14 rue du Renard', 'district': 'Beaubourg'}
+PA_0612 is here: 48.8589259, 2.3523748
+{'pa_name': 'PA_0235', 'address': ', 6 rue de Normandie', 'district': 'Temple'}
+PA_0235 is here: 48.8634472, 2.3641812
+{'pa_name': 'PA_0665', 'address': ', 127 rue de Lauriston', 'district': 'Victor Hugo'}
+PA_0665 is here: 48.8690719, 2.28976
+{'pa_name': 'PA_1424', 'address': ', 1 rue Pelée', 'district': 'Popincourt'}
+PA_1424 is here: 48.8596382, 2.3693476
+{'pa_name': 'PA_1074', 'address': ', 22 rue du Cirque', 'district': 'Élysée'}
+PA_1074 is here: 48.8705294, 2.3147104
+{'pa_name': 'PA_0720', 'address': ', 19 rue de la Ferronnerie', 'district': 'Les Halles'}
+PA_0720 is here: 48.8602898, 2.3473292
+{'pa_name': 'PA_1218', 'address': ', 2 rue Mathys', 'district': 'Flandre'}
+We can't find geoloc for PA_1218,, 2 rue Mathys, Paris
+{'pa_name': 'PA_0409', 'address': None, 'district': None}
+{'pa_name': 'PA_0059', 'address': ', 1 rue Lacordaire', 'district': 'Beaugrenelle'}
+PA_0059 is here: 48.8411245, 2.2816345
+{'pa_name': 'PA_1023', 'address': None, 'district': 'Le Marais'}
+{'pa_name': 'PA_1189', 'address': ', 43 rue Lacépède', 'district': 'Val-de-Grâce'}
+PA_1189 is here: 48.8441045, 2.350541
+{'pa_name': 'PA_0798', 'address': ', 184 boulevard Saint-Germain', 'district': 'Saint-Germain-des-Prés'}
+PA_0798 is here: 48.8544327, 2.33122
+{'pa_name': 'PA_0327', 'address': ', 29 rue du Faubourg Poissonnière', 'district': 'Faubourg Montmartre'}
+PA_0327 is here: 48.8729458, 2.3478125
+{'pa_name': 'PA_1166', 'address': ', 1 quai de Bourbon', 'district': 'Île Saint-Louis'}
+PA_1166 is here: 48.8524406, 2.3569317
+{'pa_name': 'PA_0848', 'address': ", 1 rue de l'Armorique", 'district': 'Pasteur'}
+PA_0848 is here: 48.8395524, 2.3147271
+{'pa_name': 'PA_0624', 'address': ', 10 rue de Sèvres', 'district': 'Bon Marché'}
+PA_0624 is here: 48.8502993, 2.3242929
+{'pa_name': 'PA_1465', 'address': ', avenue de la Porte de la Villette', 'district': 'La Villette'}
+PA_1465 is here: 48.900046, 2.387443
+{'pa_name': 'PA_1170', 'address': ', 45 rue des Gravilliers', 'district': 'Beaubourg'}
+PA_1170 is here: 48.8641623, 2.355441
+{'pa_name': 'PA_0331', 'address': ', 2 rue Pierre au Lard', 'district': 'Beaubourg'}
+PA_0331 is here: 48.8594621, 2.3530536
+{'pa_name': 'PA_0761', 'address': ', 1 quai Louis Blériot', 'district': 'Auteuil'}
+PA_0761 is here: 48.8406503, 2.2681626
+{'pa_name': 'PA_1259', 'address': ', 39 boulevard Albert 1er', 'district': 'Nogent'}
+We can't find geoloc for PA_1259,, 39 boulevard Albert 1er, Paris
+{'pa_name': 'PA_0448', 'address': ', 80 quai Jemmapes', 'district': 'Hôpital Saint-Louis'}
+PA_0448 is here: 48.872515, 2.3656983
+{'pa_name': 'PA_0018', 'address': ', 16 rue Saint-Vincent', 'district': 'Montmartre'}
+PA_0018 is here: 48.888527, 2.3413236
+{'pa_name': 'PA_1062', 'address': None, 'district': None}
+{'pa_name': 'PA_1432', 'address': ', place Igor Stravinsky', 'district': 'Beaubourg'}
+PA_1432 is here: 48.85948125, 2.3516924709012654
+{'pa_name': 'PA_0673', 'address': ", 1 rue de l'Ancienne Comédie", 'district': 'Saint-Germain-des-Prés'}
+PA_0673 is here: 48.85354, 2.3385439
+{'pa_name': 'PA_0389', 'address': ', 86 rue de Botzaris', 'district': 'Vieux Belleville'}
+PA_0389 is here: 48.8793921, 2.3895039
+{'pa_name': 'PA_0223', 'address': ', 20 rue Abel', 'district': 'Aligre'}
+PA_0223 is here: 48.8481611, 2.3760491
+{'pa_name': 'PA_0736', 'address': ', 334 rue Saint-Honoré', 'district': 'Vendôme'}
+PA_0736 is here: 48.8657296, 2.3304845
+{'pa_name': 'PA_0366', 'address': ', 127 rue Castagnary', 'district': 'Brassens'}
+PA_0366 is here: 48.8299155, 2.3034868
+{'pa_name': 'PA_1127', 'address': ', 10 rue du Roi Doré', 'district': 'Le Marais'}
+PA_1127 is here: 48.8599869, 2.3644744
+{'pa_name': 'PA_1019', 'address': ', 23 rue des Vinaigriers', 'district': 'Faubourg Saint-Martin'}
+PA_1019 is here: 48.8730943, 2.3631098
+{'pa_name': 'PA_1449', 'address': None, 'district': 'Gros Caillou'}
+{'pa_name': 'PA_0608', 'address': ', 1 avenue du Général de Gaulle', 'district': 'La Grande Forêt'}
+PA_0608 is here: 50.5081636, 1.6108492
+{'pa_name': 'PA_0258', 'address': ', 29 avenue de Lamballe', 'district': 'Passy'}
+PA_0258 is here: 48.8543959, 2.2788385
+{'pa_name': 'PA_0872', 'address': ' & 1148, Le Point (pas si) Ephémère', 'district': 'Le Canal'}
+We can't find geoloc for PA_0872, & 1148, Le Point (pas si) Ephémère, Paris
+{'pa_name': 'PA_1330', 'address': ', 20 rue Pirandello', 'district': 'Faubourg Saint-Marcel'}
+PA_1330 is here: 48.8362861, 2.3550717
+{'pa_name': 'PA_0171', 'address': ', parvis du Sacré-Cœur', 'district': 'Montmartre'}
+PA_0171 is here: 48.88621335, 2.343074777757794
+{'pa_name': 'PA_0521', 'address': ', cimetière de Belleville', 'district': 'Saint-Fargeau'}
+PA_0521 is here: 48.87492245, 2.4004341949601886
+{'pa_name': 'PA_0464', 'address': ', 6 rue de la Verrerie', 'district': 'Le Marais'}
+PA_0464 is here: 48.8575432, 2.354149
+{'pa_name': 'PA_0937', 'address': ', face au 80 boulevard Auguste Blanqui', 'district': 'Gobelins'}
+We can't find geoloc for PA_0937,, face au 80 boulevard Auguste Blanqui, Paris
+{'pa_name': 'PA_1275', 'address': ", 12 place d'Anvers", 'district': 'Rochechouart'}
+PA_1275 is here: 48.8825612, 2.3446943
+{'pa_name': 'PA_0576', 'address': ', 2 place du Carrousel', 'district': 'Louvre'}
+PA_0576 is here: 48.8617354, 2.3342475
+{'pa_name': 'PA_0126', 'address': ", pont d'Iéna (rive gauche)", 'district': 'Champ de Mars'}
+We can't find geoloc for PA_0126,, pont d'Iéna (rive gauche), Paris
+{'pa_name': 'PA_1367', 'address': ', 160 boulevard Berthier', 'district': 'Champerret'}
+PA_1367 is here: 48.8867256, 2.2959855
+{'pa_name': 'PA_0825', 'address': ', 186 rue de Paris', 'district': 'Montreuil'}
+PA_0825 is here: 48.8557976, 2.4230112
+{'pa_name': 'PA_1222', 'address': ', 90 avenue de la République', 'district': 'Saint-Maur'}
+PA_1222 is here: 48.8639918, 2.3805202
+{'pa_name': 'PA_0960', 'address': ', 141 boulevard Philippe Auguste', 'district': 'Folie-Regnault'}
+We can't find geoloc for PA_0960,, 141 boulevard Philippe Auguste, Paris
+{'pa_name': 'PA_1388', 'address': ', face à la gare de Meudon - Val-Fleury', 'district': 'Meudon'}
+We can't find geoloc for PA_1388,, face à la gare de Meudon - Val-Fleury, Paris
+{'pa_name': 'PA_0433', 'address': ', 33 rue de Sibuet', 'district': 'Bel-Air'}
+PA_0433 is here: 48.8433563, 2.4022824
+{'pa_name': 'PA_0063', 'address': ', 74 rue de Charonne', 'district': 'Faubourg Saint-Antoine'}
+PA_0063 is here: 48.853432, 2.3800126
+{'pa_name': 'PA_0599', 'address': ", 2 rue de l'Ourcq", 'district': 'Le Bassin'}
+PA_0599 is here: 48.8872225, 2.384768
+{'pa_name': 'PA_1058', 'address': ', 24 rue des Petits Champs', 'district': 'Richelieu'}
+PA_1058 is here: 48.8668995, 2.3364305
+{'pa_name': 'PA_1408', 'address': ', derrière le square Charles-Hermite', 'district': 'Les Entrepôts'}
+We can't find geoloc for PA_1408,, derrière le square Charles-Hermite, Paris
+{'pa_name': 'PA_0649', 'address': ', 1 rue Gaston Pinot', 'district': 'Amérique'}
+PA_0649 is here: 48.8828455, 2.3900804
+{'pa_name': 'PA_0833', 'address': ", dans l'Abribus", 'district': 'Fontarabie'}
+We can't find geoloc for PA_0833,, dans l'Abribus, Paris
+{'pa_name': 'PA_1371', 'address': ', 107 rue de la Glacière', 'district': 'Butte-aux-Cailles'}
+PA_1371 is here: 48.8279289, 2.3425368
+{'pa_name': 'PA_0999', 'address': ', 136 rue de la Roquette', 'district': 'Folie-Regnault'}
+PA_0999 is here: 48.8577186, 2.3809374
+{'pa_name': 'PA_0130', 'address': ', pile sud du Viaduc', 'district': "Plaine d'Ivry"}
+We can't find geoloc for PA_0130,, pile sud du Viaduc, Paris
+{'pa_name': 'PA_0560', 'address': ', 65 boulevard Flandrin', 'district': 'Dauphine'}
+PA_0560 is here: 48.8652397, 2.2719352
+{'pa_name': 'PA_0425', 'address': None, 'district': None}
+{'pa_name': 'PA_0976', 'address': ', 130 rue Montmartre', 'district': 'Sentier'}
+PA_0976 is here: 48.8682834, 2.343665
+{'pa_name': 'PA_1234', 'address': ', Obélisque de Villeneuve-le-Comte', 'district': 'La Grande Forêt'}
+We can't find geoloc for PA_1234,, Obélisque de Villeneuve-le-Comte, Paris
+{'pa_name': 'PA_0537', 'address': ", 160 rue Oberkampf, piscine de l'Espace Form", 'district': 'Saint-Maur'}
+We can't find geoloc for PA_0537,, 160 rue Oberkampf, piscine de l'Espace Form, Paris
+{'pa_name': 'PA_0167', 'address': ' & PA_0168, 37 rue Richelieu', 'district': 'Palais-Royal'}
+We can't find geoloc for PA_0167, & PA_0168, 37 rue Richelieu, Paris
+{'pa_name': 'PA_1326', 'address': ', 85 rue la Fayette', 'district': 'Rochechouart'}
+PA_1326 is here: 48.8770585, 2.3479815
+{'pa_name': 'PA_0864', 'address': ', 32 place Saint-Georges', 'district': 'Pigalle'}
+PA_0864 is here: 48.8783757, 2.3374412
+{'pa_name': 'PA_1263', 'address': ', Pont Neuf', 'district': 'Les Halles'}
+PA_1263 is here: 48.8578052, 2.3419060527842683
+{'pa_name': 'PA_0921', 'address': ', pont de Bercy/quai de Bercy', 'district': 'Bercy'}
+PA_0921 is here: 48.83805495, 2.3748859602795616
+{'pa_name': 'PA_0472', 'address': ', 11Z rue Gaby Sylvia', 'district': 'Popincourt'}
+PA_0472 is here: 48.8589859, 2.3709478
+{'pa_name': 'PA_0188', 'address': ', 39 rue des Francs-Bourgeois', 'district': 'Le Marais'}
+PA_0188 is here: 48.85776405, 2.3599456978260887
+{'pa_name': 'PA_0022', 'address': ', 68 rue de Turenne', 'district': 'Le Marais'}
+PA_0022 is here: 48.8597514, 2.3646455
+{'pa_name': 'PA_0536', 'address': ', 7 rue de la Planchette', 'district': 'Charolais'}
+PA_0536 is here: 48.8395359, 2.3888201
+{'pa_name': 'PA_0166', 'address': ', face au 21 rue Georges Auric', 'district': 'Buttes Chaumont'}
+We can't find geoloc for PA_0166,, face au 21 rue Georges Auric, Paris
+{'pa_name': 'PA_1327', 'address': ', 84 rue de Hauteville', 'district': 'Faubourg Saint-Denis'}
+We can't find geoloc for PA_1327,, 84 rue de Hauteville, Paris
+{'pa_name': 'PA_0865', 'address': ', 53 rue Blanche', 'district': 'Pigalle'}
+PA_0865 is here: 48.8812224, 2.3314983
+{'pa_name': 'PA_1262', 'address': ', 7 rue du Bouloi', 'district': 'Palais-Royal'}
+PA_1262 is here: 48.86354, 2.3405523
+{'pa_name': 'PA_0920', 'address': ', 41 boulevard Edouard Branly', 'district': 'Romainville'}
+We can't find geoloc for PA_0920,, 41 boulevard Edouard Branly, Paris
+{'pa_name': 'PA_0473', 'address': ', 3 rue Saint-Sulpice', 'district': 'Luxembourg'}
+PA_0473 is here: 48.8514896, 2.3379706
+{'pa_name': 'PA_0189', 'address': ', 3 rue Geoffroy Langevin', 'district': 'Beaubourg'}
+PA_0189 is here: 48.8605552, 2.3544304
+{'pa_name': 'PA_0023', 'address': ', 5 impasse Beaubourg', 'district': 'Beaubourg'}
+PA_0023 is here: 48.8620321, 2.3538673
+{'pa_name': 'PA_0832', 'address': ', 100 rue de la Réunion', 'district': 'Fontarabie'}
+PA_0832 is here: 48.8575412, 2.3994568
+{'pa_name': 'PA_1370', 'address': ', 1 rue Larrey', 'district': 'Jardin des Plantes'}
+PA_1370 is here: 48.8414182, 2.3537433
+{'pa_name': 'PA_0998', 'address': ', impasse des Peintres', 'district': 'Sentier'}
+PA_0998 is here: 48.8639113, 2.3505437
+{'pa_name': 'PA_0131', 'address': ', 53 rue des Orteaux', 'district': 'Fontarabie'}
+PA_0131 is here: 48.8565225, 2.4030852
+{'pa_name': 'PA_0074', 'address': ", miret du jardin de l'hôtel Salé", 'district': 'Le Marais'}
+We can't find geoloc for PA_0074,, miret du jardin de l'hôtel Salé, Paris
+{'pa_name': 'PA_0424', 'address': ', 13 rue de la Manutention', 'district': 'Chaillot'}
+PA_0424 is here: 48.863407, 2.2962895
+{'pa_name': 'PA_0977', 'address': ', passage Basfour', 'district': 'Sentier'}
+PA_0977 is here: 48.8660432, 2.3518608
+{'pa_name': 'PA_1235', 'address': ' & 1236, 72 rue Claude Bernard', 'district': 'Val-de-Grâce'}
+We can't find geoloc for PA_1235, & 1236, 72 rue Claude Bernard, Paris
+{'pa_name': 'PA_1059', 'address': ', 54 rue de Seine', 'district': 'Saint-Germain-des-Prés'}
+PA_1059 is here: 48.8541425, 2.3368527
+{'pa_name': 'PA_1409', 'address': ', 63 rue Gabriel Péri', 'district': 'Le Kremlin-Bicêtre'}
+PA_1409 is here: 48.8913817, 2.2883439
+{'pa_name': 'PA_0648', 'address': ', métro Pelleport', 'district': 'Ménilmontant'}
+PA_0648 is here: 48.8697857, 2.4027739
+{'pa_name': 'PA_0218', 'address': ', Tunnel Van-Gogh', 'district': 'Gare de Lyon'}
+We can't find geoloc for PA_0218,, Tunnel Van-Gogh, Paris
+{'pa_name': 'PA_0577', 'address': ', 5 rue Levert', 'district': 'Bas Belleville'}
+PA_0577 is here: 48.8737045, 2.3904364
+{'pa_name': 'PA_0127', 'address': ', au pied de la colonne de Philippe Auguste (sud)', 'district': 'Nation'}
+We can't find geoloc for PA_0127,, au pied de la colonne de Philippe Auguste (sud), Paris
+{'pa_name': 'PA_1366', 'address': ', 90 avenue Ledru-Rollin', 'district': 'Faubourg Saint-Antoine'}
+PA_1366 is here: 48.8514631, 2.3763944
+{'pa_name': 'PA_0824', 'address': None, 'district': 'Charonne'}
+{'pa_name': 'PA_1223', 'address': ', 1 place de Passy', 'district': 'Passy'}
+PA_1223 is here: 48.8578129, 2.2779164
+{'pa_name': 'PA_0961', 'address': ', 2 rue Trousseau', 'district': 'Faubourg Saint-Antoine'}
+PA_0961 is here: 48.8508463, 2.3786538
+{'pa_name': 'PA_1389', 'address': ", à l'est du viaduc rue de Paris", 'district': 'Meudon'}
+We can't find geoloc for PA_1389,, à l'est du viaduc rue de Paris, Paris
+{'pa_name': 'PA_0062', 'address': ' & PA_1078, 99 rue de Réaumur', 'district': 'Sentier'}
+We can't find geoloc for PA_0062, & PA_1078, 99 rue de Réaumur, Paris
+{'pa_name': 'PA_0598', 'address': ', 1 avenue de la Motte-Picquet', 'district': 'Gros Caillou'}
+PA_0598 is here: 48.8491041, 2.2977746
+{'pa_name': 'PA_0873', 'address': ', rue du Chat qui Pèche', 'district': 'Saint-Michel'}
+PA_0873 is here: 48.8528921, 2.3460165
+{'pa_name': 'PA_1331', 'address': ', 11 rue Henri Michaux', 'district': 'Butte-aux-Cailles'}
+PA_1331 is here: 48.8270303, 2.3544816
+{'pa_name': 'PA_0170', 'address': None, 'district': None}
+{'pa_name': 'PA_0520', 'address': ', viaduc rue Jacques Kablé', 'district': 'Nogent'}
+We can't find geoloc for PA_0520,, viaduc rue Jacques Kablé, Paris
+{'pa_name': 'PA_0035', 'address': ' & PA_0482, 24 rue Pavée', 'district': 'Le Marais'}
+We can't find geoloc for PA_0035, & PA_0482, 24 rue Pavée, Paris
+{'pa_name': 'PA_0465', 'address': ', 114 rue de la Roquette', 'district': 'Roquette'}
+PA_0465 is here: 48.8569534, 2.3785193
+{'pa_name': 'PA_1274', 'address': ', 10 square Desnouettes', 'district': 'Vaugirard'}
+PA_1274 is here: 48.8349032, 2.284082119857387
+{'pa_name': 'PA_1018', 'address': ', place Paul Eluard', 'district': 'La Chapelle'}
+PA_1018 is here: 48.890035, 2.360127882969433
+{'pa_name': 'PA_1448', 'address': ', 87 rue des Entrepreneurs', 'district': 'Beaugrenelle'}
+PA_1448 is here: 48.8440336, 2.2922704
+{'pa_name': 'PA_0609', 'address': ', 35 boulevard de la Chapelle', 'district': "Gare de l'Est"}
+PA_0609 is here: 48.8844, 2.35998
+{'pa_name': 'PA_0259', 'address': ", 78 rue d'Auteuil", 'district': 'Montmorency'}
+PA_0259 is here: 48.8482899, 2.2598171
+{'pa_name': 'PA_1063', 'address': ', 28 rue des Archives', 'district': 'Le Marais'}
+PA_1063 is here: 48.8582859, 2.3552011
+{'pa_name': 'PA_1433', 'address': ', 36 rue Daubenton', 'district': 'Jardin des Plantes'}
+PA_1433 is here: 48.8410699, 2.352354
+{'pa_name': 'PA_0672', 'address': ', 1 avenue Jean Aicard', 'district': 'Saint-Maur'}
+PA_0672 is here: 48.8644386, 2.3816463
+{'pa_name': 'PA_0388', 'address': ', Gare Montparnasse', 'district': 'Necker'}
+PA_0388 is here: 48.8400624, 2.3191085
+{'pa_name': 'PA_0222', 'address': ', 94 rue du Faubourg du Temple', 'district': 'La Courtille'}
+PA_0222 is here: 48.8710464, 2.3742736
+{'pa_name': 'PA_0737', 'address': ', 21 rue Charles Frédel', 'district': 'Ménilmontant'}
+We can't find geoloc for PA_0737,, 21 rue Charles Frédel, Paris
+{'pa_name': 'PA_1126', 'address': ', 27 place de la Madeleine', 'district': 'Opéra'}
+PA_1126 is here: 48.8711468, 2.3244146
+{'pa_name': 'PA_1258', 'address': ', 13 rue de la Roquette', 'district': 'Roquette'}
+PA_1258 is here: 48.8541959, 2.3711371
+{'pa_name': 'PA_0449', 'address': ', 73 rue du Faubourg Saint-Honoré', 'district': 'Élysée'}
+PA_0449 is here: 48.8714998, 2.314865
+{'pa_name': 'PA_0275', 'address': ', 14 rue Pierre Dupont', 'district': 'Le Canal'}
+PA_0275 is here: 48.879493, 2.3652815
+{'pa_name': 'PA_1464', 'address': ', 32 rue des Carmes', 'district': 'Mont Sainte-Geneviève'}
+PA_1464 is here: 48.8482809, 2.3470287
+{'pa_name': 'PA_1034', 'address': ', 48 rue Saint-Honoré', 'district': 'Les Halles'}
+PA_1034 is here: 48.8612365, 2.3442145
+{'pa_name': 'PA_1171', 'address': ', 68 rue de la Montagne Sainte-Geneviève', 'district': 'Mont Sainte-Geneviève'}
+PA_1171 is here: 48.8468322, 2.3477343
+{'pa_name': 'PA_0330', 'address': ', 102 rue du Faubourg Poissonnière', 'district': 'Clos Saint-Lazare'}
+PA_0330 is here: 48.8784394, 2.349262
+{'pa_name': 'PA_0760', 'address': ", quai Saint-Exupery au pied du périph'", 'district': 'Point du Jour'}
+We can't find geoloc for PA_0760,, quai Saint-Exupery au pied du périph', Paris
+{'pa_name': 'PA_0849', 'address': ', 3 rue du Maine', 'district': 'Parnasse'}
+PA_0849 is here: 48.8405272, 2.3236008
+{'pa_name': 'PA_1022', 'address': ', 27 rue Francœoeur', 'district': 'Clignancourt'}
+We can't find geoloc for PA_1022,, 27 rue Francœoeur, Paris
+{'pa_name': 'PA_0633', 'address': ", sur l'arche en béton devant le Point FMR", 'district': 'Le Canal'}
+We can't find geoloc for PA_0633,, sur l'arche en béton devant le Point FMR, Paris
+{'pa_name': 'PA_0776', 'address': ', 14 rue Castellane', 'district': 'Opéra'}
+PA_0776 is here: 48.8725843, 2.3242881
+{'pa_name': 'PA_0326', 'address': ', 10 rue de Picpus', 'district': 'Nation'}
+PA_0326 is here: 48.8474597, 2.3931983
+{'pa_name': 'PA_1167', 'address': ', 84 rue Bonaparte', 'district': 'Luxembourg'}
+PA_1167 is here: 48.8496681, 2.3326064
+{'pa_name': 'PA_1219', 'address': ', 261 rue de Belleville', 'district': 'Amérique'}
+PA_1219 is here: 48.8755847, 2.398982
+{'pa_name': 'PA_0664', 'address': ', 31 rue des Acacias', 'district': 'Ternes'}
+PA_0664 is here: 48.8772193, 2.2923139
+{'pa_name': 'PA_1425', 'address': ', 9 rue Sedaine', 'district': 'Roquette'}
+PA_1425 is here: 48.8558281, 2.3717707
+{'pa_name': 'PA_1075', 'address': ', 158 boulevard Saint-Germain', 'district': 'Saint-Germain-des-Prés'}
+PA_1075 is here: 48.8532289, 2.3361745
+{'pa_name': 'PA_1130', 'address': ', face au 194 rue de Bercy', 'district': 'Gare de Lyon'}
+We can't find geoloc for PA_1130,, face au 194 rue de Bercy, Paris
+{'pa_name': 'PA_0371', 'address': ', Ouest de la fontaine de Montreuil', 'district': 'Aligre'}
+We can't find geoloc for PA_0371,, Ouest de la fontaine de Montreuil, Paris
+{'pa_name': 'PA_0756', 'address': ', 4 rue Flechier', 'district': 'Rochechouart'}
+PA_0756 is here: 48.8764366, 2.339297
+{'pa_name': 'PA_1147', 'address': ', pont de la Grange aux Belles', 'district': 'Hôpital Saint-Louis'}
+PA_1147 is here: 48.8731748, 2.3641172
+{'pa_name': 'PA_1002', 'address': ", bretelle d'autoroute A86/N406, face au Castorama de Créteil", 'district': 'Les Grandes Roses'}
+We can't find geoloc for PA_1002,, bretelle d'autoroute A86/N406, face au Castorama de Créteil, Paris
+{'pa_name': 'PA_1452', 'address': None, 'district': None}
+{'pa_name': 'PA_0613', 'address': ", derrière un poteau à l'entrée d'un tunnel", 'district': 'Chinatown'}
+We can't find geoloc for PA_0613,, derrière un poteau à l'entrée d'un tunnel, Paris
+{'pa_name': 'PA_0243', 'address': ', 8bis rue Abel', 'district': 'Gare de Lyon'}
+PA_0243 is here: 48.8476959, 2.3755576
+{'pa_name': 'PA_0869', 'address': ', quai de Valmy', 'district': 'Hôpital Saint-Louis'}
+PA_0869 is here: 48.8745164, 2.3628707
+{'pa_name': 'PA_1281', 'address': ', 2 rue des Fontaines du Temple', 'district': 'Saint-Martin'}
+PA_1281 is here: 48.8654958, 2.3602194
+{'pa_name': 'PA_0490', 'address': ', 10 rue du Chemin de Fer', 'district': 'La Villette'}
+PA_0490 is here: 48.8998111, 2.3878034
+{'pa_name': 'PA_0185', 'address': ', 8 rue Scribe', 'district': 'Opéra'}
+PA_0185 is here: 48.87202885000001, 2.331785061251358
+{'pa_name': 'PA_0886', 'address': ', 43 rue Saint-Bernard', 'district': 'Faubourg Saint-Antoine'}
+PA_0886 is here: 48.8534421, 2.3804401
+{'pa_name': 'PA_1110', 'address': ', direction de la Voirie et des Déplacements', 'district': 'Bel-Air'}
+PA_1110 is here: 48.8307373, 2.3761904
+{'pa_name': 'PA_0351', 'address': ', 121 rue de Ménilmontant', 'district': 'Ménilmontant'}
+PA_0351 is here: 48.869929, 2.3940184
+{'pa_name': 'PA_0701', 'address': ', 1 rue Godefroy Cavaignac', 'district': 'Roquette'}
+PA_0701 is here: 48.8540138, 2.3818735
+{'pa_name': 'PA_0644', 'address': ', 2 rue Lamarck', 'district': 'Montmartre'}
+PA_0644 is here: 48.8863709, 2.3442405
+{'pa_name': 'PA_1405', 'address': ", autoroute de l'Est/N486", 'district': 'La Grande Forêt'}
+PA_1405 is here: 48.8203236, 2.4606079
+{'pa_name': 'PA_1055', 'address': ", bretelle de sortie de l'autoroute de l'Est", 'district': 'Joinville-le-Pont'}
+We can't find geoloc for PA_1055,, bretelle de sortie de l'autoroute de l'Est, Paris
+{'pa_name': 'PA_0097', 'address': ', 205 rue de Charenton', 'district': 'Charolais'}
+PA_0097 is here: 48.8394905, 2.3889467
+{'pa_name': 'PA_0994', 'address': ', 0 boulevard Duaumont', 'district': 'Les Épinettes'}
+We can't find geoloc for PA_0994,, 0 boulevard Duaumont, Paris
+{'pa_name': 'PA_1239', 'address': ', 54 avenue Paul Vaillant Couturier', 'district': 'Drancy'}
+PA_1239 is here: 48.8166241, 2.3360472
+{'pa_name': 'PA_1393', 'address': ', 13 rue Marat', 'district': 'Ivry'}
+PA_1393 is here: 48.9197606, 2.43333
+{'pa_name': 'PA_0078', 'address': ', 21 passage du Moulin des Prés', 'district': 'Butte-aux-Cailles'}
+PA_0078 is here: 48.8291096, 2.3533724
+{'pa_name': 'PA_0717', 'address': ', 2 rue des Orteaux', 'district': 'Fontarabie'}
+PA_0717 is here: 48.856907, 2.3979901
+{'pa_name': 'PA_0347', 'address': ', passage des Épinettes', 'district': 'Parnasse'}
+PA_0347 is here: 48.8427738, 2.3251967
+{'pa_name': 'PA_1106', 'address': ', 1 rue Ferdinand Flocon', 'district': 'Clignancourt'}
+PA_1106 is here: 48.8909322, 2.3454104
+{'pa_name': 'PA_1043', 'address': ', A86 côté cimetière communal de Choisy', 'district': 'Les Grandes Roses'}
+We can't find geoloc for PA_1043,, A86 côté cimetière communal de Choisy, Paris
+{'pa_name': 'PA_1413', 'address': ', 13 rue de Lübeck', 'district': 'Chaillot'}
+PA_1413 is here: 48.8661679, 2.2935192
+{'pa_name': 'PA_0652', 'address': ', 25 rue des Sablons', 'district': 'Victor Hugo'}
+PA_0652 is here: 48.8649421, 2.2829335
+{'pa_name': 'PA_0202', 'address': None, 'district': None}
+{'pa_name': 'PA_0081', 'address': ', 88 rue Saint-Maur', 'district': 'Saint-Maur'}
+PA_0081 is here: 48.8650803, 2.3778674
+{'pa_name': 'PA_0594', 'address': ', place Balard', 'district': 'Vaugirard'}
+PA_0594 is here: 48.8367051, 2.2786945
+{'pa_name': 'PA_1385', 'address': ', 4 rue Boissière', 'district': 'Chaillot'}
+PA_1385 is here: 48.8655922, 2.292897
+{'pa_name': 'PA_1151', 'address': ', métro Tuileries', 'district': 'Louvre'}
+PA_1151 is here: 48.8648841, 2.3284514
+{'pa_name': 'PA_0310', 'address': ' & PA_1335, passerelle de la Porte de Saint-Cloud', 'district': 'Point du Jour'}
+We can't find geoloc for PA_0310, & PA_1335, passerelle de la Porte de Saint-Cloud, Paris
+{'pa_name': 'PA_0740', 'address': ', 99 rue Claude Decaen', 'district': 'Vallée de Fécamp'}
+PA_0740 is here: 48.8385736, 2.3963644
+{'pa_name': 'PA_0255', 'address': ", sous le banc face à l'arrêt de bus Varsovie", 'district': 'Chaillot'}
+We can't find geoloc for PA_0255,, sous le banc face à l'arrêt de bus Varsovie, Paris
+{'pa_name': 'PA_0605', 'address': ', 1 place Suzanne Valadon', 'district': 'Montmartre'}
+PA_0605 is here: 48.8846694, 2.3424075
+{'pa_name': 'PA_1444', 'address': ', 5 rue de Cluny', 'district': 'Mont Sainte-Geneviève'}
+PA_1444 is here: 48.8504446, 2.3447417
+{'pa_name': 'PA_1014', 'address': ', 10 rue Paul Bert', 'district': 'Faubourg Saint-Antoine'}
+PA_1014 is here: 48.8516866, 2.3847068
+{'pa_name': 'PA_0486', 'address': ', 26 rue Vaneau', 'district': 'Bon Marché'}
+PA_0486 is here: 48.8529524, 2.3190989
+{'pa_name': 'PA_1297', 'address': ', 89 rue de Reuilly', 'district': 'Picpus'}
+PA_1297 is here: 48.8445574, 2.3900115
+{'pa_name': 'PA_1278', 'address': ', 80 rue de Provence', 'district': 'Haussmann'}
+PA_1278 is here: 48.8742994, 2.3311055
+{'pa_name': 'PA_0890', 'address': ', 175bis rue Championnet', 'district': 'Carrières'}
+PA_0890 is here: 48.893172, 2.3281021
+{'pa_name': 'PA_0193', 'address': ', 29 rue de Réaumur', 'district': 'Saint-Martin'}
+PA_0193 is here: 48.8658032, 2.3545581
+{'pa_name': 'PA_0384', 'address': ', 26 rue du Moulin Joly', 'district': 'La Courtille'}
+PA_0384 is here: 48.8698334, 2.3783111
+{'pa_name': 'PA_1080', 'address': ', Espace Pierre Cardin', 'district': 'Élysée'}
+We can't find geoloc for PA_1080,, Espace Pierre Cardin, Paris
+{'pa_name': 'PA_0691', 'address': ', 1 rue Rafflet', 'district': 'Montmorency'}
+We can't find geoloc for PA_0691,, 1 rue Rafflet, Paris
+{'pa_name': 'PA_1203', 'address': ', 64 rue Monsieur le Prince', 'district': 'Luxembourg'}
+PA_1203 is here: 48.8478528, 2.3408294
+{'pa_name': 'PA_0941', 'address': ', 103 rue Cambronne', 'district': 'Cambronne'}
+PA_0941 is here: 48.8417664, 2.3034238
+{'pa_name': 'PA_0557', 'address': ', 282 rue Saint-Jacques', 'district': 'Val-de-Grâce'}
+PA_0557 is here: 48.8416085, 2.3410815
+{'pa_name': 'PA_1346', 'address': ", pilier est du pont de l'Arsenal", 'district': 'Quinze-Vingts'}
+We can't find geoloc for PA_1346,, pilier est du pont de l'Arsenal, Paris
+{'pa_name': 'PA_0804', 'address': None, 'district': None}
+{'pa_name': 'PA_1038', 'address': ', 5 rue Pajou', 'district': 'Passy'}
+PA_1038 is here: 48.8568421, 2.2730632
+{'pa_name': 'PA_1192', 'address': None, 'district': None}
+{'pa_name': 'PA_0629', 'address': ', impasse Robiquet', 'district': 'Luxembourg'}
+PA_0629 is here: 48.8442647, 2.3259086
+{'pa_name': 'PA_0279', 'address': ', 116 rue du Faubourg du Temple', 'district': 'La Courtille'}
+PA_0279 is here: 48.8716031, 2.3761419
+{'pa_name': 'PA_0783', 'address': None, 'district': None}
+{'pa_name': 'PA_0296', 'address': None, 'district': None}
+{'pa_name': 'PA_0015', 'address': ', 24 rue de Cîteaux', 'district': 'Aligre'}
+PA_0015 is here: 48.8486523, 2.3809769
+{'pa_name': 'PA_0445', 'address': ', 181 rue Lafayette', 'district': "Gare de l'Est"}
+PA_0445 is here: 39.023566207477046, -77.96153711901691
+{'pa_name': 'PA_0916', 'address': ', 14 rue Bayen', 'district': 'Ternes'}
+PA_0916 is here: 48.8795171, 2.2949264
+{'pa_name': 'PA_1254', 'address': ', 23 rue Marbeuf', 'district': "Triangle d'Or"}
+PA_1254 is here: 48.8687983, 2.3037693
+{'pa_name': 'PA_0853', 'address': ', 12 rue de la Grange aux Belles', 'district': 'Hôpital Saint-Louis'}
+PA_0853 is here: 48.8742579, 2.3658998
+{'pa_name': 'PA_1311', 'address': ', 15 rue Jean Nicot', 'district': 'Gros Caillou'}
+PA_1311 is here: 48.8599655, 2.3077584
+{'pa_name': 'PA_0150', 'address': ', angle de la Sorbonne', 'district': 'Mont Sainte-Geneviève'}
+We can't find geoloc for PA_0150,, angle de la Sorbonne, Paris
+{'pa_name': 'PA_0795', 'address': ', 8 cour du Commerce Saint-André', 'district': 'Saint-Michel'}
+PA_0795 is here: 48.8526492, 2.339305
+{'pa_name': 'PA_1184', 'address': ', croisement E50/A6B', 'district': 'Les Grandes Roses'}
+We can't find geoloc for PA_1184,, croisement E50/A6B, Paris
+{'pa_name': 'PA_0280', 'address': ', 8 rue Spinoza', 'district': 'Saint-Maur'}
+PA_0280 is here: 48.8637956, 2.3859525
+{'pa_name': 'PA_1242', 'address': ', 26 rue de la Plaine', 'district': 'Avron'}
+PA_1242 is here: 48.8498633, 2.4026245
+{'pa_name': 'PA_0900', 'address': ', place Pigalle', 'district': 'Pigalle'}
+PA_0900 is here: 48.882144350000004, 2.337425451237274
+{'pa_name': 'PA_0453', 'address': ', 24 à 32 rue des Amandiers', 'district': 'Amandiers'}
+We can't find geoloc for PA_0453,, 24 à 32 rue des Amandiers, Paris
+{'pa_name': 'PA_0003', 'address': ', 14 rue de la Montagne Sainte-Geneviève', 'district': 'Mont Sainte-Geneviève'}
+PA_0003 is here: 48.8488706, 2.3485185
+{'pa_name': 'PA_0516', 'address': ', 129-133 rue de Ménilmontant', 'district': 'Ménilmontant'}
+PA_0516 is here: 48.8675494, 2.3850858
+{'pa_name': 'PA_0146', 'address': ', 2 rue Véronèse', 'district': 'Faubourg Saint-Marcel'}
+PA_0146 is here: 48.8342083, 2.3554129
+{'pa_name': 'PA_1307', 'address': ', parc de Bercy', 'district': 'Bercy'}
+PA_1307 is here: 48.83564465, 2.381719305786225
+{'pa_name': 'PA_0845', 'address': ', 73 rue La Boétie', 'district': 'Faubourg Saint-Honoré'}
+PA_0845 is here: 48.8723768, 2.309708
+{'pa_name': 'PA_1429', 'address': ", 1 rue de la Porte d'Issy", 'district': 'Parc des Expositions'}
+PA_1429 is here: 48.8342193, 2.2838602
+{'pa_name': 'PA_0668', 'address': ', 26 avenue Jean Aicard', 'district': 'Saint-Maur'}
+PA_0668 is here: 48.86632, 2.3806386
+{'pa_name': 'PA_0392', 'address': ', 35 quai des Grands Augustins', 'district': 'Saint-Michel'}
+PA_0392 is here: 48.8546037, 2.3423669
+{'pa_name': 'PA_0238', 'address': ', 8 rue François 1er', 'district': "Triangle d'Or"}
+PA_0238 is here: 48.8700714, 2.301195
+{'pa_name': 'PA_1096', 'address': ', 18 rue des Lilas ou presque', 'district': 'Montreuil'}
+We can't find geoloc for PA_1096,, 18 rue des Lilas ou presque, Paris
+{'pa_name': 'PA_0404', 'address': ', face au 2 place de la Bourse', 'district': 'Richelieu'}
+We can't find geoloc for PA_0404,, face au 2 place de la Bourse, Paris
+{'pa_name': 'PA_0957', 'address': ', 86 Quai de la Rapée', 'district': 'Gare de Lyon'}
+PA_0957 is here: 48.8448181, 2.3691383
+{'pa_name': 'PA_0812', 'address': ', 12bis rue de Cotte', 'district': 'Aligre'}
+PA_0812 is here: 48.849339, 2.3775902
+{'pa_name': 'PA_1350', 'address': ', 133 rue de Sèvres', 'district': 'Bon Marché'}
+PA_1350 is here: 48.8502993, 2.3242929
+{'pa_name': 'PA_0541', 'address': None, 'district': None}
+{'pa_name': 'PA_1422', 'address': ', Pondorly', 'district': 'Les Grandes Roses'}
+We can't find geoloc for PA_1422,, Pondorly, Paris
+{'pa_name': 'PA_1072', 'address': ', 32 rue Pasquier', 'district': 'Élysée'}
+PA_1072 is here: 48.8732479, 2.3236951
+{'pa_name': 'PA_0233', 'address': ', 1 rue des Cévennes', 'district': 'Javel'}
+PA_0233 is here: 48.844428, 2.2761108
+{'pa_name': 'PA_0663', 'address': ', 25 rue Guersant', 'district': 'Ternes'}
+PA_0663 is here: 48.8811526, 2.2895136
+{'pa_name': 'PA_0399', 'address': ", pont de l'Alma", 'district': 'Gros Caillou'}
+PA_0399 is here: 48.862527, 2.3000067
+{'pa_name': 'PA_0376', 'address': ', 28 rue de Poitou', 'district': 'Temple'}
+PA_0376 is here: 48.8616544, 2.3625561
+{'pa_name': 'PA_0726', 'address': ', 135 rue de Rome', 'district': 'Monceau'}
+PA_0726 is here: 48.8857191, 2.3166205
+{'pa_name': 'PA_1137', 'address': ', pont Delizy', 'district': 'Pantin Ville'}
+We can't find geoloc for PA_1137,, pont Delizy, Paris
+{'pa_name': 'PA_0634', 'address': ', 10 rue Hautefeuille', 'district': 'Saint-Michel'}
+PA_0634 is here: 48.8521907, 2.3426838
+{'pa_name': 'PA_0264', 'address': ', 115 rue de la Tour', 'district': 'La Muette'}
+PA_0264 is here: 48.862989, 2.2754885
+{'pa_name': 'PA_1025', 'address': ', 5 place Saint-Augustin', 'district': 'Petite-Pologne'}
+PA_1025 is here: 48.8751003, 2.3192737
+{'pa_name': 'PA_1160', 'address': ', 165 rue du Faubourg Saint-Honoré', 'district': 'Faubourg Saint-Honoré'}
+PA_1160 is here: 48.8746535, 2.3059471
+{'pa_name': 'PA_0771', 'address': ', 132 rue des Pyrénées', 'district': 'Charonne'}
+PA_0771 is here: 48.8587072, 2.4028721
+{'pa_name': 'PA_0321', 'address': ', 17 rue Malebranche', 'district': 'Val-de-Grâce'}
+PA_0321 is here: 48.8464968, 2.3419175
+{'pa_name': 'PA_1249', 'address': ', 24 rue de la Verrerie', 'district': 'Beaubourg'}
+PA_1249 is here: 48.8574483, 2.3545153
+{'pa_name': 'PA_0008', 'address': ' & PA_1083, Impasse Cordon-Boussard', 'district': 'Ménilmontant'}
+We can't find geoloc for PA_0008, & PA_1083, Impasse Cordon-Boussard, Paris
+{'pa_name': 'PA_0458', 'address': ', 16 rue Elise Borey', 'district': 'Amandiers'}
+We can't find geoloc for PA_0458,, 16 rue Elise Borey, Paris
+{'pa_name': 'PA_1463', 'address': ', passage du Clos Bruneau', 'district': 'Mont Sainte-Geneviève'}
+PA_1463 is here: 48.8485814, 2.3479467
+{'pa_name': 'PA_1199', 'address': ', Poterne des Peupliers', 'district': 'Peupliers'}
+PA_1199 is here: 48.8210362, 2.352568
+{'pa_name': 'PA_1033', 'address': ', 1 boulevard des Filles du Calvaire', 'district': 'Temple'}
+PA_1033 is here: 48.8612139, 2.3669024
+{'pa_name': 'PA_0272', 'address': ', 96 rue de Tolbiac', 'district': 'Choisy'}
+PA_0272 is here: 48.8267884, 2.3640891
+{'pa_name': 'PA_0788', 'address': None, 'district': None}
+{'pa_name': 'PA_0767', 'address': ', 0 rue du Fer à Moulin', 'district': 'Jardin des Plantes'}
+PA_0767 is here: 48.83888, 2.3529777
+{'pa_name': 'PA_1176', 'address': ', 5 rue Rodier', 'district': 'Rochechouart'}
+PA_1176 is here: 48.8774882, 2.3422805
+{'pa_name': 'PA_0858', 'address': ', 1 rue la Bruyère', 'district': 'Pigalle'}
+PA_0858 is here: 48.3981476, -4.454306
+{'pa_name': 'PA_0675', 'address': ', 1bis rue Friant', 'district': 'Petit Montrouge'}
+PA_0675 is here: 48.8269669, 2.3251843
+{'pa_name': 'PA_0225', 'address': ", sur le pont du periph' porte d'Ivry", 'district': 'Chinatown'}
+We can't find geoloc for PA_0225,, sur le pont du periph' porte d'Ivry, Paris
+{'pa_name': 'PA_1064', 'address': ', 16 rue Froissart', 'district': 'Temple'}
+PA_1064 is here: 48.8617356, 2.365364
+{'pa_name': 'PA_1434', 'address': ', 39 rue Edouard Vaillant', 'district': 'Montreuil'}
+PA_1434 is here: 48.9284944, 2.430425
+{'pa_name': 'PA_1121', 'address': ', 52 cours de Vincennes', 'district': 'Bel-Air'}
+PA_1121 is here: 48.847325, 2.4036096
+{'pa_name': 'PA_0730', 'address': ', 6 rue Bleue', 'district': 'Faubourg Montmartre'}
+PA_0730 is here: 48.8758844, 2.3472656
+{'pa_name': 'PA_0360', 'address': ', 0 rue Saint-Roch', 'district': 'Louvre'}
+PA_0360 is here: 48.8649619, 2.3319866
+{'pa_name': 'PA_1208', 'address': ', 35 rue Castagnary', 'district': 'Alleray'}
+PA_1208 is here: 48.8340804, 2.3094623
+{'pa_name': 'PA_0049', 'address': ', 117 rue Oberkampf', 'district': 'La Courtille'}
+PA_0049 is here: 48.866723, 2.3817382
+{'pa_name': 'PA_0177', 'address': ', 12 rue du 29 Juillet', 'district': 'Vendôme'}
+PA_0177 is here: 48.8644905, 2.330175
+{'pa_name': 'PA_0527', 'address': ', 74 rue Dunois', 'district': "Jeanne d'Arc"}
+PA_0527 is here: 48.83338905, 2.366206918807765
+{'pa_name': 'PA_0874', 'address': ', 18 rue de la Huchette', 'district': 'Saint-Michel'}
+PA_0874 is here: 48.8530384, 2.3456128
+{'pa_name': 'PA_1336', 'address': ', 24 rue de Montreuil', 'district': 'Nation'}
+PA_1336 is here: 48.8504039, 2.3854692
+{'pa_name': 'PA_0931', 'address': ', 2 rue Ambroise Thomas', 'district': 'Faubourg Montmartre'}
+PA_0931 is here: 48.8741671, 2.3473635
+{'pa_name': 'PA_1273', 'address': ', 39 rue Linné', 'district': 'Saint-Victor'}
+PA_1273 is here: 48.8459874, 2.3543643
+{'pa_name': 'PA_0032', 'address': ', 108 rue Vieille du Temple', 'district': 'Le Marais'}
+PA_0032 is here: 48.860777, 2.3630551
+{'pa_name': 'PA_0462', 'address': ', 44 rue de Cléry', 'district': 'Sentier'}
+PA_0462 is here: 48.8683074, 2.3474101
+{'pa_name': 'PA_0198', 'address': ', 27 rue Sainte-Marthe', 'district': 'Hôpital Saint-Louis'}
+PA_0198 is here: 48.8742731, 2.3725174
+{'pa_name': 'PA_1418', 'address': ', 18 avenue de Lowendal', 'district': 'Cambronne'}
+PA_1418 is here: 48.8492636, 2.3031433
+{'pa_name': 'PA_1048', 'address': ', Autoroute du Soleil', 'district': 'Les Grandes Roses'}
+PA_1048 is here: 48.7339769, 2.341391
+{'pa_name': 'PA_0209', 'address': ', sur la coque du Batofar', 'district': 'Bibliothèque'}
+We can't find geoloc for PA_0209,, sur la coque du Batofar, Paris
+{'pa_name': 'PA_0659', 'address': ', 194 rue Championnet', 'district': 'La Moskova'}
+PA_0659 is here: 48.8942049, 2.3321362
+{'pa_name': 'PA_1361', 'address': ', 3 allée Verte', 'district': 'Popincourt'}
+PA_1361 is here: 48.8594351, 2.3704475
+{'pa_name': 'PA_0989', 'address': ", 2 rue de l'Évangile", 'district': 'La Chapelle'}
+PA_0989 is here: 48.8914978, 2.3613459
+{'pa_name': 'PA_0823', 'address': ', 145 avenue Jean Jaurès', 'district': 'Le Bassin'}
+PA_0823 is here: 48.8872065, 2.3851956
+{'pa_name': 'PA_0570', 'address': ', 82 rue François Miron', 'district': 'Saint-Paul'}
+PA_0570 is here: 48.8553362, 2.3592547
+{'pa_name': 'PA_0065', 'address': ', 30 rue de Lappe', 'district': 'Roquette'}
+PA_0065 is here: 48.8531673, 2.373736
+{'pa_name': 'PA_1224', 'address': ', 57 avenue du docteur Netter', 'district': 'Bel-Air'}
+PA_1224 is here: 48.8449287, 2.4056526
+{'pa_name': 'PA_0966', 'address': ', pont de Bir-Hakeim', 'district': 'Grenelle'}
+PA_0966 is here: 48.855725449999994, 2.287547688767397
+{'pa_name': 'PA_0566', 'address': ', 181 rue de la Roquette', 'district': 'Folie-Regnault'}
+PA_0566 is here: 48.859855, 2.3885702
+{'pa_name': 'PA_0835', 'address': ', 13 rue de Lasseps', 'district': 'Père Lachaise'}
+We can't find geoloc for PA_0835,, 13 rue de Lasseps, Paris
+{'pa_name': 'PA_1377', 'address': ', 121 avenue de Saint-Ouen', 'district': 'Les Épinettes'}
+PA_1377 is here: 48.895478, 2.3280744
+{'pa_name': 'PA_0970', 'address': ', allée des Cygnes', 'district': 'Beaugrenelle'}
+PA_0970 is here: 48.853118249999994, 2.284079997244481
+{'pa_name': 'PA_1398', 'address': ', 157 rue Cardinet', 'district': 'Cardinet'}
+PA_1398 is here: 48.891254, 2.3180018
+{'pa_name': 'PA_0073', 'address': ', 93 rue Jean-Pierre Timbaud', 'district': 'La Courtille'}
+PA_0073 is here: 48.86841, 2.3793255
+{'pa_name': 'PA_0589', 'address': ', 1 rue Melingue', 'district': 'Vieux Belleville'}
+PA_0589 is here: 48.8753708, 2.3857579
+{'pa_name': 'PA_0423', 'address': ', 63 avenue Franklin Delano Roosevelt', 'district': 'Faubourg Saint-Honoré'}
+PA_0423 is here: 48.87186, 2.309885
+{'pa_name': 'PA_1459', 'address': ', 8 rue du Faubourg Montmartre', 'district': 'Faubourg Montmartre'}
+PA_1459 is here: 48.8721515, 2.3432919
+{'pa_name': 'PA_1009', 'address': ', 1 boulevard de Ménilmontant', 'district': 'Folie-Regnault'}
+PA_1009 is here: 48.8585916, 2.3892151
+{'pa_name': 'PA_0248', 'address': ', 64 rue de la Fontaine au Roi', 'district': 'La Courtille'}
+PA_0248 is here: 48.8682487, 2.3743437
+{'pa_name': 'PA_0618', 'address': ', 15 rue Pierre Demours', 'district': 'Ternes'}
+PA_0618 is here: 48.8806074, 2.2929897
+{'pa_name': 'PA_1320', 'address': ", 12 rue de la Tour d'Auvergne", 'district': 'Rochechouart'}
+We can't find geoloc for PA_1320,, 12 rue de la Tour d'Auvergne, Paris
+{'pa_name': 'PA_0862', 'address': ', 127 rue du Faubourg Saint-Honoré', 'district': 'Faubourg Saint-Honoré'}
+PA_0862 is here: 48.8732732, 2.309434
+{'pa_name': 'PA_0531', 'address': ', 129 rue de Ménilmontant', 'district': 'Ménilmontant'}
+PA_0531 is here: 48.8701149, 2.3950415
+{'pa_name': 'PA_0161', 'address': ', 17 rue Yvonne Le Tac', 'district': 'Abbesses'}
+PA_0161 is here: 48.8841659, 2.3395604
+{'pa_name': 'PA_0474', 'address': ', 2 rue de Prony', 'district': 'Monceau'}
+PA_0474 is here: 48.880614, 2.3084882
+{'pa_name': 'PA_0024', 'address': ', 73 avenue des Gobelins', 'district': 'Faubourg Saint-Marcel'}
+PA_0024 is here: 48.8333798, 2.3545251
+{'pa_name': 'PA_1265', 'address': ', Centre Georges Pompidou', 'district': 'Beaubourg'}
+PA_1265 is here: 48.860591799999995, 2.352474317665342
+{'pa_name': 'PA_0950', 'address': ', métro Dupleix', 'district': 'Grenelle'}
+PA_0950 is here: 48.8491039, 2.2977446
+{'pa_name': 'PA_1212', 'address': ', 16 place Jacques Bonsergent', 'district': 'Faubourg Saint-Martin'}
+PA_1212 is here: 48.8714163, 2.3607618
+{'pa_name': 'PA_0053', 'address': ', face au 16 boulevard Vincent Auriol', 'district': 'Austerlitz'}
+We can't find geoloc for PA_0053,, face au 16 boulevard Vincent Auriol, Paris
+{'pa_name': 'PA_0403', 'address': ', porte N-E du parc George Brassens', 'district': 'Brassens'}
+We can't find geoloc for PA_0403,, porte N-E du parc George Brassens, Paris
+{'pa_name': 'PA_0116', 'address': ', 45 passage Thiéré', 'district': 'Roquette'}
+PA_0116 is here: 48.8538524, 2.3740518
+{'pa_name': 'PA_0815', 'address': ', 15 rue du Renard', 'district': 'Beaubourg'}
+PA_0815 is here: 48.8585183, 2.351883
+{'pa_name': 'PA_1357', 'address': ', 2 rue de Saint-Petersbourg', 'district': 'Europe'}
+PA_1357 is here: 48.8797054, 2.3240674
+{'pa_name': 'PA_0395', 'address': ', 14 rue Chomel', 'district': 'Bon Marché'}
+PA_0395 is here: 48.8518451, 2.3245999
+{'pa_name': 'PA_1091', 'address': ', fontaine du Conservatoire Municipal du 19e', 'district': 'Buttes Chaumont'}
+We can't find geoloc for PA_1091,, fontaine du Conservatoire Municipal du 19e, Paris
+{'pa_name': 'PA_0680', 'address': ' & 1099, 4 rue de la Mare', 'district': 'Amandiers'}
+We can't find geoloc for PA_0680, & 1099, 4 rue de la Mare, Paris
+{'pa_name': 'PA_0454', 'address': ', Assainissement de Valmy', 'district': 'Le Canal'}
+We can't find geoloc for PA_0454,, Assainissement de Valmy, Paris
+{'pa_name': 'PA_0004', 'address': ', 22 rue Monge', 'district': 'Mont Sainte-Geneviève'}
+PA_0004 is here: 48.8471657, 2.3510437
+{'pa_name': 'PA_1245', 'address': ', pont de la Tournelle', 'district': 'Saint-Victor'}
+PA_1245 is here: 48.8506144, 2.355443941202887
+{'pa_name': 'PA_0907', 'address': None, 'district': None}
+{'pa_name': 'PA_1300', 'address': ', Maison Internationale de séjour pour jeunes actifs', 'district': "Plaine d'Ivry"}
+We can't find geoloc for PA_1300,, Maison Internationale de séjour pour jeunes actifs, Paris
+{'pa_name': 'PA_0842', 'address': ' & PA_1040, 32 rue Saint-Roch', 'district': 'Palais-Royal'}
+We can't find geoloc for PA_0842, & PA_1040, 32 rue Saint-Roch, Paris
+{'pa_name': 'PA_1183', 'address': ', 9 rue Marsoulan', 'district': 'Bel-Air'}
+PA_1183 is here: 48.8456578, 2.4029701
+{'pa_name': 'PA_0268', 'address': ', 96 rue de Courcelles', 'district': 'Monceau'}
+PA_0268 is here: 48.8795, 2.3029391
+{'pa_name': 'PA_0792', 'address': None, 'district': None}
+{'pa_name': 'PA_0638', 'address': ', 79 rue des Gravilliers', 'district': 'Beaubourg'}
+PA_0638 is here: 48.8647158, 2.3535186
+{'pa_name': 'PA_1253', 'address': ', 1 rue du Boccador', 'district': "Triangle d'Or"}
+PA_1253 is here: 48.8660088, 2.3035987
+{'pa_name': 'PA_0442', 'address': ', 46 Olivier Métra', 'district': 'Ménilmontant'}
+PA_0442 is here: 48.8740327, 2.393348
+{'pa_name': 'PA_0157', 'address': ', 10 rue Clovis', 'district': 'Mont Sainte-Geneviève'}
+PA_0157 is here: 48.846179, 2.3489798
+{'pa_name': 'PA_0507', 'address': ', 21 rue Juliette Dodu', 'district': 'Hôpital Saint-Louis'}
+PA_0507 is here: 48.8752497, 2.369065
+{'pa_name': 'PA_0854', 'address': ', 1 rue de Tombouctou', 'district': "Goutte d'Or"}
+PA_0854 is here: 48.884512, 2.3561832
+{'pa_name': 'PA_1316', 'address': ', 74 rue Baudricourt', 'district': 'Chinatown'}
+PA_1316 is here: 48.8248339, 2.362316
+{'pa_name': 'PA_0784', 'address': None, 'district': None}
+{'pa_name': 'PA_1195', 'address': None, 'district': None}
+{'pa_name': 'PA_0291', 'address': ', 15 rue des Plâtrières', 'district': 'Amandiers'}
+PA_0291 is here: 48.8679413, 2.3899713
+{'pa_name': 'PA_0415', 'address': ', 34 rue Titon', 'district': 'Faubourg Saint-Antoine'}
+PA_0415 is here: 48.8528448, 2.386352
+{'pa_name': 'PA_1204', 'address': ", 61 rue d'Avron", 'district': 'Fontarabie'}
+PA_1204 is here: 48.8522494, 2.4030718
+{'pa_name': 'PA_0946', 'address': ', 1 rue de Metz', 'district': 'Faubourg Saint-Denis'}
+PA_0946 is here: 48.8706466, 2.3544132
+{'pa_name': 'PA_1341', 'address': ', 40 avenue Aubert', 'district': 'Vincennes Ville'}
+PA_1341 is here: 48.8598698, 2.3621151762679444
+{'pa_name': 'PA_0803', 'address': ', entrée de la Cour du Commerce Saint-André', 'district': 'Saint-Michel'}
+We can't find geoloc for PA_0803,, entrée de la Cour du Commerce Saint-André, Paris
+{'pa_name': 'PA_0550', 'address': ", 8 rue de l'Échaudé", 'district': 'Saint-Germain-des-Prés'}
+PA_0550 is here: 48.8547398, 2.3365581
+{'pa_name': 'PA_0100', 'address': None, 'district': None}
+{'pa_name': 'PA_1438', 'address': ', 71 rue Truffaut', 'district': 'Batignolles'}
+PA_1438 is here: 48.8874541, 2.3187591
+{'pa_name': 'PA_1068', 'address': ', 39 rue de Bretagne', 'district': 'Temple'}
+PA_1068 is here: 48.8629135, 2.3622026
+{'pa_name': 'PA_0229', 'address': ', rue Antoine Dubois', 'district': 'Mont Sainte-Geneviève'}
+PA_0229 is here: 48.8511135, 2.3397056
+{'pa_name': 'PA_0679', 'address': ", 1 rue de l'Arbalète", 'district': 'Val-de-Grâce'}
+PA_0679 is here: 48.8404188, 2.3501967
+{'pa_name': 'PA_0696', 'address': ', 9 rue Debellyeme', 'district': 'Le Marais'}
+We can't find geoloc for PA_0696,, 9 rue Debellyeme, Paris
+{'pa_name': 'PA_1087', 'address': ', 1 rue de la Huchette', 'district': 'Saint-Michel'}
+PA_1087 is here: 48.8534985, 2.3444695
+{'pa_name': 'PA_0878', 'address': ', 17 rue Payenne', 'district': 'Le Marais'}
+PA_0878 is here: 48.8584593, 2.3626353
+{'pa_name': 'PA_1290', 'address': None, 'district': 'Chaillot'}
+{'pa_name': 'PA_0481', 'address': ', sous la plaque de rue du coin du parc', 'district': 'Luxembourg'}
+We can't find geoloc for PA_0481,, sous la plaque de rue du coin du parc, Paris
+{'pa_name': 'PA_0194', 'address': ', 61 rue du Chemin Vert', 'district': 'Popincourt'}
+PA_0194 is here: 48.859941, 2.3773099
+{'pa_name': 'PA_0897', 'address': ', 1 boulevard Gabriel Péri', 'district': 'Malakoff'}
+We can't find geoloc for PA_0897,, 1 boulevard Gabriel Péri, Paris
+{'pa_name': 'PA_0747', 'address': ', librairie Mazarine', 'district': 'Saint-Germain-des-Prés'}
+PA_0747 is here: 48.8539993, 2.3381363
+{'pa_name': 'PA_1156', 'address': ', 12 rue Vieille du Temple', 'district': 'Le Marais'}
+PA_1156 is here: 48.8564644, 2.3568045
+{'pa_name': 'PA_1443', 'address': None, 'district': None}
+{'pa_name': 'PA_1013', 'address': ', 88 rue Vieille du Temple', 'district': 'Le Marais'}
+PA_1013 is here: 48.8601239, 2.3612511
+{'pa_name': 'PA_0602', 'address': ', cour de la Métairie', 'district': 'Bas Belleville'}
+PA_0602 is here: 48.8738374, 2.3853869
+{'pa_name': 'PA_0985', 'address': ', 52 boulevard Sérurier', 'district': 'Amérique'}
+PA_0985 is here: 48.8799292, 2.3992832
+{'pa_name': 'PA_1382', 'address': ', 160 rue des Rosiers', 'district': 'Saint-Ouen'}
+PA_1382 is here: 48.8572037, 2.3593046
+{'pa_name': 'PA_1228', 'address': ', 22 rue Watteau', 'district': 'Faubourg Saint-Marcel'}
+PA_1228 is here: 48.8344905, 2.3573259
+{'pa_name': 'PA_0069', 'address': ', 40 rue du Banquier', 'district': 'Faubourg Saint-Marcel'}
+PA_0069 is here: 48.8347291, 2.3542183
+{'pa_name': 'PA_0593', 'address': ', place Balard sous la Petite Ceinture', 'district': 'Javel'}
+We can't find geoloc for PA_0593,, place Balard sous la Petite Ceinture, Paris
+{'pa_name': 'PA_0439', 'address': ', 134 boulevard de Clichy', 'district': 'Carrières'}
+PA_0439 is here: 48.8841165, 2.3283322
+{'pa_name': 'PA_1101', 'address': ', 7 avenue Matignon', 'district': 'Faubourg Saint-Honoré'}
+PA_1101 is here: 48.8699145, 2.3115018
+{'pa_name': 'PA_0710', 'address': ', 7 rue de Lesdiguières', 'district': 'Saint-Paul'}
+PA_0710 is here: 48.852854, 2.3668237
+{'pa_name': 'PA_0340', 'address': ', 45 quai de Bourbon', 'district': 'Île Saint-Louis'}
+PA_0340 is here: 48.8535375, 2.353421
+{'pa_name': 'PA_0655', 'address': ', 34 rue Debelleyme', 'district': 'Temple'}
+PA_0655 is here: 48.862144, 2.3636312
+{'pa_name': 'PA_1044', 'address': ", échangeur porte d'Italie", 'district': 'Peupliers'}
+We can't find geoloc for PA_1044,, échangeur porte d'Italie, Paris
+{'pa_name': 'PA_1414', 'address': ', 16 avenue de Vincennes', 'district': 'Vincennes Ville'}
+We can't find geoloc for PA_1414,, 16 avenue de Vincennes, Paris
+{'pa_name': 'PA_0993', 'address': ', entrée du périphérique porte des Lilas', 'district': 'Saint-Fargeau'}
+We can't find geoloc for PA_0993,, entrée du périphérique porte des Lilas, Paris
+{'pa_name': 'PA_0839', 'address': ', 20 rue de la Grande Truanderie', 'district': 'Les Halles'}
+PA_0839 is here: 48.8629083, 2.3487787
+{'pa_name': 'PA_0585', 'address': ', métro Rambuteau', 'district': 'Beaubourg'}
+PA_0585 is here: 48.8605518, 2.3531323
+{'pa_name': 'PA_1394', 'address': ', 27 rue des Moines', 'district': 'Batignolles'}
+PA_1394 is here: 48.8891948, 2.319634
+{'pa_name': 'PA_0356', 'address': None, 'district': None}
+{'pa_name': 'PA_0706', 'address': ', 42 villa Auguste Blanqui', 'district': "Jeanne d'Arc"}
+PA_0706 is here: 48.8308156, 2.3676213
+{'pa_name': 'PA_1117', 'address': ', Terminal 2D Porte 6', 'district': 'La Grande Plaine'}
+We can't find geoloc for PA_1117,, Terminal 2D Porte 6, Paris
+{'pa_name': 'PA_1402', 'address': ', 52 rue des Bruyères', 'district': 'Les Lilas'}
+We can't find geoloc for PA_1402,, 52 rue des Bruyères, Paris
+{'pa_name': 'PA_1052', 'address': ', rue du Chevalier de la Barre', 'district': 'Montmartre'}
+PA_1052 is here: 48.8876341, 2.3450957
+{'pa_name': 'PA_0643', 'address': ', 21 rue des Abbesses', 'district': 'Abbesses'}
+PA_0643 is here: 48.8842372, 2.3379434327254764
+{'pa_name': 'PA_0497', 'address': ', sortie routière de Roissy-Charles-de-Gaulle', 'district': 'La Grande Plaine'}
+We can't find geoloc for PA_0497,, sortie routière de Roissy-Charles-de-Gaulle, Paris
+{'pa_name': 'PA_1286', 'address': ', face au 72 rue de Rosny', 'district': 'Montreuil'}
+We can't find geoloc for PA_1286,, face au 72 rue de Rosny, Paris
+{'pa_name': 'PA_1269', 'address': ', 28 rue Sainte-Anne', 'district': 'Palais-Royal'}
+PA_1269 is here: 48.8663061, 2.3355975
+{'pa_name': 'PA_0881', 'address': ', 20 rue du Bac', 'district': 'Faubourg Saint-Germain'}
+PA_0881 is here: 48.8581896, 2.3282339
+{'pa_name': 'PA_0028', 'address': ', face au 5 rue Keller', 'district': 'Roquette'}
+We can't find geoloc for PA_0028,, face au 5 rue Keller, Paris
+{'pa_name': 'PA_0478', 'address': ', pont du Rouelle', 'district': 'Passy'}
+PA_0478 is here: 48.85266745, 2.281461297110551
+{'pa_name': 'PA_0182', 'address': ', 18 rue Madame', 'district': 'Luxembourg'}
+PA_0182 is here: 48.8523034, 2.3319819
+{'pa_name': 'PA_1140', 'address': ', 10 rue Villedo', 'district': 'Palais-Royal'}
+PA_1140 is here: 48.8664487, 2.3360652
+{'pa_name': 'PA_0301', 'address': ', 44 rue de Charenton', 'district': 'Quinze-Vingts'}
+PA_0301 is here: 48.850243, 2.3734758
+{'pa_name': 'PA_0614', 'address': ', bretelle de périphérique Porte Brancion', 'district': 'Brassens'}
+We can't find geoloc for PA_0614,, bretelle de périphérique Porte Brancion, Paris
+{'pa_name': 'PA_1005', 'address': ', 89 rue Oberkampf', 'district': 'La Courtille'}
+PA_1005 is here: 48.8652769, 2.3754365
+{'pa_name': 'PA_1455', 'address': ', 1 rue Moncey', 'district': 'Pigalle'}
+PA_1455 is here: 48.8800496, 2.3311537
+{'pa_name': 'PA_0750', 'address': ', 4 rue du Sergent Bobillot', 'district': 'Montreuil'}
+We can't find geoloc for PA_0750,, 4 rue du Sergent Bobillot, Paris
+{'pa_name': 'PA_0300', 'address': ', 56 avenue des Gobelins, au sol', 'district': 'Gobelins'}
+We can't find geoloc for PA_0300,, 56 avenue des Gobelins, au sol, Paris
+{'pa_name': 'PA_0615', 'address': ', 17 passage de la Bonne Graine', 'district': 'Faubourg Saint-Antoine'}
+PA_0615 is here: 48.8525854, 2.3766557
+{'pa_name': 'PA_0245', 'address': ', 47 rue Oberkampf', 'district': 'Faubourg du Temple'}
+PA_0245 is here: 48.8645989, 2.3719434
+{'pa_name': 'PA_1004', 'address': ', 66 rue de Courcelles', 'district': 'Monceau'}
+PA_1004 is here: 48.8776311, 2.3063324
+{'pa_name': 'PA_1454', 'address': ', 158 rue Saint-Charles', 'district': 'Javel'}
+PA_1454 is here: 48.8420506, 2.2813088
+{'pa_name': 'PA_0496', 'address': ', 51 boulevard Saint-Martin', 'district': 'Saint-Martin'}
+PA_0496 is here: 48.868729, 2.3561683
+{'pa_name': 'PA_1287', 'address': ', 18\xa0rue du Ravin', 'district': 'Montreuil'}
+We can't find geoloc for PA_1287,, 18 rue du Ravin, Paris
+{'pa_name': 'PA_1268', 'address': ', Pont-Neuf', 'district': 'Les Halles'}
+PA_1268 is here: 48.8578052, 2.3419060527842683
+{'pa_name': 'PA_0880', 'address': ', 4 rue de Beaune', 'district': 'Faubourg Saint-Germain'}
+PA_0880 is here: 48.8588785, 2.3298685
+{'pa_name': 'PA_0029', 'address': ', 21 rue Pastourelle', 'district': 'Temple'}
+PA_0029 is here: 48.8624387, 2.3600152
+{'pa_name': 'PA_0183', 'address': ', 19 rue de Mézières', 'district': 'Luxembourg'}
+PA_0183 is here: 48.8502603, 2.3325877
+{'pa_name': 'PA_0357', 'address': ', 21 boulevard Lefebvre', 'district': 'Vaugirard'}
+PA_0357 is here: 48.8320895, 2.2902179
+{'pa_name': 'PA_0707', 'address': ', 17 rue Beautreillis', 'district': 'Saint-Paul'}
+PA_0707 is here: 48.8532892, 2.3639351
+{'pa_name': 'PA_1116', 'address': ", 74 rue d'Avron", 'district': 'Avron'}
+PA_1116 is here: 48.8523255, 2.4044704
+{'pa_name': 'PA_1053', 'address': ', 8 place des Abbesses', 'district': 'Abbesses'}
+PA_1053 is here: 48.88441685, 2.3385035060172017
+{'pa_name': 'PA_0212', 'address': ', 123 boulevard de Charonne', 'district': 'Père Lachaise'}
+PA_0212 is here: 48.8570436, 2.3930172
+{'pa_name': 'PA_0642', 'address': ', 46 rue Berthe', 'district': 'Montmartre'}
+PA_0642 is here: 48.8859706, 2.3386081
+{'pa_name': 'PA_0838', 'address': ', 113 boulevard de Charonne', 'district': 'Fontarabie'}
+PA_0838 is here: 48.8483157, 2.3992326
+{'pa_name': 'PA_0091', 'address': None, 'district': None}
+{'pa_name': 'PA_1395', 'address': ', 44 rue Montorgueil', 'district': 'Sentier'}
+PA_1395 is here: 48.8645423, 2.3467915
+{'pa_name': 'PA_1100', 'address': ', à gauche de la Fontaine Molière', 'district': 'Palais-Royal'}
+We can't find geoloc for PA_1100,, à gauche de la Fontaine Molière, Paris
+{'pa_name': 'PA_0711', 'address': ', 27 rue des Tournelles', 'district': 'Le Marais'}
+PA_0711 is here: 48.8558111, 2.3672411
+{'pa_name': 'PA_0341', 'address': None, 'district': None}
+{'pa_name': 'PA_0654', 'address': None, 'district': 'Roquette'}
+{'pa_name': 'PA_0204', 'address': ', place de la porte de Pantin', 'district': 'La Villette'}
+PA_0204 is here: 48.890457, 2.3955225
+{'pa_name': 'PA_1045', 'address': ', 3 rue de la Chine', 'district': 'Charonne'}
+PA_1045 is here: 48.8646456, 2.4013186
+{'pa_name': 'PA_1415', 'address': ', 83 rue Victor Hugo', 'district': 'Ivry'}
+PA_1415 is here: 48.8926816, 2.3005266
+{'pa_name': 'PA_0087', 'address': ', escalier du port de la Gare', 'district': 'Bibliothèque'}
+We can't find geoloc for PA_0087,, escalier du port de la Gare, Paris
+{'pa_name': 'PA_0984', 'address': ', 1 place Rhin et Danube', 'district': 'Amérique'}
+We can't find geoloc for PA_0984,, 1 place Rhin et Danube, Paris
+{'pa_name': 'PA_1383', 'address': ", 2 boulevard de l'Hôpital", 'district': 'Jardin des Plantes'}
+PA_1383 is here: 48.8430122, 2.3637478
+{'pa_name': 'PA_1229', 'address': ', 62 rue Lamartine', 'district': 'Rochechouart'}
+PA_1229 is here: 48.8767259, 2.3395836
+{'pa_name': 'PA_0068', 'address': None, 'district': 'Abbesses'}
+{'pa_name': 'PA_0592', 'address': ', 19 rue Férou', 'district': 'Luxembourg'}
+PA_0592 is here: 48.8491076, 2.3341205
+{'pa_name': 'PA_0438', 'address': ', petite ceinture pont de la rue Manin', 'district': 'Buttes Chaumont'}
+We can't find geoloc for PA_0438,, petite ceinture pont de la rue Manin, Paris
+{'pa_name': 'PA_0316', 'address': ' & PA_0940, rue des Artistes', 'district': 'Montsouris'}
+We can't find geoloc for PA_0316, & PA_0940, rue des Artistes, Paris
+{'pa_name': 'PA_1157', 'address': ', 81 rue de Beaubourg', 'district': 'Beaubourg'}
+PA_1157 is here: 48.861449, 2.3536294
+{'pa_name': 'PA_1442', 'address': ', passerelle Debilly rive droite', 'district': 'Chaillot'}
+We can't find geoloc for PA_1442,, passerelle Debilly rive droite, Paris
+{'pa_name': 'PA_1012', 'address': ', 32 rue de Rochechouart', 'district': 'Rochechouart'}
+We can't find geoloc for PA_1012,, 32 rue de Rochechouart, Paris
+{'pa_name': 'PA_0253', 'address': ", pont de l'Alma côté rive droite", 'district': 'Chaillot'}
+We can't find geoloc for PA_0253,, pont de l'Alma côté rive droite, Paris
+{'pa_name': 'PA_0603', 'address': None, 'district': None}
+{'pa_name': 'PA_0879', 'address': ', 22 rue Saint-Sabin', 'district': 'Roquette'}
+PA_0879 is here: 48.8559481, 2.3714705
+{'pa_name': 'PA_1291', 'address': ', 48 rue du Capitaine Dreyfus', 'district': 'Montreuil'}
+We can't find geoloc for PA_1291,, 48 rue du Capitaine Dreyfus, Paris
+{'pa_name': 'PA_0480', 'address': ', 14 rue du Roi de Sicile', 'district': 'Le Marais'}
+PA_0480 is here: 48.8558974, 2.3596926
+{'pa_name': 'PA_0195', 'address': ', avenue de la porte Clignancourt', 'district': 'Poissonniers'}
+PA_0195 is here: 48.8973976, 2.3448521
+{'pa_name': 'PA_1439', 'address': ', 117bis rue Saint-Dominique', 'district': 'Gros Caillou'}
+PA_1439 is here: 48.8595289, 2.3065595
+{'pa_name': 'PA_1069', 'address': ', 121 rue des Amandiers', 'district': 'Amandiers'}
+PA_1069 is here: 48.8648575, 2.3897271
+{'pa_name': 'PA_0228', 'address': ", pont de la rue de l'Ourcq", 'district': 'Le Bassin'}
+PA_0228 is here: 48.89031, 2.3826089
+{'pa_name': 'PA_0382', 'address': None, 'district': None}
+{'pa_name': 'PA_0697', 'address': ', 14 boulevard Richard Lenoir', 'district': 'Roquette'}
+PA_0697 is here: 48.8549687, 2.3703801
+{'pa_name': 'PA_1086', 'address': ', 2 rue des Anglais', 'district': 'Saint-Michel'}
+PA_1086 is here: 48.8510132, 2.34795
+{'pa_name': 'PA_0414', 'address': ', 2 rue du 11 Novembre 1918', 'district': 'Pantin Ville'}
+PA_0414 is here: 50.3534584, 3.517073
+{'pa_name': 'PA_0044', 'address': ", 2 rue de l'Ancienne Comédie", 'district': 'Saint-Michel'}
+PA_0044 is here: 48.8535941, 2.3383125
+{'pa_name': 'PA_1205', 'address': ', bâtiment Marguerite Bottard', 'district': 'Salpêtrière'}
+PA_1205 is here: 48.84837955, 2.376828300354428
+{'pa_name': 'PA_0947', 'address': ', 105 rue du Faubourg Saint-Denis', 'district': 'Faubourg Saint-Denis'}
+PA_0947 is here: 48.8750587, 2.35573
+{'pa_name': 'PA_1340', 'address': ', 1 rue de Rochechouart', 'district': 'Rochechouart'}
+We can't find geoloc for PA_1340,, 1 rue de Rochechouart, Paris
+{'pa_name': 'PA_0802', 'address': ', 27 rue du Four', 'district': 'Saint-Germain-des-Prés'}
+PA_0802 is here: 48.852625, 2.3338248
+{'pa_name': 'PA_0551', 'address': ', 1 avenue Ibsen', 'district': 'Saint-Fargeau'}
+PA_0551 is here: 48.865521, 2.4117292
+{'pa_name': 'PA_0785', 'address': None, 'district': 'Charonne'}
+{'pa_name': 'PA_1194', 'address': None, 'district': None}
+{'pa_name': 'PA_0910', 'address': ', 72 avenue Jean Jaurès', 'district': 'Aubervilliers'}
+PA_0910 is here: 48.8845321, 2.377457
+{'pa_name': 'PA_1252', 'address': ', 110 rue Lauriston', 'district': 'Victor Hugo'}
+PA_1252 is here: 48.8661122, 2.2860456
+{'pa_name': 'PA_0013', 'address': ', 47 avenue Daumesnil', 'district': 'Aligre'}
+PA_0013 is here: 48.8473794, 2.3755491
+{'pa_name': 'PA_0443', 'address': ', entrée sud des Buttes Chaumont', 'district': 'Buttes Chaumont'}
+We can't find geoloc for PA_0443,, entrée sud des Buttes Chaumont, Paris
+{'pa_name': 'PA_0156', 'address': ', 2 rue Simon le Franc', 'district': 'Beaubourg'}
+PA_0156 is here: 48.859917, 2.3542448
+{'pa_name': 'PA_0506', 'address': ', square Pierre Lazareff', 'district': 'Sentier'}
+PA_0506 is here: 48.8670273, 2.3483584
+{'pa_name': 'PA_0855', 'address': ', 75 rue Lepic', 'district': 'Montmartre'}
+PA_0855 is here: 48.8874816, 2.3357081
+{'pa_name': 'PA_1317', 'address': ', 17 rue Gît le Cœur', 'district': 'Saint-Michel'}
+PA_1317 is here: 48.8535105, 2.3424899
+{'pa_name': 'PA_1182', 'address': ', 22 rue Guersant', 'district': 'Ternes'}
+PA_1182 is here: 48.8807849, 2.2901256
+{'pa_name': 'PA_1028', 'address': ', 9 rue des Maronites', 'district': 'Amandiers'}
+PA_1028 is here: 48.8681437, 2.3835548
+{'pa_name': 'PA_0269', 'address': ', sur le Chasseur à pied de la Redoute de Gravelle', 'district': 'Bois de Vincennes'}
+We can't find geoloc for PA_0269,, sur le Chasseur à pied de la Redoute de Gravelle, Paris
+{'pa_name': 'PA_0793', 'address': None, 'district': None}
+{'pa_name': 'PA_0639', 'address': ', 122 rue Lepic', 'district': 'Montmartre'}
+PA_0639 is here: 48.8848042, 2.3337289
+{'pa_name': 'PA_0286', 'address': ', 28 rue du Chevalier de la Barre', 'district': 'Montmartre'}
+PA_0286 is here: 48.8875032, 2.3442691
+{'pa_name': 'PA_0455', 'address': ', 48 rue Mazarine', 'district': 'Saint-Germain-des-Prés'}
+PA_0455 is here: 48.8551179, 2.3377695
+{'pa_name': 'PA_0005', 'address': ', 25 rue Guisarde', 'district': 'Saint-Germain-des-Prés'}
+PA_0005 is here: 48.8518059, 2.3338435
+{'pa_name': 'PA_1244', 'address': ', 4 rue Oberkampf', 'district': 'Popincourt'}
+PA_1244 is here: 48.8626874, 2.3675284
+{'pa_name': 'PA_0906', 'address': ", 9 rue de la Goutte d'Or", 'district': "Goutte d'Or"}
+PA_0906 is here: 48.884936, 2.3545665
+{'pa_name': 'PA_1301', 'address': ', 11 rue François de Neufchâteau', 'district': 'Folie-Regnault'}
+PA_1301 is here: 48.8561194, 2.3824429
+{'pa_name': 'PA_0843', 'address': ', 246 rue de Rivoli', 'district': 'Vendôme'}
+PA_0843 is here: 48.8574813, 2.3514873
+{'pa_name': 'PA_0510', 'address': ', place de la Bastille', 'district': 'Roquette'}
+PA_0510 is here: 48.8535258, 2.3692877
+{'pa_name': 'PA_0394', 'address': ', pont Saint-Michel', 'district': 'Île de la Cité'}
+PA_0394 is here: 48.854030249999994, 2.3445748977413245
+{'pa_name': 'PA_1090', 'address': ', métro Stalingrad', 'district': "Gare de l'Est"}
+PA_1090 is here: 48.8841403, 2.3680749
+{'pa_name': 'PA_0681', 'address': ", 10 rue d'Ormesson", 'district': 'Le Marais'}
+PA_0681 is here: 48.855474, 2.3620997
+{'pa_name': 'PA_0951', 'address': ', face au 75 boulevard de Grenelle', 'district': 'Grenelle'}
+We can't find geoloc for PA_0951,, face au 75 boulevard de Grenelle, Paris
+{'pa_name': 'PA_1213', 'address': ', 4 rue Berger', 'district': 'Les Halles'}
+PA_1213 is here: 48.8608971, 2.3484913
+{'pa_name': 'PA_0402', 'address': ', quai Anantole France', 'district': 'Faubourg Saint-Germain'}
+We can't find geoloc for PA_0402,, quai Anantole France, Paris
+{'pa_name': 'PA_0117', 'address': ', 31 passage Thiéré sur le trottoir', 'district': 'Roquette'}
+We can't find geoloc for PA_0117,, 31 passage Thiéré sur le trottoir, Paris
+{'pa_name': 'PA_0547', 'address': ', place Fréhel', 'district': 'Bas Belleville'}
+PA_0547 is here: 48.8730996, 2.3817308494214493
+{'pa_name': 'PA_0814', 'address': ', 10 rue du Ponceau', 'district': 'Sentier'}
+PA_0814 is here: 48.8668539, 2.351522
+{'pa_name': 'PA_1356', 'address': ', 168 boulevard Diderot', 'district': 'Nation'}
+PA_1356 is here: 48.8478802, 2.3927481
+{'pa_name': 'PA_1321', 'address': ', 87 rue du Faubourg Montmartre', 'district': 'Faubourg Montmartre'}
+PA_1321 is here: 48.8730342, 2.3430611
+{'pa_name': 'PA_0863', 'address': ', statue derrière le stade Charlety', 'district': 'Peupliers'}
+We can't find geoloc for PA_0863,, statue derrière le stade Charlety, Paris
+{'pa_name': 'PA_0530', 'address': ', 83 rue de la Mare', 'district': 'Bas Belleville'}
+PA_0530 is here: 48.8735787, 2.3883028
+{'pa_name': 'PA_0160', 'address': ', 16 rue André Barsacq', 'district': 'Montmartre'}
+PA_0160 is here: 48.8853555, 2.3407223
+{'pa_name': 'PA_0475', 'address': ', 2 avenue de la Grande Armée', 'district': 'Ternes'}
+PA_0475 is here: 48.8746196, 2.2934879
+{'pa_name': 'PA_0025', 'address': ', 2 rue de la Corderie', 'district': 'Temple'}
+PA_0025 is here: 48.8646785, 2.3633835
+{'pa_name': 'PA_1264', 'address': ', Musée en Herbes', 'district': 'Les Halles'}
+PA_1264 is here: 50.8470048, 4.352826302329172
+{'pa_name': 'PA_0926', 'address': ', 149 rue Saint-Martin', 'district': 'Beaubourg'}
+PA_0926 is here: 48.8618618, 2.3516804
+{'pa_name': 'PA_1458', 'address': ', 28 rue Cadet', 'district': 'Faubourg Montmartre'}
+PA_1458 is here: 48.875826, 2.3436827
+{'pa_name': 'PA_1008', 'address': ', 75 rue de Richelieu', 'district': 'Richelieu'}
+PA_1008 is here: 48.8687497, 2.3383745
+{'pa_name': 'PA_0619', 'address': ', 47 rue Cardinet', 'district': 'Monceau'}
+PA_0619 is here: 48.8826512, 2.3058541
+{'pa_name': 'PA_0567', 'address': ', 117 rue Haxo', 'district': 'Amérique'}
+PA_0567 is here: 48.8762189, 2.402332
+{'pa_name': 'PA_0834', 'address': ', entrée du Père Lachaise', 'district': 'Père Lachaise'}
+We can't find geoloc for PA_0834,, entrée du Père Lachaise, Paris
+{'pa_name': 'PA_1376', 'address': ', 1 rue du capitaine Roland Deplanque', 'district': 'Maisons-Alfort'}
+We can't find geoloc for PA_1376,, 1 rue du capitaine Roland Deplanque, Paris
+{'pa_name': 'PA_0971', 'address': ', 1 rue du Saint-Gothard', 'district': 'Sainte-Anne'}
+PA_0971 is here: 48.8301175, 2.3350858
+{'pa_name': 'PA_1399', 'address': ', 24 rue Vauvenargues', 'district': 'Carrières'}
+PA_1399 is here: 48.8935629, 2.333305
+{'pa_name': 'PA_1233', 'address': ', 2 rue des Poissonniers', 'district': "Goutte d'Or"}
+PA_1233 is here: 48.8856582, 2.3499148
+{'pa_name': 'PA_0072', 'address': ', rue Charles Luizet', 'district': 'Popincourt'}
+PA_0072 is here: 48.8616239, 2.3670978
+{'pa_name': 'PA_0588', 'address': ', 5 rue Charles V', 'district': 'Saint-Paul'}
+PA_0588 is here: 48.8526755, 2.3631879
+{'pa_name': 'PA_0422', 'address': ', 32 rue Dunois', 'district': "Jeanne d'Arc"}
+PA_0422 is here: 48.8332399, 2.3674376
+{'pa_name': 'PA_1360', 'address': ', 2 rue des Fossés Saint-Jacques', 'district': 'Val-de-Grâce'}
+PA_1360 is here: 48.8459711, 2.3433021
+{'pa_name': 'PA_0988', 'address': ', métro Barbès-Rochechouart', 'district': 'Clos Saint-Lazare'}
+PA_0988 is here: 48.8836538, 2.3489737
+{'pa_name': 'PA_0822', 'address': ', 2 rue de Lesseps', 'district': 'Père Lachaise'}
+PA_0822 is here: 48.8591533, 2.3996709
+{'pa_name': 'PA_0571', 'address': ', 10 boulevard de la Bastille', 'district': 'Quinze-Vingts'}
+PA_0571 is here: 48.8472516, 2.3674589
+{'pa_name': 'PA_0121', 'address': ', 7 rue des Saints-Pères', 'district': 'Saint-Germain-des-Prés'}
+PA_0121 is here: 48.8575958, 2.3330745950831524
+{'pa_name': 'PA_0064', 'address': ", devant le Musée d'Art Moderne", 'district': 'Chaillot'}
+We can't find geoloc for PA_0064,, devant le Musée d'Art Moderne, Paris
+{'pa_name': 'PA_1225', 'address': ' & 1226, 100 cours de Vincennes', 'district': 'Bel-Air'}
+We can't find geoloc for PA_1225, & 1226, 100 cours de Vincennes, Paris
+{'pa_name': 'PA_0967', 'address': ', 105 quai Branly', 'district': 'Grenelle'}
+PA_0967 is here: 48.8622412, 2.2996844
+{'pa_name': 'PA_1419', 'address': ", 1 rue du Château d'Eau", 'district': 'Faubourg Saint-Martin'}
+PA_1419 is here: 48.8688695, 2.3624291
+{'pa_name': 'PA_1049', 'address': ', 1 rue Brantôme', 'district': 'Beaubourg'}
+PA_1049 is here: 48.8618521, 2.3528846
+{'pa_name': 'PA_0658', 'address': ', métro Saint-Fargeau', 'district': 'Saint-Fargeau'}
+PA_0658 is here: 48.8769533, 2.4060015
+{'pa_name': 'PA_0176', 'address': ', 12 rue Cassette', 'district': 'Luxembourg'}
+PA_0176 is here: 48.8498308, 2.3307396
+{'pa_name': 'PA_0526', 'address': ", au croisement de l'A86 et de la ligne de RER E", 'district': 'Fontenay-sous-Bois'}
+We can't find geoloc for PA_0526,, au croisement de l'A86 et de la ligne de RER E, Paris
+{'pa_name': 'PA_0875', 'address': ', 2 rue des Peupliers', 'district': 'Peupliers'}
+PA_0875 is here: 48.8254186, 2.3537984
+{'pa_name': 'PA_1337', 'address': ', 93 rue de Seine', 'district': 'Saint-Germain-des-Prés'}
+PA_1337 is here: 48.8521459, 2.3371458
+{'pa_name': 'PA_0930', 'address': ', 8 rue de Trévise', 'district': 'Faubourg Montmartre'}
+PA_0930 is here: 48.8731612, 2.3452179
+{'pa_name': 'PA_1272', 'address': ', 1 rue Vouillé', 'district': 'Alleray'}
+PA_1272 is here: 48.8333941, 2.3098061
+{'pa_name': 'PA_1209', 'address': ', 99 boulevard Saint-Germain', 'district': 'Mont Sainte-Geneviève'}
+PA_1209 is here: 48.852181, 2.3388843
+{'pa_name': 'PA_0048', 'address': ', 10 rue Amelot', 'district': 'Roquette'}
+PA_0048 is here: 48.8557428, 2.3693296
+{'pa_name': 'PA_0674', 'address': ', passage Alexandre', 'district': 'Necker'}
+PA_0674 is here: 48.8404329, 2.3153162
+{'pa_name': 'PA_1065', 'address': ', 59 rue au Maire (Simpson)', 'district': 'Saint-Martin'}
+We can't find geoloc for PA_1065,, 59 rue au Maire (Simpson), Paris
+{'pa_name': 'PA_1435', 'address': ', 30 avenue du Général de Gaulle', 'district': 'Gennevilliers'}
+PA_1435 is here: 50.5083035, 1.6024801
+{'pa_name': 'PA_1120', 'address': ', 84 rue de Picpus', 'district': 'Picpus'}
+PA_1120 is here: 48.8409647, 2.3989113
+{'pa_name': 'PA_0731', 'address': ', 85 rue de la Mare', 'district': 'Bas Belleville'}
+PA_0731 is here: 48.8723211, 2.3897451
+{'pa_name': 'PA_0361', 'address': None, 'district': None}
+{'pa_name': 'PA_0859', 'address': ', 1 rue de la Lune', 'district': 'Sentier'}
+PA_0859 is here: 48.8697666, 2.3516339
+{'pa_name': 'PA_1462', 'address': ', 1 cité des Fleurs', 'district': 'Les Épinettes'}
+PA_1462 is here: 48.8914235, 2.3192963
+{'pa_name': 'PA_1198', 'address': ', 145 boulevard Raspail', 'district': 'Luxembourg'}
+PA_1198 is here: 48.8422683, 2.3297067
+{'pa_name': 'PA_1032', 'address': ', 51 rue de Turenne', 'district': 'Le Marais'}
+PA_1032 is here: 48.8583007, 2.3643867
+{'pa_name': 'PA_0273', 'address': ', 21 rue Aubry le Boucher', 'district': 'Beaubourg'}
+PA_0273 is here: 48.860347, 2.3501894
+{'pa_name': 'PA_0789', 'address': None, 'district': None}
+{'pa_name': 'PA_0623', 'address': ', porte de la Gare côté Ivry', 'district': 'Grands Moulins'}
+We can't find geoloc for PA_0623,, porte de la Gare côté Ivry, Paris
+{'pa_name': 'PA_0336', 'address': ", centre d'Hygiène Sociale", 'district': "Goutte d'Or"}
+We can't find geoloc for PA_0336,, centre d'Hygiène Sociale, Paris
+{'pa_name': 'PA_0766', 'address': ', 97 rue Mouffetard', 'district': 'Val-de-Grâce'}
+PA_0766 is here: 48.8412758, 2.349704
+{'pa_name': 'PA_1177', 'address': ', Agence France Presse', 'district': 'Richelieu'}
+PA_1177 is here: 48.8685888, 2.3407149767039512
+{'pa_name': 'PA_0459', 'address': ', métro Chevaleret', 'district': "Jeanne d'Arc"}
+PA_0459 is here: 48.8295705, 2.3758482
+{'pa_name': 'PA_0635', 'address': ', 21 rue de Vaugirard', 'district': 'Luxembourg'}
+PA_0635 is here: 48.8485328, 2.3322559
+{'pa_name': 'PA_1024', 'address': ', 198 rue du Faubourg Saint-Antoine', 'district': 'Aligre'}
+PA_1024 is here: 48.8500392, 2.3841194
+{'pa_name': 'PA_1161', 'address': ', 42 rue des Francs-Bourgeois', 'district': 'Le Marais'}
+PA_1161 is here: 48.8585394, 2.3591029
+{'pa_name': 'PA_0770', 'address': ", 6 rue de la Tour d'Auvergne", 'district': 'Rochechouart'}
+We can't find geoloc for PA_0770,, 6 rue de la Tour d'Auvergne, Paris
+{'pa_name': 'PA_0320', 'address': ', 34 rue du Faubourg Saint-Jacques', 'district': 'Faubourg Saint-Jacques'}
+PA_0320 is here: 48.834607, 2.3369678
+{'pa_name': 'PA_0818', 'address': ', 68 rue Saint-Sabin', 'district': 'Popincourt'}
+PA_0818 is here: 48.8596336, 2.3685443
+{'pa_name': 'PA_1423', 'address': ', 33 rue Poissonnière', 'district': 'Sentier'}
+PA_1423 is here: 48.8700776, 2.3477751
+{'pa_name': 'PA_1073', 'address': ', 41 rue de Penthièvre', 'district': 'Faubourg Saint-Honoré'}
+PA_1073 is here: 48.8722904, 2.3136253
+{'pa_name': 'PA_0232', 'address': ', 11 rue Française', 'district': 'Sentier'}
+PA_0232 is here: 48.8645626, 2.347676
+{'pa_name': 'PA_0662', 'address': ', 40 rue de Tocqueville', 'district': 'Monceau'}
+PA_0662 is here: 48.8837721, 2.3121752
+{'pa_name': 'PA_0398', 'address': ', 1 pont Morland', 'district': 'Saint-Paul'}
+PA_0398 is here: 48.847167, 2.3656983
+{'pa_name': 'PA_0377', 'address': ', 52 boulevard Voltaire', 'district': 'Popincourt'}
+PA_0377 is here: 48.8630685, 2.3709736
+{'pa_name': 'PA_0727', 'address': ', 51 rue de Clichy', 'district': 'Europe'}
+PA_0727 is here: 48.880701, 2.3286128
+{'pa_name': 'PA_1136', 'address': ', 18 rue Coriolis', 'district': 'Vallée de Fécamp'}
+PA_1136 is here: 48.8359231, 2.3912635
+{'pa_name': 'PA_0476', 'address': ', 1 rue Paul Baudry', 'district': 'Faubourg Saint-Honoré'}
+PA_0476 is here: 48.871979, 2.3062149
+{'pa_name': 'PA_0533', 'address': ", sous le périph' porte de Cligancourt", 'district': 'La Moskova'}
+We can't find geoloc for PA_0533,, sous le périph' porte de Cligancourt, Paris
+{'pa_name': 'PA_0499', 'address': ', pont Eugène-Varlin', 'district': 'Le Canal'}
+PA_0499 is here: 48.8774925, 2.3657469
+{'pa_name': 'PA_1322', 'address': ', 53 rue du Faubourg Montmartre', 'district': 'Faubourg Montmartre'}
+PA_1322 is here: 48.8752683, 2.3407374
+{'pa_name': 'PA_0860', 'address': ", 1 rue de l'Oratoire", 'district': 'Palais-Royal'}
+PA_0860 is here: 48.8613225, 2.3399005
+{'pa_name': 'PA_1288', 'address': ', 5 quai de Loire', 'district': 'Le Bassin'}
+PA_1288 is here: 48.8837762, 2.3714137
+{'pa_name': 'PA_0071', 'address': ', 5 rue de Fourcy', 'district': 'Saint-Paul'}
+PA_0071 is here: 48.8551205, 2.3589562
+{'pa_name': 'PA_0421', 'address': ', 71 rue des Rondeaux', 'district': 'Père Lachaise'}
+PA_0421 is here: 48.8624182, 2.3960019976901963
+{'pa_name': 'PA_0972', 'address': ', 22 rue Bernard Lecache', 'district': 'Bel-Air'}
+PA_0972 is here: 48.8462234, 2.4151753
+{'pa_name': 'PA_1230', 'address': ', 7 rue Lafayette', 'district': 'Haussmann'}
+PA_1230 is here: 39.02498441685921, -77.95927769930682
+{'pa_name': 'PA_0837', 'address': ', 53bis rue de la Roquette', 'district': 'Roquette'}
+PA_0837 is here: 48.859573, 2.3877556
+{'pa_name': 'PA_1375', 'address': ', 42 boulevard de Ménilmontant', 'district': 'Amandiers'}
+PA_1375 is here: 48.8631603, 2.3876816
+{'pa_name': 'PA_0564', 'address': None, 'district': 'Salpêtrière'}
+{'pa_name': 'PA_0708', 'address': ', 11 passage Gauthier', 'district': 'Bas Belleville'}
+PA_0708 is here: 48.8747913, 2.3805907
+{'pa_name': 'PA_1119', 'address': ', 29 avenue de la République', 'district': 'Bagnolet'}
+PA_1119 is here: 48.8658699, 2.3720943
+{'pa_name': 'PA_1226', 'address': None, 'district': None}
+{'pa_name': 'PA_0437', 'address': ', place du Colonel Fabien', 'district': 'Buttes Chaumont'}
+PA_0437 is here: 48.8780682, 2.3702855001381637
+{'pa_name': 'PA_0067', 'address': None, 'district': 'Abbesses'}
+{'pa_name': 'PA_0572', 'address': ', 27 rue du Roi de Sicile', 'district': 'Le Marais'}
+PA_0572 is here: 48.856456, 2.3574548
+{'pa_name': 'PA_0122', 'address': ', rue de la Clef, sous le lierre', 'district': 'Jardin des Plantes'}
+We can't find geoloc for PA_0122,, rue de la Clef, sous le lierre, Paris
+{'pa_name': 'PA_1363', 'address': ', 70 quai de la Loire', 'district': 'Le Bassin'}
+PA_1363 is here: 48.8865629, 2.3773674
+{'pa_name': 'PA_0821', 'address': ', édicule EDF face au 81 boulevard de Charonne', 'district': 'Fontarabie'}
+We can't find geoloc for PA_0821,, édicule EDF face au 81 boulevard de Charonne, Paris
+{'pa_name': 'PA_0030', 'address': ', 44 rue Quincampoix', 'district': 'Beaubourg'}
+PA_0030 is here: 48.8609543, 2.3505126
+{'pa_name': 'PA_0460', 'address': ', 39P rue Louise Weiss', 'district': "Jeanne d'Arc"}
+PA_0460 is here: 48.8336664, 2.3702575
+{'pa_name': 'PA_0933', 'address': ", 11ter rue d'Alésia", 'district': 'Montsouris'}
+PA_0933 is here: 48.827264, 2.3355315
+{'pa_name': 'PA_1271', 'address': ', Square de la Fontaine', 'district': 'Nogent'}
+PA_1271 is here: 48.8532883, 2.3436369
+{'pa_name': 'PA_0876', 'address': None, 'district': None}
+{'pa_name': 'PA_0175', 'address': ' (Dead), 18 passage du Chantier', 'district': 'Quinze-Vingts'}
+We can't find geoloc for PA_0175, (Dead), 18 passage du Chantier, Paris
+{'pa_name': 'PA_0525', 'address': ', 16 rue Saint-Merri', 'district': 'Beaubourg'}
+PA_0525 is here: 48.8594535, 2.3527949
+{'pa_name': 'PA_0749', 'address': ', face au conservatoire de Montreuil', 'district': 'Montreuil'}
+We can't find geoloc for PA_0749,, face au conservatoire de Montreuil, Paris
+{'pa_name': 'PA_1158', 'address': ', 33 boulevard de Charonne', 'district': 'Nation'}
+PA_1158 is here: 48.8511259, 2.3981335
+{'pa_name': 'PA_0948', 'address': ', 33 rue du Faubourg Saint-Denis', 'district': 'Faubourg Saint-Denis'}
+PA_0948 is here: 48.8709225, 2.353163
+{'pa_name': 'PA_0732', 'address': ', 2 rue Jouye-Rouve', 'district': 'Bas Belleville'}
+PA_0732 is here: 48.8719203, 2.3827571
+{'pa_name': 'PA_0362', 'address': ', en face de Chez Prune', 'district': 'Faubourg Saint-Martin'}
+We can't find geoloc for PA_0362,, en face de Chez Prune, Paris
+{'pa_name': 'PA_0698', 'address': ', 10 rue Saint-Sabin', 'district': 'Roquette'}
+PA_0698 is here: 48.8551937, 2.3720889
+{'pa_name': 'PA_1123', 'address': ', 1 rue Santos-Dumont', 'district': 'Brassens'}
+PA_1123 is here: 48.8343138, 2.305723
+{'pa_name': 'PA_1066', 'address': ', McDo de la porte de Bagnolet', 'district': 'Saint-Fargeau'}
+We can't find geoloc for PA_1066,, McDo de la porte de Bagnolet, Paris
+{'pa_name': 'PA_1436', 'address': ', 110 rue de la Tour', 'district': 'Passy'}
+PA_1436 is here: 48.8627446, 2.2765555
+{'pa_name': 'PA_0677', 'address': ', 46 rue de Seine', 'district': 'Saint-Germain-des-Prés'}
+PA_0677 is here: 48.8547482, 2.3368011
+{'pa_name': 'PA_0227', 'address': None, 'district': 'Faubourg Saint-Denis'}
+{'pa_name': 'PA_0159', 'address': ", 69 rue d'Hauteville", 'district': 'Faubourg Saint-Denis'}
+PA_0159 is here: 48.8759108, 2.351013
+{'pa_name': 'PA_1318', 'address': ', 11 rue des Petites Écuries', 'district': 'Faubourg Saint-Denis'}
+PA_1318 is here: 48.8731478, 2.3531601
+{'pa_name': 'PA_1174', 'address': ', 14 rue des Fonds-Verts', 'district': 'Vallée de Fécamp'}
+PA_1174 is here: 48.8369799, 2.3911701
+{'pa_name': 'PA_0335', 'address': ', 135 boulevard de la Villette', 'district': 'Le Canal'}
+PA_0335 is here: 48.8819262, 2.3699329
+{'pa_name': 'PA_0765', 'address': ", 17 rue de l'Estrapade", 'district': 'Val-de-Grâce'}
+PA_0765 is here: 48.8447703, 2.3464764
+{'pa_name': 'PA_0270', 'address': ', 2 rue Yves Toudic', 'district': 'Faubourg Saint-Martin'}
+PA_0270 is here: 48.8683434, 2.3653122
+{'pa_name': 'PA_0620', 'address': ', escalier menant vers le passage Piat', 'district': 'Bas Belleville'}
+We can't find geoloc for PA_0620,, escalier menant vers le passage Piat, Paris
+{'pa_name': 'PA_1461', 'address': ', 6 rue Beccaria', 'district': 'Aligre'}
+PA_1461 is here: 48.84632, 2.3794737
+{'pa_name': 'PA_1031', 'address': ', face à un entrepôt abandonné', 'district': 'La Villette'}
+We can't find geoloc for PA_1031,, face à un entrepôt abandonné, Paris
+{'pa_name': 'PA_0909', 'address': ', face à la préfourrière de Pantin', 'district': 'Amérique'}
+We can't find geoloc for PA_0909,, face à la préfourrière de Pantin, Paris
+{'pa_name': 'PA_0323', 'address': ', 102 rue de Charonne', 'district': 'Faubourg Saint-Antoine'}
+PA_0323 is here: 48.8543689, 2.3844927
+{'pa_name': 'PA_1027', 'address': ', Cité Aubry', 'district': 'Père Lachaise'}
+PA_1027 is here: 48.8575062, 2.3959444
+{'pa_name': 'PA_0636', 'address': ', 32 rue de Poissy', 'district': 'Saint-Victor'}
+PA_0636 is here: 48.8480363, 2.3517046
+{'pa_name': 'PA_0266', 'address': ', 11 rue de la Manutention', 'district': 'Chaillot'}
+PA_0266 is here: 48.8646057, 2.2956093
+{'pa_name': 'PA_0548', 'address': ', 103 rue du Faubourg du Temple', 'district': 'Hôpital Saint-Louis'}
+PA_0548 is here: 48.8709529, 2.3737982
+{'pa_name': 'PA_1359', 'address': ', place de la Sorbonne', 'district': 'Mont Sainte-Geneviève'}
+PA_1359 is here: 48.8486705, 2.342345575547447
+{'pa_name': 'PA_1135', 'address': ', 36 rue Tillier', 'district': 'Nation'}
+PA_1135 is here: 48.847574, 2.3872546
+{'pa_name': 'PA_0374', 'address': ', 29 boulevard Raspail', 'district': 'Bon Marché'}
+PA_0374 is here: 48.8531427, 2.3265724
+{'pa_name': 'PA_0724', 'address': ', 4 rue Papillon', 'district': 'Faubourg Montmartre'}
+PA_0724 is here: 48.8759413, 2.3478462
+{'pa_name': 'PA_0231', 'address': ', 1 rue Tiquetonne', 'district': 'Sentier'}
+PA_0231 is here: 48.8642837, 2.3499608
+{'pa_name': 'PA_0661', 'address': ', 41 rue Ampère', 'district': 'Pereire'}
+PA_0661 is here: 48.8851664, 2.3029734
+{'pa_name': 'PA_1420', 'address': ', 28 rue de Chaligny', 'district': 'Aligre'}
+PA_1420 is here: 48.8453407, 2.3834699
+{'pa_name': 'PA_1070', 'address': ', pavillon Saint-Louis', 'district': 'Nation'}
+PA_1070 is here: 48.846347699999995, 2.2732064282775286
+{'pa_name': 'PA_1007', 'address': ', 11 rue Drouot', 'district': 'Faubourg Montmartre'}
+PA_1007 is here: 48.8733839, 2.3404653
+{'pa_name': 'PA_1457', 'address': ', 48 rue Sedaine', 'district': 'Roquette'}
+PA_1457 is here: 48.8573199, 2.3756677
+{'pa_name': 'PA_0616', 'address': ', 31 place Saint-Ferdinand', 'district': 'Ternes'}
+PA_0616 is here: 48.8779588, 2.288111971763085
+{'pa_name': 'PA_0753', 'address': ", 120 rue d'Avron", 'district': 'Avron'}
+PA_0753 is here: 48.8529181, 2.407794
+{'pa_name': 'PA_0303', 'address': ', 24 passage Boiton', 'district': 'Butte-aux-Cailles'}
+PA_0303 is here: 48.8268603, 2.3507058
+{'pa_name': 'PA_1142', 'address': ', 8 rue de la Plaine', 'district': 'Avron'}
+PA_1142 is here: 48.8499722, 2.4028941
+{'pa_name': 'PA_0180', 'address': ', 14 rue Madame', 'district': 'Luxembourg'}
+PA_0180 is here: 48.8511274, 2.3319221
+{'pa_name': 'PA_0929', 'address': ', 1 rue du Général Leclerc', 'district': 'Le Kremlin-Bicêtre'}
+PA_0929 is here: 46.7823522, 4.853683
+{'pa_name': 'PA_0883', 'address': ', 3 rue Curial', 'district': 'Flandre'}
+PA_0883 is here: 48.8896137, 2.3712841
+{'pa_name': 'PA_1284', 'address': ', pont ferroviaire', 'district': 'Cardinet'}
+We can't find geoloc for PA_1284,, pont ferroviaire, Paris
+{'pa_name': 'PA_0495', 'address': ', 17 rue de Navarre', 'district': 'Saint-Victor'}
+PA_0495 is here: 48.8444551, 2.3525384
+{'pa_name': 'PA_0211', 'address': ', 30 rue du Faubourg Saint-Antoine', 'district': 'Quinze-Vingts'}
+PA_0211 is here: 48.8524128, 2.3716564
+{'pa_name': 'PA_1400', 'address': ", sur l'atelier de maintenance de la ligne 7", 'district': 'Chinatown'}
+We can't find geoloc for PA_1400,, sur l'atelier de maintenance de la ligne 7, Paris
+{'pa_name': 'PA_1050', 'address': ', 191 rue du Faubourg Poissonnière', 'district': 'Rochechouart'}
+PA_1050 is here: 48.8830792, 2.3495378
+{'pa_name': 'PA_1115', 'address': ', 208 rue de la Roquette', 'district': 'Folie-Regnault'}
+PA_1115 is here: 48.859573, 2.3877556
+{'pa_name': 'PA_0354', 'address': ', 13 rue Jean Lantier', 'district': 'Les Halles'}
+PA_0354 is here: 48.8586845, 2.3458364
+{'pa_name': 'PA_1396', 'address': ', 96 boulevard Berthier', 'district': 'Champerret'}
+PA_1396 is here: 48.8900107, 2.3033885
+{'pa_name': 'PA_0587', 'address': None, 'district': None}
+{'pa_name': 'PA_0568', 'address': ", 2 rue de l'Aqueduc", 'district': "Gare de l'Est"}
+PA_0568 is here: 48.8799644, 2.3589244
+{'pa_name': 'PA_0092', 'address': ', 8 rue de la Ferronnerie', 'district': 'Les Halles'}
+PA_0092 is here: 48.8602898, 2.3473292
+{'pa_name': 'PA_1379', 'address': ", 5 avenue de l'Europe", 'district': 'Sèvres'}
+PA_1379 is here: 50.5094389, 1.6256063
+{'pa_name': 'PA_0991', 'address': ', 33 boulevard de la Villette', 'district': 'Hôpital Saint-Louis'}
+PA_0991 is here: 48.874132, 2.3743234
+{'pa_name': 'PA_1046', 'address': ', 22 rue Réaumur', 'district': 'Saint-Martin'}
+PA_1046 is here: 48.8651063, 2.3584533
+{'pa_name': 'PA_1416', 'address': ', place de la Résistance', 'district': 'Issy-les-Moules'}
+PA_1416 is here: 48.8621051, 2.3018059875255803
+{'pa_name': 'PA_0657', 'address': ', 3 avenue Jean Jaurès', 'district': 'Le Bassin'}
+PA_0657 is here: 48.8832102, 2.3712775
+{'pa_name': 'PA_0207', 'address': ', 7 rue Damrémont', 'district': 'Carrières'}
+PA_0207 is here: 48.887665, 2.332574
+{'pa_name': 'PA_0712', 'address': ', 20 rue de Dunkerque', 'district': 'Clos Saint-Lazare'}
+PA_0712 is here: 48.8803867, 2.3534743
+{'pa_name': 'PA_0342', 'address': ', 19 rue Laferrière', 'district': 'Pigalle'}
+PA_0342 is here: 48.8790516, 2.3370596
+{'pa_name': 'PA_1103', 'address': ', 3 passage du Moulin des Prés', 'district': 'Butte-aux-Cailles'}
+PA_1103 is here: 48.8291101, 2.3532479
+{'pa_name': 'PA_0591', 'address': ', villa du Clos de Malvert', 'district': 'La Courtille'}
+We can't find geoloc for PA_0591,, villa du Clos de Malvert, Paris
+{'pa_name': 'PA_0968', 'address': ', nord du pont de Bir-Hakeim', 'district': 'Passy'}
+We can't find geoloc for PA_0968,, nord du pont de Bir-Hakeim, Paris
+{'pa_name': 'PA_1380', 'address': ', 19 rue de la Harpe', 'district': 'Saint-Michel'}
+PA_1380 is here: 48.8524066, 2.344734
+{'pa_name': 'PA_0987', 'address': ', 39 quai de la Loire', 'district': 'Le Bassin'}
+PA_0987 is here: 48.8874305, 2.3786909287868623
+{'pa_name': 'PA_0250', 'address': ', entrée du mini-square de Jemmapes', 'district': 'Hôpital Saint-Louis'}
+We can't find geoloc for PA_0250,, entrée du mini-square de Jemmapes, Paris
+{'pa_name': 'PA_0600', 'address': ', entrée du tunnel de la porte Chaumont', 'district': 'Amérique'}
+We can't find geoloc for PA_0600,, entrée du tunnel de la porte Chaumont, Paris
+{'pa_name': 'PA_1441', 'address': ', 56 rue Galande', 'district': 'Saint-Michel'}
+PA_1441 is here: 48.8521796, 2.3466115
+{'pa_name': 'PA_1011', 'address': ', 1 rue Martel', 'district': 'Faubourg Saint-Denis'}
+PA_1011 is here: 48.8735144, 2.3526513
+{'pa_name': 'PA_1154', 'address': ', 0 rue Léon Jouhaux', 'district': 'Faubourg Saint-Martin'}
+PA_1154 is here: 48.8691787, 2.3644775
+{'pa_name': 'PA_0315', 'address': ', face au 32 boulevard Auguste Blanqui', 'district': 'Gobelins'}
+We can't find geoloc for PA_0315,, face au 32 boulevard Auguste Blanqui, Paris
+{'pa_name': 'PA_0895', 'address': ', place Auguste Baron', 'district': 'Les Entrepôts'}
+PA_0895 is here: 48.9001016, 2.3879197
+{'pa_name': 'PA_0196', 'address': ', place de la Bataille de Stalingrad', 'district': 'Le Canal'}
+PA_0196 is here: 48.883769650000005, 2.369657482288079
+{'pa_name': 'PA_0529', 'address': ', 15 rue de Pontoise', 'district': 'Saint-Victor'}
+PA_0529 is here: 48.8502644, 2.3522713
+{'pa_name': 'PA_0483', 'address': ", 7 rue du Bourg l'Abbé", 'district': 'Beaubourg'}
+PA_0483 is here: 48.8639279, 2.3520103
+{'pa_name': 'PA_1338', 'address': ', 62 rue Mouffetard', 'district': 'Val-de-Grâce'}
+PA_1338 is here: 48.8429884, 2.3495493
+{'pa_name': 'PA_1292', 'address': ', 13 rue Darwin', 'district': 'Clignancourt'}
+PA_1292 is here: 48.8901918, 2.3390705
+{'pa_name': 'PA_1085', 'address': ', ancien Couvent des Récollets', 'district': 'Le Canal'}
+PA_1085 is here: 48.875451350000006, 2.360403012583552
+{'pa_name': 'PA_0694', 'address': ', 26 rue Poussin', 'district': 'Montmorency'}
+PA_0694 is here: 48.8487561, 2.2632886
+{'pa_name': 'PA_0381', 'address': ', place Joffre, allée Thomy Thierry', 'district': 'Champ de Mars'}
+We can't find geoloc for PA_0381,, place Joffre, allée Thomy Thierry, Paris
+{'pa_name': 'PA_0552', 'address': ', 3 rue Auber', 'district': 'Opéra'}
+PA_0552 is here: 48.873259, 2.3279299
+{'pa_name': 'PA_1343', 'address': ', 72 boulevard de la Tour Maubourg', 'district': 'Gros Caillou'}
+PA_1343 is here: 48.8565201, 2.3096562
+{'pa_name': 'PA_1206', 'address': ', 22 avenue de la République', 'district': 'Faubourg du Temple'}
+PA_1206 is here: 48.8662339, 2.3686978
+{'pa_name': 'PA_0944', 'address': ', 10 rue Faidherbe', 'district': 'Faubourg Saint-Antoine'}
+PA_0944 is here: 48.068003250000004, -0.7492899422643229
+{'pa_name': 'PA_0417', 'address': None, 'district': None}
+{'pa_name': 'PA_0047', 'address': ", 4bis passage de la Main d'Or", 'district': 'Faubourg Saint-Antoine'}
+PA_0047 is here: 48.8526548, 2.3782575
+{'pa_name': 'PA_0769', 'address': ', 65 rue du Temple', 'district': 'Beaubourg'}
+PA_0769 is here: 48.8661713, 2.3611875
+{'pa_name': 'PA_0293', 'address': ', 84 rue du Faubourg du Temple', 'district': 'La Courtille'}
+PA_0293 is here: 48.8706653, 2.3733755
+{'pa_name': 'PA_0339', 'address': ', square du Docteur-Grancher', 'district': 'Ménilmontant'}
+PA_0339 is here: 48.86542944999999, 2.394195774026115
+{'pa_name': 'PA_1178', 'address': ', 82 boulevard Masséna', 'district': 'Chinatown'}
+PA_1178 is here: 48.8215879, 2.3681651
+{'pa_name': 'PA_1197', 'address': ", 6 rue de l'Arrivée", 'district': 'Necker'}
+PA_1197 is here: 48.8438161, 2.3223528
+{'pa_name': 'PA_0786', 'address': None, 'district': None}
+{'pa_name': 'PA_0856', 'address': ', rue Saint-Eleuthere', 'district': 'Montmartre'}
+PA_0856 is here: 48.8858023, 2.341822
+{'pa_name': 'PA_1314', 'address': ', 139 rue Mouffetard', 'district': 'Val-de-Grâce'}
+PA_1314 is here: 48.8398386, 2.349822
+{'pa_name': 'PA_0155', 'address': ', 16 rue des Trois Portes', 'district': 'Saint-Michel'}
+PA_0155 is here: 48.8513431, 2.3482893
+{'pa_name': 'PA_0505', 'address': ', 12 rue de Thorigny', 'district': 'Le Marais'}
+PA_0505 is here: 48.8597649, 2.3628505
+{'pa_name': 'PA_0010', 'address': ', 30 rue de Charonne', 'district': 'Faubourg Saint-Antoine'}
+PA_0010 is here: 48.8532511, 2.3757901
+{'pa_name': 'PA_0913', 'address': ', 42 avenue Michelet', 'district': 'Saint-Ouen'}
+PA_0913 is here: 48.86010595, 2.350464445199497
+{'pa_name': 'PA_1251', 'address': ', 8 place Tristan Bernard', 'district': 'Ternes'}
+PA_1251 is here: 48.879402, 2.2915446
+{'pa_name': 'PA_0285', 'address': ', passage Ben Aiad', 'district': 'Sentier'}
+PA_0285 is here: 48.8660329, 2.3460818
+{'pa_name': 'PA_1181', 'address': ', 58 rue Caumartin', 'district': 'Haussmann'}
+PA_1181 is here: 48.8748702, 2.3285643
+{'pa_name': 'PA_0143', 'address': ', place du Châtelet', 'district': 'Les Halles'}
+PA_0143 is here: 48.8575227, 2.347463165227831
+{'pa_name': 'PA_1302', 'address': ', 1 rue Cail', 'district': "Gare de l'Est"}
+PA_1302 is here: 48.8826105, 2.3614342
+{'pa_name': 'PA_1247', 'address': ', Hôpital Robert Debré', 'district': 'Amérique'}
+PA_1247 is here: 48.87991865, 2.40289359864712
+{'pa_name': 'PA_0905', 'address': None, 'district': None}
+{'pa_name': 'PA_0456', 'address': ", 1 place d'Iéna", 'district': 'Chaillot'}
+PA_0456 is here: 48.8645472, 2.2942992
+{'pa_name': 'PA_0728', 'address': ', 18 rue Caroline', 'district': 'Batignolles'}
+PA_0728 is here: 48.8835451, 2.3234398
+{'pa_name': 'PA_0378', 'address': ', 45 rue de Poitou', 'district': 'Le Marais'}
+PA_0378 is here: 48.8617317, 2.3613407
+{'pa_name': 'PA_0682', 'address': ', 21 rue des Francs-Bourgeois', 'district': 'Le Marais'}
+PA_0682 is here: 48.8568184, 2.3629475
+{'pa_name': 'PA_1139', 'address': ', 93 rue de Belleville', 'district': 'Vieux Belleville'}
+PA_1139 is here: 48.8740229, 2.3853739
+{'pa_name': 'PA_1093', 'address': ', Cité de la Mode et du Design', 'district': 'Austerlitz'}
+PA_1093 is here: 48.8412105, 2.3690256
+{'pa_name': 'PA_0397', 'address': ', interconnexion périph/A3', 'district': 'Bagnolet'}
+We can't find geoloc for PA_0397,, interconnexion périph/A3, Paris
+{'pa_name': 'PA_0817', 'address': ', 1 rue Saint-Blaise', 'district': 'Charonne'}
+PA_0817 is here: 48.8601685, 2.4043099
+{'pa_name': 'PA_1355', 'address': ', 85bis boulevard Magenta', 'district': 'Clos Saint-Lazare'}
+PA_1355 is here: 48.8770887, 2.3553419
+{'pa_name': 'PA_0114', 'address': ' & PA_1023, 26 rue Vieille du Temple', 'district': 'Le Marais'}
+We can't find geoloc for PA_0114, & PA_1023, 26 rue Vieille du Temple, Paris
+{'pa_name': 'PA_0544', 'address': ', 2 rue Keller', 'district': 'Roquette'}
+PA_0544 is here: 48.8534639, 2.3769619
+{'pa_name': 'PA_0051', 'address': ', 13 rue de Charonne', 'district': 'Roquette'}
+PA_0051 is here: 48.8528026, 2.3743383
+{'pa_name': 'PA_0401', 'address': ', fontaine de Cuvier', 'district': 'Saint-Victor'}
+PA_0401 is here: 48.8439889, 2.3550231
+{'pa_name': 'PA_0952', 'address': ', 4 rue du Chevalier de Saint-Georges', 'district': 'Vendôme'}
+We can't find geoloc for PA_0952,, 4 rue du Chevalier de Saint-Georges, Paris
+{'pa_name': 'PA_1210', 'address': ', 3 rue Saint-Augustin', 'district': 'Richelieu'}
+PA_1210 is here: 48.8688583, 2.3378233
+{'pa_name': 'PA_0816', 'address': ', ancienne gare maritime Sully-Morland', 'district': 'Saint-Paul'}
+We can't find geoloc for PA_0816,, ancienne gare maritime Sully-Morland, Paris
+{'pa_name': 'PA_1354', 'address': ", 18 rue de l'Aqueduc", 'district': "Gare de l'Est"}
+PA_1354 is here: 48.8815373, 2.3621135
+{'pa_name': 'PA_0115', 'address': ', impasse des Arbalétriers', 'district': 'Le Marais'}
+PA_0115 is here: 48.8583703, 2.3593697
+{'pa_name': 'PA_0545', 'address': ", 62 rue Villiers de l'Isle Adam", 'district': 'Ménilmontant'}
+PA_0545 is here: 48.8675996, 2.3965915
+{'pa_name': 'PA_0400', 'address': ", 93 quai d'Orsay", 'district': 'Gros Caillou'}
+PA_0400 is here: 48.8626245, 2.3025393
+{'pa_name': 'PA_0953', 'address': ', 9 rue du Plâtre', 'district': 'Beaubourg'}
+PA_0953 is here: 48.8589776, 2.354768005333444
+{'pa_name': 'PA_1211', 'address': ', 1 passage Mondésir', 'district': 'Amandiers'}
+We can't find geoloc for PA_1211,, 1 passage Mondésir, Paris
+{'pa_name': 'PA_0729', 'address': ', cour du Havre', 'district': 'Europe'}
+PA_0729 is here: 48.875911349999996, 2.326441989818587
+{'pa_name': 'PA_0379', 'address': ', 17 rue des Blancs-Manteaux', 'district': 'Le Marais'}
+PA_0379 is here: 48.8588945, 2.3571844
+{'pa_name': 'PA_0683', 'address': ', 132 boulevard Richard Lenoir', 'district': 'Faubourg du Temple'}
+PA_0683 is here: 48.8658915, 2.3700038
+{'pa_name': 'PA_1138', 'address': ', 112 avenue du Général Leclerc', 'district': 'Pantin Ville'}
+PA_1138 is here: 48.8256361, 2.3259019
+{'pa_name': 'PA_1092', 'address': ', 18-20 rue Pradier', 'district': 'Vieux Belleville'}
+PA_1092 is here: 48.8755167, 2.3818257
+{'pa_name': 'PA_1303', 'address': ', 3 rue Saint-Claude', 'district': 'Le Marais'}
+PA_1303 is here: 48.8600829, 2.3667264
+{'pa_name': 'PA_0841', 'address': ', 4 rue Marie Stuart', 'district': 'Sentier'}
+PA_0841 is here: 48.8650101, 2.3483508
+{'pa_name': 'PA_1246', 'address': ', 12 pont Saint-Louis', 'district': 'Île de la Cité'}
+PA_1246 is here: 48.8526668, 2.3523106
+{'pa_name': 'PA_0007', 'address': ', 89 quai de Valmy', 'district': 'Faubourg Saint-Martin'}
+PA_0007 is here: 48.8732913, 2.3633353
+{'pa_name': 'PA_0284', 'address': None, 'district': None}
+{'pa_name': 'PA_0791', 'address': None, 'district': None}
+{'pa_name': 'PA_1180', 'address': ', 47 avenue des Gobelins', 'district': 'Faubourg Saint-Marcel'}
+PA_1180 is here: 48.8351741, 2.3532821
+{'pa_name': 'PA_0857', 'address': ', sud-ouest de la place du Tertre', 'district': 'Montmartre'}
+We can't find geoloc for PA_0857,, sud-ouest de la place du Tertre, Paris
+{'pa_name': 'PA_1315', 'address': ', 142 avenue du Général Leclerc', 'district': 'Petit Montrouge'}
+PA_1315 is here: 48.8235125, 2.3253874
+{'pa_name': 'PA_0441', 'address': ', 7 rue Gabriel Péri', 'district': 'Le Kremlin-Bicêtre'}
+PA_0441 is here: 48.8893562, 2.2900913
+{'pa_name': 'PA_0912', 'address': ', pont de Soissons', 'district': 'Plaine Saint-Denis'}
+PA_0912 is here: 48.885729, 2.3710619
+{'pa_name': 'PA_1250', 'address': ', 176 rue de Bagnolet', 'district': 'Charonne'}
+PA_1250 is here: 48.8640111, 2.4081328
+{'pa_name': 'PA_0292', 'address': None, 'district': None}
+{'pa_name': 'PA_1179', 'address': ', 213 boulevard Vincent Auriol', 'district': 'Choisy'}
+PA_1179 is here: 48.8308701, 2.3570791
+{'pa_name': 'PA_1196', 'address': ', 2 impasse Mathieu', 'district': 'Pasteur'}
+PA_1196 is here: 48.8410088, 2.3133589
+{'pa_name': 'PA_0553', 'address': ', 74 rue des Martyrs', 'district': 'Rochechouart'}
+PA_0553 is here: 48.8823251, 2.3397496
+{'pa_name': 'PA_0103', 'address': ', 30 rue du Temple, dans la cour', 'district': 'Beaubourg'}
+We can't find geoloc for PA_0103,, 30 rue du Temple, dans la cour, Paris
+{'pa_name': 'PA_1342', 'address': ', place Joffre, allée Adrienne Lecouvreur', 'district': 'Champ de Mars'}
+We can't find geoloc for PA_1342,, place Joffre, allée Adrienne Lecouvreur, Paris
+{'pa_name': 'PA_0800', 'address': ', 56bis rue du Louvre', 'district': 'Sentier'}
+PA_0800 is here: 48.8622979, 2.3415276
+{'pa_name': 'PA_1207', 'address': ', 31 rue Lucien Sampaix', 'district': 'Faubourg Saint-Martin'}
+PA_1207 is here: 48.8730354, 2.3613058
+{'pa_name': 'PA_0945', 'address': ', 81 rue de la Folie Méricourt', 'district': 'Faubourg du Temple'}
+PA_0945 is here: 48.8664426, 2.3697875
+{'pa_name': 'PA_0416', 'address': ', 9 rue de Marseille', 'district': 'Faubourg Saint-Martin'}
+PA_0416 is here: 48.8715461, 2.3632479
+{'pa_name': 'PA_0046', 'address': ', statue de Danton', 'district': 'Mont Sainte-Geneviève'}
+We can't find geoloc for PA_0046,, statue de Danton, Paris
+{'pa_name': 'PA_1084', 'address': ', 36 rue du Faubourg Saint-Martin', 'district': 'Faubourg Saint-Martin'}
+PA_1084 is here: 48.8703079, 2.3564584
+{'pa_name': 'PA_0695', 'address': ', 1 rue Jasmin', 'district': 'Montmorency'}
+PA_0695 is here: 48.852414, 2.2678307
+{'pa_name': 'PA_0380', 'address': ', port du Gros-caillou', 'district': 'Gros Caillou'}
+PA_0380 is here: 48.863075300000006, 2.3061838643993835
+{'pa_name': 'PA_0894', 'address': ', 11 rue Saint-Augustin', 'district': 'Richelieu'}
+PA_0894 is here: 48.8688147, 2.3370995
+{'pa_name': 'PA_0197', 'address': ', cimetière de Montmartre', 'district': 'Carrières'}
+PA_0197 is here: 48.887783600000006, 2.3301129707754065
+{'pa_name': 'PA_0528', 'address': ', 13 rue des Anglais', 'district': 'Saint-Michel'}
+PA_0528 is here: 48.8506744, 2.3476109
+{'pa_name': 'PA_0178', 'address': ', 165 rue du Faubourg Saint-Honoré', 'district': 'Faubourg Saint-Honoré'}
+PA_0178 is here: 48.8746535, 2.3059471
+{'pa_name': 'PA_0482', 'address': None, 'district': 'Le Marais'}
+{'pa_name': 'PA_1339', 'address': ', 1 rue des Vignerons', 'district': 'Vincennes Ville'}
+We can't find geoloc for PA_1339,, 1 rue des Vignerons, Paris
+{'pa_name': 'PA_0251', 'address': ", à l'ouest de la fontaine des Innocents", 'district': 'Les Halles'}
+We can't find geoloc for PA_0251,, à l'ouest de la fontaine des Innocents, Paris
+{'pa_name': 'PA_0601', 'address': ", A86 à l'angle du stade Pierre de Coubertin", 'district': 'Fontenay-sous-Bois'}
+We can't find geoloc for PA_0601,, A86 à l'angle du stade Pierre de Coubertin, Paris
+{'pa_name': 'PA_1440', 'address': ', 1 rue Edouard Robert', 'district': 'Vallée de Fécamp'}
+PA_1440 is here: 48.836268, 2.4001296
+{'pa_name': 'PA_1010', 'address': ', 1 Rue Carducci', 'district': 'Vieux Belleville'}
+PA_1010 is here: 48.8771391, 2.3876434
+{'pa_name': 'PA_1155', 'address': ', pont piéton de la rue Lucien Lambeau', 'district': 'Charonne'}
+We can't find geoloc for PA_1155,, pont piéton de la rue Lucien Lambeau, Paris
+{'pa_name': 'PA_0744', 'address': ', La Bellevilloise', 'district': 'Ménilmontant'}
+PA_0744 is here: 48.8683449, 2.3920001008937968
+{'pa_name': 'PA_0590', 'address': ', 17 rue Étienne Marcel', 'district': 'Les Halles'}
+PA_0590 is here: 48.8636817, 2.3493865
+{'pa_name': 'PA_1381', 'address': ", passerelle rue de l'Épine", 'district': 'Bagnolet'}
+We can't find geoloc for PA_1381,, passerelle rue de l'Épine, Paris
+{'pa_name': 'PA_0986', 'address': ', face à la rue du Tunnel', 'district': 'Buttes Chaumont'}
+We can't find geoloc for PA_0986,, face à la rue du Tunnel, Paris
+{'pa_name': 'PA_0085', 'address': ', 58 rue de Charonne', 'district': 'Faubourg Saint-Antoine'}
+PA_0085 is here: 48.8531969, 2.3783676
+{'pa_name': 'PA_1047', 'address': ', 88ter avenue Parmentier', 'district': 'La Courtille'}
+PA_1047 is here: 48.8719702, 2.3695865
+{'pa_name': 'PA_1417', 'address': ", escalier derrière la galerie d'anatomie", 'district': 'Jardin des Plantes'}
+We can't find geoloc for PA_1417,, escalier derrière la galerie d'anatomie, Paris
+{'pa_name': 'PA_0656', 'address': ', 112bis rue Championnet', 'district': 'La Moskova'}
+PA_0656 is here: 48.893172, 2.3281021
+{'pa_name': 'PA_0206', 'address': ', place de Clichy', 'district': 'Europe'}
+PA_0206 is here: 48.8834466, 2.3272634
+{'pa_name': 'PA_0713', 'address': ', 1 rue Taylor', 'district': 'Faubourg Saint-Martin'}
+PA_0713 is here: 48.8691675, 2.358857
+{'pa_name': 'PA_0343', 'address': ", pont d'Iéna (rive droite)", 'district': 'Chaillot'}
+We can't find geoloc for PA_0343,, pont d'Iéna (rive droite), Paris
+{'pa_name': 'PA_1102', 'address': ', place de Thorigny', 'district': 'Le Marais'}
+PA_1102 is here: 48.8590157, 2.3621685
+{'pa_name': 'PA_1397', 'address': ", 2 rue d'Aguesseau", 'district': 'Élysée'}
+PA_1397 is here: 48.869769, 2.3191643
+{'pa_name': 'PA_0586', 'address': ', 89 boulevard Beaumarchais', 'district': 'Le Marais'}
+PA_0586 is here: 48.8590822, 2.367457
+{'pa_name': 'PA_0569', 'address': ', passerelle de Charentonneau', 'district': 'Saint-Maurice'}
+We can't find geoloc for PA_0569,, passerelle de Charentonneau, Paris
+{'pa_name': 'PA_1378', 'address': ', rue des Caves du Roi', 'district': 'Sèvres'}
+We can't find geoloc for PA_1378,, rue des Caves du Roi, Paris
+{'pa_name': 'PA_0990', 'address': ', métro La Chapelle', 'district': 'La Chapelle'}
+PA_0990 is here: 48.8843916, 2.3614422
+{'pa_name': 'PA_0210', 'address': ', 6 rue Marx Dormoy', 'district': 'La Chapelle'}
+PA_0210 is here: 48.885191, 2.359545
+{'pa_name': 'PA_0640', 'address': ', 98 rue Lepic', 'district': 'Montmartre'}
+PA_0640 is here: 48.887241, 2.3370466
+{'pa_name': 'PA_1401', 'address': ", face à l'immeuble Belledonne", 'district': 'Fontenay-sous-Bois'}
+We can't find geoloc for PA_1401,, face à l'immeuble Belledonne, Paris
+{'pa_name': 'PA_1051', 'address': ', 22 rue Dauphine', 'district': 'Saint-Michel'}
+PA_1051 is here: 48.8551427, 2.339561
+{'pa_name': 'PA_1114', 'address': ', impasse de la Défense', 'district': 'Carrières'}
+PA_1114 is here: 48.8855636, 2.3275996
+{'pa_name': 'PA_0355', 'address': ', 4 rue de la Grande Truanderie', 'district': 'Les Halles'}
+PA_0355 is here: 48.8626752, 2.3497789
+{'pa_name': 'PA_0705', 'address': ', 32 rue de Patay', 'district': "Plaine d'Ivry"}
+PA_0705 is here: 48.8254883, 2.3748506
+{'pa_name': 'PA_0181', 'address': ', 20-24 rue Madame', 'district': 'Luxembourg'}
+PA_0181 is here: 48.8523034, 2.3319819
+{'pa_name': 'PA_0928', 'address': ', 64 rue de Montreuil', 'district': 'Vincennes Ville'}
+PA_0928 is here: 48.8504238, 2.3904503
+{'pa_name': 'PA_0882', 'address': ', 29 boulevard Jules Ferry', 'district': 'Faubourg du Temple'}
+PA_0882 is here: 48.8684181, 2.3671251
+{'pa_name': 'PA_1285', 'address': ', porte de Bagnolet', 'district': 'Charonne'}
+PA_1285 is here: 48.8646027, 2.407183
+{'pa_name': 'PA_0494', 'address': ', 41 rue Delambre', 'district': 'Parnasse'}
+PA_0494 is here: 48.8413077, 2.3256246
+{'pa_name': 'PA_1006', 'address': ', 9 rue Bergère', 'district': 'Faubourg Montmartre'}
+PA_1006 is here: 48.8721312, 2.3466598
+{'pa_name': 'PA_1456', 'address': ', 31 boulevard Saint-Martin', 'district': 'Saint-Martin'}
+PA_1456 is here: 48.8683676, 2.3585469
+{'pa_name': 'PA_0617', 'address': ', 14 rue Pierre Demours', 'district': 'Ternes'}
+PA_0617 is here: 48.8803119, 2.2927085
+{'pa_name': 'PA_0247', 'address': ', 1 rue Firmin Gillot', 'district': 'Vaugirard'}
+PA_0247 is here: 48.8333485, 2.289523
+{'pa_name': 'PA_0752', 'address': ', 14 boulevard Edouard Branly', 'district': 'Romainville'}
+We can't find geoloc for PA_0752,, 14 boulevard Edouard Branly, Paris
+{'pa_name': 'PA_0302', 'address': ', 37 rue de Belleville', 'district': 'Vieux Belleville'}
+PA_0302 is here: 43.6184384, 1.4414529
+{'pa_name': 'PA_1143', 'address': ', place du Général Patton', 'district': 'Dauphine'}
+PA_1143 is here: 48.8761072, 2.2870985
+{'pa_name': 'PA_1134', 'address': ', 74 rue de Tolbiac', 'district': "Jeanne d'Arc"}
+PA_1134 is here: 48.8271749, 2.3669678
+{'pa_name': 'PA_0375', 'address': ", 2 rue de l'Est", 'district': 'Ménilmontant'}
+PA_0375 is here: 48.870942, 2.3952002
+{'pa_name': 'PA_0660', 'address': ', 46 rue de Lévis', 'district': 'Monceau'}
+PA_0660 is here: 48.8834783, 2.314136
+{'pa_name': 'PA_1421', 'address': ', 49 du Volga', 'district': 'Avron'}
+PA_1421 is here: 48.8526159, 2.4074694
+{'pa_name': 'PA_1071', 'address': ", 58 rue d'Anjou", 'district': 'Élysée'}
+PA_1071 is here: 48.8739787, 2.322671
+{'pa_name': 'PA_0549', 'address': ', 54 rue des Vinaigriers', 'district': 'Faubourg Saint-Martin'}
+PA_0549 is here: 48.8733006, 2.3590972
+{'pa_name': 'PA_0119', 'address': ' & PA_0824, 102 rue de Bagnolet', 'district': 'Charonne'}
+We can't find geoloc for PA_0119, & PA_0824, 102 rue de Bagnolet, Paris
+{'pa_name': 'PA_1358', 'address': ', 3 rue Royer-Collard', 'district': 'Val-de-Grâce'}
+PA_1358 is here: 48.8456146, 2.3423016
+{'pa_name': 'PA_0288', 'address': None, 'district': None}
+{'pa_name': 'PA_0322', 'address': ', 77 allée du Séminaire', 'district': 'Luxembourg'}
+PA_0322 is here: 48.8487497, 2.3329364
+{'pa_name': 'PA_1163', 'address': ', 8 place Jacques Bonsergent', 'district': 'Faubourg Saint-Martin'}
+PA_1163 is here: 48.8711058, 2.36119
+{'pa_name': 'PA_1026', 'address': ', 52 Grande Rue Charles-de-Gaulle', 'district': 'La Grande Forêt'}
+We can't find geoloc for PA_1026,, 52 Grande Rue Charles-de-Gaulle, Paris
+{'pa_name': 'PA_0637', 'address': ', 22 place des Vosges', 'district': 'Le Marais'}
+PA_0637 is here: 48.8559326, 2.3666466
+{'pa_name': 'PA_0908', 'address': ', 10 cité Beauharnais', 'district': 'Faubourg Saint-Antoine'}
+PA_0908 is here: 48.8536295, 2.3897767
+{'pa_name': 'PA_1175', 'address': ', 2 rue Rodier', 'district': 'Rochechouart'}
+PA_1175 is here: 48.8773843, 2.3423875
+{'pa_name': 'PA_0334', 'address': ', 7-13 Place Valhubert', 'district': 'Jardin des Plantes'}
+PA_0334 is here: 48.8436365, 2.3650748
+{'pa_name': 'PA_0764', 'address': ', 28 rue Serpente', 'district': 'Saint-Michel'}
+PA_0764 is here: 48.8525019, 2.3415469
+{'pa_name': 'PA_0271', 'address': ', 7 rue Vancouleurs', 'district': 'La Courtille'}
+We can't find geoloc for PA_0271,, 7 rue Vancouleurs, Paris
+{'pa_name': 'PA_0621', 'address': ', porte de Pantin', 'district': 'Amérique'}
+PA_0621 is here: 48.8886574, 2.3926771
+{'pa_name': 'PA_1460', 'address': ', 9 rue Désiré Chevalier', 'district': 'Montreuil'}
+We can't find geoloc for PA_1460,, 9 rue Désiré Chevalier, Paris
+{'pa_name': 'PA_0508', 'address': ', 9 rue des Prouvaires', 'district': 'Les Halles'}
+PA_0508 is here: 48.8616494, 2.3441257
+{'pa_name': 'PA_0158', 'address': ', 7 rue Debelleyme.', 'district': 'Le Marais'}
+PA_0158 is here: 48.860687, 2.3637115
+{'pa_name': 'PA_1319', 'address': ", 1 rue de l'agent Bailly", 'district': 'Rochechouart'}
+PA_1319 is here: 48.8783185, 2.3425169
+{'pa_name': 'PA_0733', 'address': ', 38 rue du Moulin Joly', 'district': 'La Courtille'}
+PA_0733 is here: 48.8690218, 2.3789668
+{'pa_name': 'PA_0363', 'address': ', 116 avenue de Choisy', 'district': 'Choisy'}
+PA_0363 is here: 48.8257701, 2.3603999
+{'pa_name': 'PA_0699', 'address': ', 127 rue des Pyrénées', 'district': 'Fontarabie'}
+PA_0699 is here: 48.8573615, 2.4039632
+{'pa_name': 'PA_1122', 'address': ', avenue Corentin Cariou', 'district': 'La Villette'}
+PA_1122 is here: 48.8961425, 2.3838637
+{'pa_name': 'PA_1088', 'address': ', 77 rue Buffon', 'district': 'Jardin des Plantes'}
+PA_1088 is here: 48.8421007, 2.3595384
+{'pa_name': 'PA_1067', 'address': ', 1 rue de la Fidélité', 'district': 'Faubourg Saint-Denis'}
+PA_1067 is here: 48.8745297, 2.3567438
+{'pa_name': 'PA_1437', 'address': ', 37 rue Molitor', 'district': 'Montmorency'}
+PA_1437 is here: 48.8451592, 2.2614795
+{'pa_name': 'PA_0226', 'address': ", 83 rue d'Hauteville", 'district': 'Faubourg Saint-Denis'}
+PA_0226 is here: 48.8768597, 2.3512606
+{'pa_name': 'PA_0949', 'address': ', 1 rue Joseph Liouville', 'district': 'Saint-Lambert'}
+PA_0949 is here: 48.8437709, 2.2977519
+{'pa_name': 'PA_0748', 'address': ', Avenue de la Porte de la Villette', 'district': 'La Villette'}
+PA_0748 is here: 48.900046, 2.387443
+{'pa_name': 'PA_0318', 'address': None, 'district': None}
+{'pa_name': 'PA_1159', 'address': ', 6 place des Ternes', 'district': 'Le Roule'}
+PA_1159 is here: 48.8783734, 2.2984423
+{'pa_name': 'PA_0031', 'address': ' (DEAD), 30 rue de Venise', 'district': 'Beaubourg'}
+We can't find geoloc for PA_0031, (DEAD), 30 rue de Venise, Paris
+{'pa_name': 'PA_0461', 'address': ', 5-7 rue Charles Renouvier', 'district': 'Père Lachaise'}
+PA_0461 is here: 48.8614609, 2.3993115
+{'pa_name': 'PA_0932', 'address': ', Théâtre de la Renaissance', 'district': 'Faubourg Saint-Martin'}
+PA_0932 is here: 48.86909055, 2.3564292142249315
+{'pa_name': 'PA_1270', 'address': ', passerelle du Bassin de la Villette', 'district': 'Le Bassin'}
+We can't find geoloc for PA_1270,, passerelle du Bassin de la Villette, Paris
+{'pa_name': 'PA_1335', 'address': None, 'district': 'Point du Jour'}
+{'pa_name': 'PA_0174', 'address': None, 'district': None}
+{'pa_name': 'PA_0524', 'address': ', 244 avenue du Général de Gaulle', 'district': 'La Grande Forêt'}
+PA_0524 is here: 50.5081636, 1.6108492
+{'pa_name': 'PA_1227', 'address': ', 129 coulée verte René-Dumont', 'district': 'Aligre'}
+PA_1227 is here: 48.8410117, 2.3939473
+{'pa_name': 'PA_0436', 'address': ', Centre culturel de Serbie', 'district': 'Beaubourg'}
+PA_0436 is here: 48.86085155, 2.3509653023448234
+{'pa_name': 'PA_0066', 'address': ', PA_0067 & PA_0068, 63 rue des Trois Frères', 'district': 'Abbesses'}
+We can't find geoloc for PA_0066,, PA_0067 & PA_0068, 63 rue des Trois Frères, Paris
+{'pa_name': 'PA_0573', 'address': None, 'district': None}
+{'pa_name': 'PA_0089', 'address': ', 1 rue Baltard', 'district': 'Les Halles'}
+PA_0089 is here: 48.86250815, 2.344161229573843
+{'pa_name': 'PA_0123', 'address': None, 'district': None}
+{'pa_name': 'PA_1362', 'address': ', 2 rue des Boulets', 'district': 'Nation'}
+PA_1362 is here: 48.8492737, 2.3918048
+{'pa_name': 'PA_0820', 'address': ', 10 rue de Bretagne', 'district': 'Temple'}
+PA_0820 is here: 48.8624682, 2.3635794
+{'pa_name': 'PA_0359', 'address': ', 45 rue Saint-Roch', 'district': 'Vendôme'}
+PA_0359 is here: 48.866497, 2.33292
+{'pa_name': 'PA_1118', 'address': ", boulevard Gabriel Péri sous le périph'", 'district': 'Rosny-sous-Bois'}
+We can't find geoloc for PA_1118,, boulevard Gabriel Péri sous le périph', Paris
+{'pa_name': 'PA_0070', 'address': ', 1 rue de la Verrerie', 'district': 'Le Marais'}
+PA_0070 is here: 48.8569091, 2.355416
+{'pa_name': 'PA_0420', 'address': ', 45 rue Anselme', 'district': 'Saint-Ouen'}
+PA_0420 is here: 48.8387006, 2.3104045
+{'pa_name': 'PA_0973', 'address': ' PA_0974 & PA_0975, entrée du square Emile Chautemps', 'district': 'Saint-Martin'}
+We can't find geoloc for PA_0973, PA_0974 & PA_0975, entrée du square Emile Chautemps, Paris
+{'pa_name': 'PA_1231', 'address': ' & 1237, 200 avenue Jean Jaurès', 'district': 'Amérique'}
+We can't find geoloc for PA_1231, & 1237, 200 avenue Jean Jaurès, Paris
+{'pa_name': 'PA_0836', 'address': ', 11 passage Thiéré', 'district': 'Roquette'}
+PA_0836 is here: 48.8538995, 2.3738514
+{'pa_name': 'PA_1374', 'address': ', 3 rue Clotilde de Vaux', 'district': 'Popincourt'}
+PA_1374 is here: 48.8576498, 2.3682738
+{'pa_name': 'PA_0565', 'address': ', 3 rue Philippe de Girard', 'district': "Gare de l'Est"}
+PA_0565 is here: 48.8809561, 2.3618536
+{'pa_name': 'PA_1266', 'address': ', 41 rue Volta', 'district': 'Saint-Martin'}
+PA_1266 is here: 48.8666374, 2.3579508
+{'pa_name': 'PA_0924', 'address': ', 56 quai de la Rapée', 'district': 'Gare de Lyon'}
+PA_0924 is here: 48.8428461, 2.3718835
+{'pa_name': 'PA_0477', 'address': ', 267b rue de Paris', 'district': 'Montreuil'}
+PA_0477 is here: 48.0754682, -0.7529992
+{'pa_name': 'PA_0532', 'address': None, 'district': 'La Courtille'}
+{'pa_name': 'PA_0498', 'address': ', 64 rue de la Rochefoucauld', 'district': 'Pigalle'}
+PA_0498 is here: 48.880756, 2.3357151
+{'pa_name': 'PA_1323', 'address': ', square Sarah Bernhart', 'district': 'Avron'}
+We can't find geoloc for PA_1323,, square Sarah Bernhart, Paris
+{'pa_name': 'PA_0861', 'address': ', 30 passage Saint-Sebastien', 'district': 'Popincourt'}
+PA_0861 is here: 48.8618888, 2.3703122
+{'pa_name': 'PA_1289', 'address': " & PA_1290, place de l'Alma", 'district': 'Chaillot'}
+We can't find geoloc for PA_1289, & PA_1290, place de l'Alma, Paris
+{'pa_name': 'PA_0610', 'address': ', passage Stendhal', 'district': 'Charonne'}
+PA_0610 is here: 48.8617553, 2.4006718
+{'pa_name': 'PA_0240', 'address': ', face au 23 boulevard Diderot', 'district': 'Gare de Lyon'}
+We can't find geoloc for PA_0240,, face au 23 boulevard Diderot, Paris
+{'pa_name': 'PA_1001', 'address': None, 'district': 'Folie-Regnault'}
+{'pa_name': 'PA_1451', 'address': ', 120 cours de Vincennes', 'district': 'Bel-Air'}
+PA_1451 is here: 48.8467095, 2.4106242
+{'pa_name': 'PA_1144', 'address': ', 18 rue Piccini', 'district': 'Dauphine'}
+PA_1144 is here: 48.8739148, 2.2854149
+{'pa_name': 'PA_0755', 'address': ', 6 rue de la Victoire', 'district': 'Faubourg Montmartre'}
+PA_0755 is here: 48.8750687, 2.3404313
+{'pa_name': 'PA_0305', 'address': ', face au 49 rue Geoffroy-Saint-Hilaire', 'district': 'Jardin des Plantes'}
+We can't find geoloc for PA_0305,, face au 49 rue Geoffroy-Saint-Hilaire, Paris
+{'pa_name': 'PA_0885', 'address': ', 36 rue Brey', 'district': 'Ternes'}
+PA_0885 is here: 48.8773062, 2.2948021
+{'pa_name': 'PA_0186', 'address': ', 4 rue Jacob', 'district': 'Saint-Germain-des-Prés'}
+PA_0186 is here: 48.8547197, 2.3363693
+{'pa_name': 'PA_0169', 'address': ', 2 rue du Mont Cenis', 'district': 'Montmartre'}
+PA_0169 is here: 48.88682505, 2.341820712088204
+{'pa_name': 'PA_0493', 'address': ', 87 rue Saint-Honoré', 'district': 'Les Halles'}
+PA_0493 is here: 48.8612373, 2.3435485
+{'pa_name': 'PA_0539', 'address': ', 30 rue Beaubourg dans la cour', 'district': 'Beaubourg'}
+We can't find geoloc for PA_0539,, 30 rue Beaubourg dans la cour, Paris
+{'pa_name': 'PA_1282', 'address': ', 106 avenue Auber', 'district': 'Vincennes Ville'}
+PA_1282 is here: 48.8735936, 2.3273396
+{'pa_name': 'PA_1328', 'address': ', 27bis rue de Paradis', 'district': 'Faubourg Saint-Denis'}
+PA_1328 is here: 48.8750276, 2.3523903
+{'pa_name': 'PA_1406', 'address': ', 11 rue Tarbé', 'district': 'Monceau'}
+PA_1406 is here: 48.8863393, 2.3139639
+{'pa_name': 'PA_1056', 'address': None, 'district': 'Reuilly'}
+{'pa_name': 'PA_0217', 'address': None, 'district': None}
+{'pa_name': 'PA_0352', 'address': ", 21 rue d'Alsace", 'district': "Gare de l'Est"}
+PA_0352 is here: 48.877498, 2.3579352
+{'pa_name': 'PA_0702', 'address': ', 98 rue de Charonne', 'district': 'Faubourg Saint-Antoine'}
+PA_0702 is here: 48.8542358, 2.3836434
+{'pa_name': 'PA_0581', 'address': ', entrée nord-est du Carrousel', 'district': 'Louvre'}
+We can't find geoloc for PA_0581,, entrée nord-est du Carrousel, Paris
+{'pa_name': 'PA_0978', 'address': ', 28 rue Montorgueil', 'district': 'Les Halles'}
+PA_0978 is here: 48.86371, 2.3465474
+{'pa_name': 'PA_0997', 'address': ', 61 rue Quincampoix', 'district': 'Beaubourg'}

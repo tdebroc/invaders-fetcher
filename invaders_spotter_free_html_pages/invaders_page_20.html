@@ -1,0 +1,1409 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+<meta name='description' content='Pr&eacute;sentation des mosa&iuml;ques Space Invaders diss&eacute;min&eacute;es dans le monde' />
+<meta name='keywords' content='space, invader, space invaders, mosa&iuml;ques, mosaics, street, art' />
+<meta http-equiv='Content-Language' content='fr-CA' />
+
+<link rel='stylesheet' href='css/styles.css'/>
+
+<link rel='icon' type='image/png' href='images/favicon.png' />
+<!--[if IE]><link rel='shortcut icon' type='image/x-icon' href='../images/favicon.ico' /><![endif]-->
+
+<title>Chasse aux Space Invaders</title>
+
+<link rel='stylesheet' href='css/chocolat.css'/>
+
+<script type='text/javascript'>
+function lien(ville, numb) {
+        document.getElementById('quelleville').name=ville;
+        document.getElementById('numero').value=numb;
+        document.envoi.submit();
+}
+</script>
+
+<script type='text/javascript' src='js/jquery.js'></script>
+
+<script type='text/javascript' src='js/jquery.chocolat.js'></script>
+
+<script type='text/javascript' src='js/ajax.js'></script>
+<script type='text/javascript'>
+function requete(callback, mosaique) {
+	var xhr = getXMLHttpRequest();
+	xhr.onreadystatechange = function() {
+		if (xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 0)) {
+			callback(xhr.responseText);
+		}
+	}
+	abonne = '';
+	abonne = abonne.replace('&', 'mesperm');
+	chaineradio = 'galerie'+mosaique;
+	tabradio = document.getElementsByName(chaineradio);
+	valgal ='';
+	for (i=0; i<tabradio.length; i++) {
+		if (tabradio[i].checked) {
+			valgal=tabradio[i].value;
+		}
+	}
+	xhr.open('GET', 'ajaxmodifgal.php?abonne='+abonne+'&mosaique='+mosaique+'&galerie='+valgal, true);
+	xhr.send(null);
+
+}
+function readData(retour) {
+	var etat = retour.substring(0,2);
+	var quoi = retour.substring(2);
+	var id = 'info'+quoi;
+	document.getElementById(id).innerHTML = '<img src="images/'+etat+'.png"/>';
+	setTimeout(function(){
+		document.getElementById(id).innerHTML = '';
+	}, 1500);
+}
+function supprimer(callback, message) {
+	var xhr = getXMLHttpRequest();
+	xhr.onreadystatechange = function() {
+		if (xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 0)) {
+			callback(xhr.responseText, message);
+		}
+	}
+	xhr.open('GET', 'ajaxsupmessage.php?message='+message, true);
+	xhr.send(null);
+}
+
+function lireData(retour, mess) {
+	if (retour == 'ok') {
+		document.getElementById('mess'+mess).style.display='none';
+	}
+}
+
+function survola(quoiqui, comment) {
+	var sourca=document.getElementById('croix'+quoiqui).src;
+	if (comment == 'over') {
+		sourca=sourca.replace('plein', 'hover');
+	}
+	else {
+		sourca=sourca.replace('hover', 'plein');
+	}
+	document.getElementById('croix'+quoiqui).src=sourca;
+}
+
+function vision(quiquoi) {
+	var source=document.getElementById('croix'+quiquoi).src;
+	if (document.getElementById('ajoutform'+quiquoi).style.display == 'none') {
+		document.getElementById('ajoutform'+quiquoi).style.display = 'block';
+		source=source.replace('croix', 'moins');
+	}
+	else {
+		document.getElementById('ajoutform'+quiquoi).style.display = 'none';
+		source=source.replace('moins', 'croix');
+	}
+	document.getElementById('croix'+quiquoi).src = source;
+}
+function decompte(combien) {
+	var nbrcaracteres = 500 - combien.value.length;
+	var complement = combien.id.substring(7);
+	document.getElementById('decompte'+complement).innerHTML = nbrcaracteres;
+}
+function changepage(quellepage) {
+	document.commentaire.page.value=quellepage;
+	document.commentaire.submit();
+}
+function changearron(quelarron) {
+	document.commentaire.arrondissement.value=quelarron;
+	document.commentaire.page.value=1;
+	document.commentaire.submit();
+}
+</script>
+
+</head>
+<body>
+
+<div id='entete'>
+ <div class='logo'><a class='nt' href='/stats.php'><img src='images/logo.png' alt='invader-spotter'/></a></div>
+ <div class='langage'><a href='changelang.php?lang=en'><img src='../images/flag_en.png' alt='en' title='en'/></a><img src='../images/flag_fract.png' alt='fr' title='fr'/></div>
+ <div id='menu'>
+  <ul id='menuderoulant'>
+	<li><a href='index.php'>Accueil</a></li>
+	<li><a href='news.php'>News</a></li>
+	<li><a href='articles.php'>Articles</a></li>
+	<li><a href='#'>Les mosa&iuml;ques</a>
+		<ul>
+			<li><a href='choixville.php'>Par villes</a></li>
+			<li><a href='recherche.php'>Recherche</a></li>
+		</ul></li>
+	<li><a href='liens.php'>Liens</a></li>
+	<li><a href='contact.php'>Contact</a>
+	</li><li class='pseudo'><a href='inscription.php'>Inscription/Connexion</a>
+
+	</li>
+  </ul>
+ </div>
+</div>
+<div id='main'>
+<div id='contenu'>
+<br/><br/>
+<p style='text-align:center;'><font size=8>Paris (PA)</font><br/>1 vague d&apos;invasion - 1467 invaders - 39730 points<br/><br/>Choix de l&apos;arrondissement : tous | <a href='javascript:changearron("01")'>1er</a> | <a href='javascript:changearron("02")'>2&egrave;me</a> | <a href='javascript:changearron("03")'>3&egrave;me</a> | <a href='javascript:changearron("04")'>4&egrave;me</a> | <a href='javascript:changearron("05")'>5&egrave;me</a> | <a href='javascript:changearron("06")'>6&egrave;me</a> | <a href='javascript:changearron("07")'>7&egrave;me</a> | <a href='javascript:changearron("08")'>8&egrave;me</a> | <a href='javascript:changearron("09")'>9&egrave;me</a> | <a href='javascript:changearron("10")'>10&egrave;me</a> | <a href='javascript:changearron("11")'>11&egrave;me</a> | <a href='javascript:changearron("12")'>12&egrave;me</a> | <a href='javascript:changearron("13")'>13&egrave;me</a> | <a href='javascript:changearron("14")'>14&egrave;me</a> | <a href='javascript:changearron("15")'>15&egrave;me</a> | <a href='javascript:changearron("16")'>16&egrave;me</a> | <a href='javascript:changearron("17")'>17&egrave;me</a> | <a href='javascript:changearron("18")'>18&egrave;me</a> | <a href='javascript:changearron("19")'>19&egrave;me</a> | <a href='javascript:changearron("20")'>20&egrave;me</a> | <a href='javascript:changearron("77")'>Banlieue 77</a> | <a href='javascript:changearron("92")'>Banlieue 92</a> | <a href='javascript:changearron("93")'>Banlieue 93</a> | <a href='javascript:changearron("94")'>Banlieue 94</a> | <a href='javascript:changearron("95")'>Banlieue 95</a></p><p style='text-align:justify;'><br/><br/><br/>Ville de rÃ©sidence d'Invader, Paris est sous invasion permanente depuis 1998.<br/>
+Elle se voit rÃ©guliÃ¨rement ajouter de nouvelles mosaÃ¯ques et est naturellement la ville en comportant le plus grand nombre.<br/><br/><br/></p><p>page : <a href='javascript:changepage(1)'>1</a> | <a href='javascript:changepage(2)'>2</a> | <a href='javascript:changepage(3)'>3</a> | <a href='javascript:changepage(4)'>4</a> | <a href='javascript:changepage(5)'>5</a> | <a href='javascript:changepage(6)'>6</a> | <a href='javascript:changepage(7)'>7</a> | <a href='javascript:changepage(8)'>8</a> | <a href='javascript:changepage(9)'>9</a> | <a href='javascript:changepage(10)'>10</a> | <a href='javascript:changepage(11)'>11</a> | <a href='javascript:changepage(12)'>12</a> | <a href='javascript:changepage(13)'>13</a> | <a href='javascript:changepage(14)'>14</a> | <a href='javascript:changepage(15)'>15</a> | <a href='javascript:changepage(16)'>16</a> | <a href='javascript:changepage(17)'>17</a> | <a href='javascript:changepage(18)'>18</a> | <a href='javascript:changepage(19)'>19</a> | 20 | <a href='javascript:changepage(21)'>21</a> | <a href='javascript:changepage(22)'>22</a> | <a href='javascript:changepage(23)'>23</a> | <a href='javascript:changepage(24)'>24</a> | <a href='javascript:changepage(25)'>25</a> | <a href='javascript:changepage(26)'>26</a> | <a href='javascript:changepage(27)'>27</a> | <a href='javascript:changepage(28)'>28</a> | <a href='javascript:changepage(29)'>29</a> | <a href='javascript:changepage(30)'>30</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;r&eacute;sultats 951-1000 / 1467</p><form name='commentaire' method='post' action='listing.php' onsubmit='return verification(this)'><input type='hidden' name='ville' value='PA'/><input type='hidden' name='mode' value='liste'/><input type='hidden' name='page' value='20'/><input type='hidden' name='arrondissement' value='00'/><table border=0 cellpadding=0 cellspacing=4>
+<tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0951-grosplan.png' width=100/><br/><font class='normal'><b>PA_0951 [10 pts]</b><br>(Paris - 15&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : avril 2019 (report)</font></td><td width=300 align=left><div id='image0'><a class='chocolat-image' href='photos/PA_0951-avril2015.jpg' title='PA_0951-avril2015'><img src='images/PA_0951-avril2015.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2015</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix0' src='images/boutton_croix_plein.png' onMouseOver='survola("0", "over")' onMouseOut='survola("0", "out")' onClick='vision("0")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform0' style='display:none;'>
+<div id='mess2368'><p><b><u>rimrim</u></b> (07/04/2019) :<br/>Toujours vivant : flash&eacute; le 07/04/2019 !<br/></p><img src='images/ligne.png'></div><div id='mess5942'><p><b><u>kapuchka</u></b> (19/02/2020) :<br/>Flash&eacute; le 18/02/2020<br/></p><img src='images/ligne.png'></div><div id='mess7114'><p><b><u>stephinparis</u></b> (06/06/2020) :<br/>Pass&eacute; devant ce matin, il est toujours l&agrave;<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0952-grosplan.png' width=100/><br/><font class='normal'><b>PA_0952 [20 pts]</b><br>(Paris - 1er arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : mai 2019 (spott)</font></td><td width=300 align=left><div id='image1'><a class='chocolat-image' href='photos/PA_0952-mai2019.jpg' title='PA_0952-mai2019'><img src='images/PA_0952-mai2019.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo mai 2019</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix1' src='images/boutton_croix_plein.png' onMouseOver='survola("1", "over")' onMouseOut='survola("1", "out")' onClick='vision("1")'/><br/>
+<div id='ajoutform1' style='display:none;'>
+<p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0953-grosplan.png' width=100/><br/><font class='normal'><b>PA_0953 [50 pts]</b><br>(Paris - 4&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : janvier 2019 (spott)</font></td><td width=300 align=left><div id='image2'><a class='chocolat-image' href='photos/PA_0953-janvier2019.jpg' title='PA_0953-janvier2019'><img src='images/PA_0953-janvier2019.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo janvier 2019</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix2' src='images/boutton_croix_plein.png' onMouseOver='survola("2", "over")' onMouseOut='survola("2", "out")' onClick='vision("2")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform2' style='display:none;'>
+<div id='mess890'><p><b><u>AxePegase14</u></b> (06/06/2018) :<br/>Le mur a &eacute;t&eacute; refait et les &eacute;chafaudages retir&eacute;s. Heureusement la mosa&iuml;que a &eacute;t&eacute; prot&eacute;g&eacute;e par les ouvriers et il se trouve toujours &agrave; sa place<br/></p><img src='images/ligne.png'></div><div id='mess2437'><p><b><u>Flash_in_the_city </u></b> (15/04/2019) :<br/>Flash&eacute; en decembre 2018<br/></p><img src='images/ligne.png'></div><div id='mess5043'><p><b><u>suricate_saki</u></b> (16/12/2019) :<br/>Toujours vivant et en parfait &eacute;tat<br/></p><img src='images/ligne.png'></div><div id='mess6390'><p><b><u>kapuchka</u></b> (02/03/2020) :<br/>Flash&eacute; le 02/03/2020<br/></p><img src='images/ligne.png'></div><div id='mess8030'><p><b><u>rimrim</u></b> (26/07/2020) :<br/>Toujours vivant : flash&eacute; le 25/07/2020 !<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0954-grosplan.png' width=100/><br/><font class='normal'><b>PA_0954 [30 pts]</b><br>(Paris - 3&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_destroyed.png' class='banniere' width=25> D&eacute;truit !<br/>Date et source : avril 2015 (spott)</font></td><td width=300 align=left><img src='images/PA_0954-archive.jpg' width=300/></td>
+<td width=300 align=left><img src='images/PA_0954-avril2015.jpg' width=300/></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo d'archive (<a href='http://www.space-invaders.com/' target='blank'>@Invader</a>)</font></td><td align=left valign=top><font class='legende'>photo avril 2015</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix3' src='images/boutton_croix_plein.png' onMouseOver='survola("3", "over")' onMouseOut='survola("3", "out")' onClick='vision("3")'/><br/>
+<div id='ajoutform3' style='display:none;'>
+<p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0955-grosplan.png' width=100/><br/><font class='normal'><b>PA_0955 [30 pts]</b><br>(Paris - 3&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : juillet 2018 (report)</font></td><td width=300 align=left><div id='image3'><a class='chocolat-image' href='photos/PA_0955-mars2017.jpg' title='PA_0955-mars2017'><img src='images/PA_0955-mars2017.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo mars 2017</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix4' src='images/boutton_croix_plein.png' onMouseOver='survola("4", "over")' onMouseOut='survola("4", "out")' onClick='vision("4")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform4' style='display:none;'>
+<div id='mess1074'><p><b><u>Space YaÃ«l </u></b> (19/07/2018) :<br/>Flasher hier :)<br />
+<br/></p><img src='images/ligne.png'></div><div id='mess4720'><p><b><u>_GREGORY_</u></b> (14/11/2019) :<br/>Flash&eacute; le 11 novembre 2019. Aucun souci.<br/></p><img src='images/ligne.png'></div><div id='mess6482'><p><b><u>Sardinemarteau</u></b> (05/03/2020) :<br/>flash&eacute; aujourd'hui<br/></p><img src='images/ligne.png'></div><div id='mess10226'><p><b><u>Bakk2Bakk</u></b> (13/04/2021) :<br/>"LIBERATION WAS HERE"<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0956-grosplan.png' width=100/><br/><font class='normal'><b>PA_0956 [20 pts]</b><br>(Paris - 3&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_degraded.png' class='banniere' width=25> D&eacute;grad&eacute;<br/>Date et source : novembre 2019 (report)</font></td><td width=300 align=left><div id='image4'><a class='chocolat-image' href='photos/PA_0956-avril2015.jpg' title='PA_0956-avril2015'><img src='images/PA_0956-avril2015.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left><img src='images/PA_0956-avril2019.jpg' width=300/></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2015</font></td><td align=left valign=top><font class='legende'>photo avril 2019</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix5' src='images/boutton_croix_plein.png' onMouseOver='survola("5", "over")' onMouseOut='survola("5", "out")' onClick='vision("5")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform5' style='display:none;'>
+<div id='mess1468'><p><b><u>Space YaÃ«l </u></b> (09/10/2018) :<br/>Pas mal d&eacute;grad&eacute; mais flash&eacute; fin ao&ucirc;t <br /><br />(photo si besoin)<br/></p><img src='images/ligne.png'></div><div id='mess1826'><p><b><u>MAUD</u></b> (12/12/2018) :<br/>Je confirme. A moiti&eacute; vivant ce jour (12 d&eacute;cembre 2018).<br/></p><img src='images/ligne.png'></div><div id='mess4553'><p><b><u>suricate_saki</u></b> (04/11/2019) :<br/>A moiti&eacute; disparu mais se flashe d&egrave;s le premier essai<br/></p><img src='images/ligne.png'></div><div id='mess6415'><p><b><u>kapuchka</u></b> (02/03/2020) :<br/>Flash&eacute; le 02/03/2020<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0957-grosplan.png' width=100/><br/><font class='normal'><b>PA_0957 [30 pts]</b><br>(Paris - 12&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : mars 2017 (spott)</font></td><td width=300 align=left><div id='image5'><a class='chocolat-image' href='photos/PA_0957-mars2017.jpg' title='PA_0957-mars2017'><img src='images/PA_0957-mars2017.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo mars 2017</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix6' src='images/boutton_croix_plein.png' onMouseOver='survola("6", "over")' onMouseOut='survola("6", "out")' onClick='vision("6")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform6' style='display:none;'>
+<div id='mess5823'><p><b><u>kapuchka</u></b> (17/02/2020) :<br/>Flash&eacute; aujourd'hui, bon &eacute;tat<br/></p><img src='images/ligne.png'></div><div id='mess10528'><p><b><u>rimrim</u></b> (06/06/2021) :<br/>Toujours vivant : flash&eacute; le 05/06/2021 !<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0958-grosplan.png' width=100/><br/><font class='normal'><b>PA_0958 [30 pts]</b><br>(Paris - 12&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : avril 2019 (spott)</font></td><td width=300 align=left><div id='image6'><a class='chocolat-image' href='photos/PA_0958-avril2019.jpg' title='PA_0958-avril2019'><img src='images/PA_0958-avril2019.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2019</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix7' src='images/boutton_croix_plein.png' onMouseOver='survola("7", "over")' onMouseOut='survola("7", "out")' onClick='vision("7")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform7' style='display:none;'>
+<div id='mess7182'><p><b><u>kapuchka</u></b> (14/06/2020) :<br/>Toujours bien en place, vu ce samedi 14 juin. Il est en tr&egrave;s bon &eacute;tat. <br/></p><img src='images/ligne.png'></div><div id='mess10480'><p><b><u>rimrim</u></b> (30/05/2021) :<br/>Toujours vivant : flash&eacute; le 29/05/2021 !<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0959-grosplan.png' width=100/><br/><font class='normal'><b>PA_0959 [20 pts]</b><br>(Paris - 3&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_degraded.png' class='banniere' width=25> D&eacute;grad&eacute;<br/>Date et source : dÃ©cembre 2018 (spott)</font></td><td width=300 align=left><div id='image7'><a class='chocolat-image' href='photos/PA_0959-avril2015.jpg' title='PA_0959-avril2015'><img src='images/PA_0959-avril2015.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left><div id='image8'><a class='chocolat-image' href='photos/PA_0959-decembre2018.jpg' title='PA_0959-decembre2018'><img src='images/PA_0959-decembre2018.jpg' width=300 class='imagelien'/></a>
+</div></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2015</font></td><td align=left valign=top><font class='legende'>photo dÃ©cembre 2018</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix8' src='images/boutton_croix_plein.png' onMouseOver='survola("8", "over")' onMouseOut='survola("8", "out")' onClick='vision("8")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform8' style='display:none;'>
+<div id='mess4721'><p><b><u>_GREGORY_</u></b> (14/11/2019) :<br/>Flash&eacute; le 11 novembre 2019. Aucun souci. Il est tout de m&ecirc;me bien ab&icirc;m&eacute;...<br/></p><img src='images/ligne.png'></div><div id='mess5342'><p><b><u>rimrim</u></b> (12/01/2020) :<br/>Toujours vivant : flash&eacute; le 12/01/2020 ! Mais bien ab&icirc;m&eacute; :(<br/></p><img src='images/ligne.png'></div><div id='mess6483'><p><b><u>Sardinemarteau</u></b> (05/03/2020) :<br/>flash&eacute; aujourd'hui<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0960-grosplan.png' width=100/><br/><font class='normal'><b>PA_0960 [20 pts]</b><br>(Paris - 11&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : octobre 2019 (report)</font></td><td width=300 align=left><div id='image9'><a class='chocolat-image' href='photos/PA_0960-juillet2016.jpg' title='PA_0960-juillet2016'><img src='images/PA_0960-juillet2016.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo juillet 2016</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix9' src='images/boutton_croix_plein.png' onMouseOver='survola("9", "over")' onMouseOut='survola("9", "out")' onClick='vision("9")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform9' style='display:none;'>
+<div id='mess1208'><p><b><u>Space YaÃ«l </u></b> (12/08/2018) :<br/>flasher hier ;)<br/></p><img src='images/ligne.png'></div><div id='mess4180'><p><b><u>suricate_saki</u></b> (07/10/2019) :<br/>Flash&eacute; hier<br/></p><img src='images/ligne.png'></div><div id='mess6361'><p><b><u>kapuchka</u></b> (02/03/2020) :<br/>Flash&eacute; le 02/03/2020<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0961-grosplan.png' width=100/><br/><font class='normal'><b>PA_0961 [50 pts]</b><br>(Paris - 11&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : septembre 2019 (report)</font></td><td width=300 align=left><div id='image10'><a class='chocolat-image' href='photos/PA_0961-fevrier2018.jpg' title='PA_0961-fevrier2018'><img src='images/PA_0961-fevrier2018.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo fÃ©vrier 2018</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix10' src='images/boutton_croix_plein.png' onMouseOver='survola("10", "over")' onMouseOut='survola("10", "out")' onClick='vision("10")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform10' style='display:none;'>
+<div id='mess892'><p><b><u>Space YaÃ«l </u></b> (07/06/2018) :<br/>J'y suis aller le 4 juin et malgr&eacute; l'&eacute;chafaudage j'ai r&eacute;ussi a le flasher au bout du cinquieme essais <br/></p><img src='images/ligne.png'></div><div id='mess1166'><p><b><u>GH0STY SPACE</u></b> (06/08/2018) :<br/>je n'ai pas r&eacute;ussi &agrave; e flasher j'ai essayer au moins 20 fois mais impossible de l'avoir :(<br/></p><img src='images/ligne.png'></div><div id='mess1353'><p><b><u>lol310</u></b> (05/09/2018) :<br/>J'ai r&eacute;ussi &agrave; le flasher d&eacute;but aout, mais apr&egrave;s des dizaines et des dizaines de tentatives. comme je passe r&eacute;guli&egrave;rement devant j'essayais &agrave; chaque fois... <br/></p><img src='images/ligne.png'></div><div id='mess1380'><p><b><u>Space YaÃ«l </u></b> (13/09/2018) :<br/>vue dans les lives aujourd'hui <br/></p><img src='images/ligne.png'></div><div id='mess1383'><p><b><u>AsmodÃ©e</u></b> (14/09/2018) :<br/>Les &eacute;chafaudages sont d&eacute;sormais enlev&eacute;s et le SI a surv&eacute;cu. J'ai pu le flasher hier. <br/></p><img src='images/ligne.png'></div><div id='mess3888'><p><b><u>suricate_saki</u></b> (11/09/2019) :<br/>Flash&eacute; hier. Il est en parfait &eacute;tat<br/></p><img src='images/ligne.png'></div><div id='mess6308'><p><b><u>kapuchka</u></b> (01/03/2020) :<br/>Flash&eacute; le 29/02/2020<br/></p><img src='images/ligne.png'></div><div id='mess6968'><p><b><u>Flash_in_the_city </u></b> (31/05/2020) :<br/>Flash&eacute; hier !<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0962-grosplan.png' width=100/><br/><font class='normal'><b>PA_0962 [20 pts]</b><br>(Paris - 20&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : juin 2018 (spott)</font></td><td width=300 align=left><div id='image11'><a class='chocolat-image' href='photos/PA_0962-juin2018.jpg' title='PA_0962-juin2018'><img src='images/PA_0962-juin2018.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo juin 2018</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix11' src='images/boutton_croix_plein.png' onMouseOver='survola("11", "over")' onMouseOut='survola("11", "out")' onClick='vision("11")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform11' style='display:none;'>
+<div id='mess4818'><p><b><u>suricate_saki</u></b> (25/11/2019) :<br/>Flash&eacute; hier<br/></p><img src='images/ligne.png'></div><div id='mess7790'><p><b><u>Flash_in_the_city </u></b> (14/07/2020) :<br/>Flash&eacute; aujourd'hui !<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0963-grosplan.png' width=100/><br/><font class='normal'><b>PA_0963 [20 pts]</b><br>(Paris - 3&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : octobre 2019 (report)</font></td><td width=300 align=left><div id='image12'><a class='chocolat-image' href='photos/PA_0963-decembre2018.jpg' title='PA_0963-decembre2018'><img src='images/PA_0963-decembre2018.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo dÃ©cembre 2018</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix12' src='images/boutton_croix_plein.png' onMouseOver='survola("12", "over")' onMouseOut='survola("12", "out")' onClick='vision("12")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform12' style='display:none;'>
+<div id='mess2420'><p><b><u>rimrim</u></b> (14/04/2019) :<br/>Toujours vivant : flash&eacute; ce jour (14 avril 2019) !<br/></p><img src='images/ligne.png'></div><div id='mess4187'><p><b><u>suricate_saki</u></b> (07/10/2019) :<br/>Flash&eacute; hier<br/></p><img src='images/ligne.png'></div><div id='mess4722'><p><b><u>_GREGORY_</u></b> (14/11/2019) :<br/>Flash&eacute; le 11 novembre 2019. Aucun souci.<br/></p><img src='images/ligne.png'></div><div id='mess6416'><p><b><u>kapuchka</u></b> (02/03/2020) :<br/>Flash&eacute; le 02/03/2020<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0964-grosplan.png' width=100/><br/><font class='normal'><b>PA_0964 [30 pts]</b><br>(Paris - 3&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_destroyed.png' class='banniere' width=25> D&eacute;truit !<br/>Date et source : septembre 2020</font></td><td width=300 align=left><div id='image13'><a class='chocolat-image' href='photos/PA_0964-mai2020.jpg' title='PA_0964-mai2020'><img src='images/PA_0964-mai2020.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left><img src='images/PA_0964-aout2020.jpg' width=300/></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo mai 2020</font></td><td align=left valign=top><font class='legende'>photo aoÃ»t 2020</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix13' src='images/boutton_croix_plein.png' onMouseOver='survola("13", "over")' onMouseOut='survola("13", "out")' onClick='vision("13")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform13' style='display:none;'>
+<div id='mess6736'><p><b><u>Archi & Philou</u></b> (15/05/2020) :<br/>Mosa&iuml;que r&eacute;activ&eacute;e le 15 mai 2020.<br />
+Active dans la base Flash Invaders.<br/></p><img src='images/ligne.png'></div><div id='mess6870'><p><b><u>Loulou le Pou</u></b> (25/05/2020) :<br/>Flash&eacute; il y a 2 jours. Superbe!<br/></p><img src='images/ligne.png'></div><div id='mess7168'><p><b><u>MATTINVADER</u></b> (12/06/2020) :<br/>A de nouveau disparu aujourd&rsquo;hui...<br/></p><img src='images/ligne.png'></div><div id='mess7199'><p><b><u>Sardinemarteau</u></b> (15/06/2020) :<br/>j'ai eu le temps de le flasher il y a qq jours, vraiment dommage qu'il ait encore disparu!<br/></p><img src='images/ligne.png'></div><div id='mess10224'><p><b><u>Bakk2Bakk</u></b> (13/04/2021) :<br/>"FUCK COVID-19" Lors de la r&eacute;activation du 15.5.20<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0965-grosplan.png' width=100/><br/><font class='normal'><b>PA_0965 [30 pts]</b><br>(Paris - 7&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_destroyed.png' class='banniere' width=25> D&eacute;truit !<br/>Date et source : aoÃ»t 2020</font></td><td width=300 align=left><div id='image14'><a class='chocolat-image' href='photos/PA_0965-octobre2018.jpg' title='PA_0965-octobre2018'><img src='images/PA_0965-octobre2018.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left><img src='images/PA_0965-aout2020.jpg' width=300/></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo octobre 2018</font></td><td align=left valign=top><font class='legende'>photo aoÃ»t 2020</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix14' src='images/boutton_croix_plein.png' onMouseOver='survola("14", "over")' onMouseOut='survola("14", "out")' onClick='vision("14")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform14' style='display:none;'>
+<div id='mess1260'><p><b><u>barbara</u></b> (19/08/2018) :<br/>PA_965 est reactiv&eacute; ! je suis pass&eacute;e devant hier !!<br/></p><img src='images/ligne.png'></div><div id='mess4880'><p><b><u>kev</u></b> (30/11/2019) :<br/>Il n'est pas dans le 7&egrave;me ...<br/></p><img src='images/ligne.png'></div><div id='mess5088'><p><b><u>hippo schlemer</u></b> (22/12/2019) :<br/>Cette mosa&iuml;que est bien situ&eacute;e dans le septi&egrave;me. <br />
+Au vu de la photo, monument &agrave; l'arri&egrave;re facilement reconnaissable non ?<br/></p><img src='images/ligne.png'></div><div id='mess5542'><p><b><u>Awazleon</u></b> (31/01/2020) :<br/>Je suis assez d'accord avec Kev, c'est la limite 6/7 mais ce cot&eacute; du pont est dans le 6. L'autre cot&eacute; est dans le 7. Mais c'est pas grave ;-)<br/></p><img src='images/ligne.png'></div><div id='mess6760'><p class='reponse'><b><u>NewSpotter</u></b> (17/05/2020) :<br/>Je suis d'accord que c'est limite ... mais r&eacute;f&eacute;renc&eacute; dans le 7e par Invader dans le tome 2 de l'invasion de Paris ...<br/></p><img src='images/ligne.png'></div><div id='mess7886'><p><b><u>rimrim</u></b> (19/07/2020) :<br/>Toujours vivant : flash&eacute; le 18/07/2020 !<br/></p><img src='images/ligne.png'></div><div id='mess8092'><p><b><u>Arthur2011</u></b> (04/08/2020) :<br/>Vu ce jour le 04/08/2020 des ouvriers en train de l&rsquo;arracher <br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0966-grosplan.png' width=100/><br/><font class='normal'><b>PA_0966 [30 pts]</b><br>(Paris - 15&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : dÃ©cembre 2020 (report)</font></td><td width=300 align=left><div id='image15'><a class='chocolat-image' href='photos/PA_0966-juin2017.jpg' title='PA_0966-juin2017'><img src='images/PA_0966-juin2017.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo juin 2017</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix15' src='images/boutton_croix_plein.png' onMouseOver='survola("15", "over")' onMouseOut='survola("15", "out")' onClick='vision("15")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform15' style='display:none;'>
+<div id='mess2369'><p><b><u>rimrim</u></b> (07/04/2019) :<br/>Toujours vivant : flash&eacute; le 07/04/2019 !<br/></p><img src='images/ligne.png'></div><div id='mess8311'><p><b><u>Sardinemarteau</u></b> (17/08/2020) :<br/>flash&eacute; hier &agrave; partir du trottoir d'en face!<br/></p><img src='images/ligne.png'></div><div id='mess9290'><p><b><u>Marathon</u></b> (29/11/2020) :<br/>L'&eacute;chafaudage a disparu; l'invader est intact :)<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0967-grosplan.png' width=100/><br/><font class='normal'><b>PA_0967 [20 pts]</b><br>(Paris - 15&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : octobre 2019 (spott)</font></td><td width=300 align=left><div id='image16'><a class='chocolat-image' href='photos/PA_0967-octobre2019.jpg' title='PA_0967-octobre2019'><img src='images/PA_0967-octobre2019.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo octobre 2019</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix16' src='images/boutton_croix_plein.png' onMouseOver='survola("16", "over")' onMouseOut='survola("16", "out")' onClick='vision("16")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform16' style='display:none;'>
+<div id='mess2370'><p><b><u>rimrim</u></b> (07/04/2019) :<br/>Toujours vivant : flash&eacute; le 07/04/2019 !<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0968-grosplan.png' width=100/><br/><font class='normal'><b>PA_0968 [30 pts]</b><br>(Paris - 16&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : octobre 2020 (report)</font></td><td width=300 align=left><div id='image17'><a class='chocolat-image' href='photos/PA_0968-octobre2019.jpg' title='PA_0968-octobre2019'><img src='images/PA_0968-octobre2019.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo octobre 2019</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix17' src='images/boutton_croix_plein.png' onMouseOver='survola("17", "over")' onMouseOut='survola("17", "out")' onClick='vision("17")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform17' style='display:none;'>
+<div id='mess4088'><p><b><u>Bakk2Bakk</u></b> (02/10/2019) :<br/>R&eacute;activ&eacute; - vu sur le Live le 2.10.19<br/></p><img src='images/ligne.png'></div><div id='mess4097'><p><b><u>ewull</u></b> (02/10/2019) :<br/>reactiv&eacute;.<br />
+flash&eacute; le 2 octobre 2019<br/></p><img src='images/ligne.png'></div><div id='mess5947'><p><b><u>kapuchka</u></b> (19/02/2020) :<br/>Flash&eacute; le 18/02/2020<br/></p><img src='images/ligne.png'></div><div id='mess6952'><p><b><u>Doalene</u></b> (30/05/2020) :<br/>Flash&eacute; le matin du 30/05/2020 apr&egrave;s que les ouvriers du chantier aient gentiment d&eacute;plac&eacute; le tuyau d&rsquo;&eacute;vacuation des gravats qui g&ecirc;ne la vue.<br/></p><img src='images/ligne.png'></div><div id='mess7070'><p><b><u>Archi & Philou</u></b> (04/06/2020) :<br/>Vu sur le live le 4 juin 2020 en soir&eacute;e.<br/></p><img src='images/ligne.png'></div><div id='mess7206'><p><b><u>Mulibai</u></b> (16/06/2020) :<br/>Flash&eacute; le 14/06/2020 malgr&eacute; les travaux<br/></p><img src='images/ligne.png'></div><div id='mess7913'><p><b><u>Zurg</u></b> (20/07/2020) :<br/>Je confirme qu'il se peut toujours se flasher m&ecirc;me si partiellement dissimul&eacute;, flash&eacute; ce jour.<br/></p><img src='images/ligne.png'></div><div id='mess9524'><p><b><u>tophernet76</u></b> (30/12/2020) :<br/>flash&eacute; le 29 d&eacute;cembre<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0969-grosplan.png' width=100/><br/><font class='normal'><b>PA_0969 [30 pts]</b><br>(Paris - 15&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_destroyed.png' class='banniere' width=25> D&eacute;truit !<br/>Date et source : mai 2021 (report)</font></td><td width=300 align=left><img src='images/PA_0969-archive.jpg' width=300/></td>
+<td width=300 align=left><div id='image18'><a class='chocolat-image' href='photos/PA_0969-mai2021.jpg' title='PA_0969-mai2021'><img src='images/PA_0969-mai2021.jpg' width=300 class='imagelien'/></a>
+</div></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo d'archive (<a href='http://www.space-invaders.com/' target='blank'>@Invader</a>)</font></td><td align=left valign=top><font class='legende'>photo mai 2021 (@bp78)</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix18' src='images/boutton_croix_plein.png' onMouseOver='survola("18", "over")' onMouseOut='survola("18", "out")' onClick='vision("18")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform18' style='display:none;'>
+<div id='mess9005'><p><b><u>Archi & Philou</u></b> (13/10/2020) :<br/>PA 0969 r&eacute;activ&eacute; le 13 octobre 2020 par le C4ctusclub. Un grand merci &agrave; eux !<br/></p><img src='images/ligne.png'></div><div id='mess9028'><p><b><u>DELTA72</u></b> (13/10/2020) :<br/>Tjrs a donf les reactivateurs, merci :-)<br/></p><img src='images/ligne.png'></div><div id='mess9031'><p><b><u>BUBU75</u></b> (14/10/2020) :<br/>Merci <br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0970-grosplan.png' width=100/><br/><font class='normal'><b>PA_0970 [30 pts]</b><br>(Paris - 15&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_degraded.png' class='banniere' width=25> D&eacute;grad&eacute;<br/>Date et source : septembre 2020 (report)</font></td><td width=300 align=left><div id='image19'><a class='chocolat-image' href='photos/PA_0970-avril2015.jpg' title='PA_0970-avril2015'><img src='images/PA_0970-avril2015.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left><img src='images/PA_0970-septembre2020.jpg' width=300/></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2015</font></td><td align=left valign=top><font class='legende'>photo septembre 2020 (@Frederetienne)</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix19' src='images/boutton_croix_plein.png' onMouseOver='survola("19", "over")' onMouseOut='survola("19", "out")' onClick='vision("19")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform19' style='display:none;'>
+<div id='mess1306'><p><b><u>Archi & Philou</u></b> (25/08/2018) :<br/>Tr&egrave;s d&eacute;grad&eacute; mais flash&eacute; avec succ&egrave;s en ao&ucirc;t 2018.<br/></p><img src='images/ligne.png'></div><div id='mess5347'><p><b><u>Raphystole</u></b> (13/01/2020) :<br/>A moiti&eacute; arrach&eacute; mais toujours flashable (hier le 12/01/2019)<br/></p><img src='images/ligne.png'></div><div id='mess6230'><p><b><u>Awazleon</u></b> (26/02/2020) :<br/>Flash&eacute; aujourd'hui du premier coup mais effectivement tr&egrave;s d&eacute;grad&eacute;<br/></p><img src='images/ligne.png'></div><div id='mess8855'><p><b><u>Frederetienne</u></b> (27/09/2020) :<br/>Flash&eacute; ce jour du 1er coup, m&ecirc;me s'il manque plus de la moiti&eacute; !<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0971-grosplan.png' width=100/><br/><font class='normal'><b>PA_0971 [20 pts]</b><br>(Paris - 14&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_destroyed.png' class='banniere' width=25> Tr&egrave;s d&eacute;grad&eacute;<br/>Date et source : octobre 2020 (report)</font></td><td width=300 align=left><div id='image20'><a class='chocolat-image' href='photos/PA_0971-avril2015.jpg' title='PA_0971-avril2015'><img src='images/PA_0971-avril2015.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left><img src='images/PA_0971-octobre2020.jpg' width=300/></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2015</font></td><td align=left valign=top><font class='legende'>photo octobre 2020 (@Marathon)</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix20' src='images/boutton_croix_plein.png' onMouseOver='survola("20", "over")' onMouseOut='survola("20", "out")' onClick='vision("20")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform20' style='display:none;'>
+<div id='mess2297'><p><b><u>rimrim</u></b> (25/03/2019) :<br/>Toujours vivant : flash&eacute; le 25/03/2019. Mais d&eacute;grad&eacute; (flashable)<br/></p><img src='images/ligne.png'></div><div id='mess2698'><p><b><u>Flash_in_the_city </u></b> (11/05/2019) :<br/>Vu aujourd'hui !<br/></p><img src='images/ligne.png'></div><div id='mess4039'><p><b><u>MaximusDebilus</u></b> (29/09/2019) :<br/>Impossible a flasher hier malgr&eacute; de nombreuses tentatives &agrave; diverses distances et orientations...<br/></p><img src='images/ligne.png'></div><div id='mess4218'><p><b><u>Bertoune</u></b> (10/10/2019) :<br/>Impossible &agrave; flasher (trop d&eacute;grad&eacute;)<br/></p><img src='images/ligne.png'></div><div id='mess4997'><p><b><u>kapuchka</u></b> (13/12/2019) :<br/>Impossible &agrave; flasher (novembre 2019) en d&eacute;pit de multiples tentatives, trop d&eacute;grad&eacute;<br/></p><img src='images/ligne.png'></div><div id='mess5188'><p><b><u>Spotter75020</u></b> (27/12/2019) :<br/>Idem impossible &agrave; flasher, et un panneau de travaux dans l'axe n'aide pas...<br/></p><img src='images/ligne.png'></div><div id='mess6696'><p><b><u>foyan</u></b> (13/05/2020) :<br/>Impossible &agrave; flasher effectivement...<br/></p><img src='images/ligne.png'></div><div id='mess6840'><p><b><u>Yoles bonstuYo</u></b> (23/05/2020) :<br/>impossible &agrave; flasher<br/></p><img src='images/ligne.png'></div><div id='mess7614'><p><b><u>Ciaranandlana</u></b> (06/07/2020) :<br/>&Ccedil;a ne veut toujours pas flasher...<br/></p><img src='images/ligne.png'></div><div id='mess8880'><p><b><u>Sebinouse</u></b> (28/09/2020) :<br/>Nope toujours inflashable<br/></p><img src='images/ligne.png'></div><div id='mess8881'><p><b><u>Sebinouse</u></b> (28/09/2020) :<br/>Nope toujours inflashable<br/></p><img src='images/ligne.png'></div><div id='mess9417'><p><b><u>Sardinemarteau</u></b> (20/12/2020) :<br/>Trop ab&icirc;m&eacute; ! Impossible &agrave; flasher<br/></p><img src='images/ligne.png'></div><div id='mess10233'><p><b><u>MissMily</u></b> (15/04/2021) :<br/>Impossible &agrave; flasher malgr&eacute; de nombreuse tentatives ...<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0972-grosplan.png' width=100/><br/><font class='normal'><b>PA_0972 [50 pts]</b><br>(Paris - 12&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : septembre 2019 (report)</font></td><td width=300 align=left><div id='image21'><a class='chocolat-image' href='photos/PA_0972-juillet2021.jpg' title='PA_0972-juillet2021'><img src='images/PA_0972-juillet2021.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left><img src='images/PA_0972-archive.jpg' width=300/></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo juillet 2021 (@Flash_in_the_city)</font></td><td align=left valign=top><font class='legende'>photo d'archive (<a href='http://www.space-invaders.com/' target='blank'>@Invader</a>)</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix21' src='images/boutton_croix_plein.png' onMouseOver='survola("21", "over")' onMouseOut='survola("21", "out")' onClick='vision("21")'/><br/>
+<div id='ajoutform21' style='display:none;'>
+<p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0973-grosplan.png' width=100/><br/><font class='normal'><b>PA_0973 [30 pts]</b><br>(Paris - 3&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_degraded.png' class='banniere' width=25> Un peu d&eacute;grad&eacute;<br/>Date et source : novembre 2019 (report)</font></td><td width=300 align=left><div id='image22'><a class='chocolat-image' href='photos/PA_0973-avril2019.jpg' title='PA_0973-avril2019'><img src='images/PA_0973-avril2019.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2019</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix22' src='images/boutton_croix_plein.png' onMouseOver='survola("22", "over")' onMouseOut='survola("22", "out")' onClick='vision("22")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform22' style='display:none;'>
+<div id='mess2896'><p><b><u>rimrim</u></b> (09/06/2019) :<br/>Toujours vivant : flash&eacute; le 09/06/2019 !<br/></p><img src='images/ligne.png'></div><div id='mess4550'><p><b><u>suricate_saki</u></b> (04/11/2019) :<br/>Un peu ab&icirc;m&eacute; sur sa partie droite mais se flashe d&egrave;s le premier essai<br/></p><img src='images/ligne.png'></div><div id='mess6417'><p><b><u>kapuchka</u></b> (02/03/2020) :<br/>Flash&eacute; le 02/03/2020<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0974-grosplan.png' width=100/><br/><font class='normal'><b>PA_0974 [30 pts]</b><br>(Paris - 3&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : novembre 2019 (report)</font></td><td width=300 align=left><div id='image23'><a class='chocolat-image' href='photos/PA_0974-avril2019.jpg' title='PA_0974-avril2019'><img src='images/PA_0974-avril2019.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2019</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix23' src='images/boutton_croix_plein.png' onMouseOver='survola("23", "over")' onMouseOut='survola("23", "out")' onClick='vision("23")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform23' style='display:none;'>
+<div id='mess2897'><p><b><u>rimrim</u></b> (09/06/2019) :<br/>Toujours vivant : flash&eacute; le 09/06/2019 !<br/></p><img src='images/ligne.png'></div><div id='mess4551'><p><b><u>suricate_saki</u></b> (04/11/2019) :<br/>Flash&eacute; hier<br/></p><img src='images/ligne.png'></div><div id='mess6418'><p><b><u>kapuchka</u></b> (02/03/2020) :<br/>Flash&eacute; le 02/03/2020<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0975-grosplan.png' width=100/><br/><font class='normal'><b>PA_0975 [30 pts]</b><br>(Paris - 3&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_degraded.png' class='banniere' width=25> Un peu d&eacute;grad&eacute;<br/>Date et source : novembre 2019 (report)</font></td><td width=300 align=left><div id='image24'><a class='chocolat-image' href='photos/PA_0975-avril2019.jpg' title='PA_0975-avril2019'><img src='images/PA_0975-avril2019.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2019</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix24' src='images/boutton_croix_plein.png' onMouseOver='survola("24", "over")' onMouseOut='survola("24", "out")' onClick='vision("24")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform24' style='display:none;'>
+<div id='mess2898'><p><b><u>rimrim</u></b> (09/06/2019) :<br/>Toujours vivant : flash&eacute; le 09/06/2019 !<br/></p><img src='images/ligne.png'></div><div id='mess4552'><p><b><u>suricate_saki</u></b> (04/11/2019) :<br/>Un peu ab&icirc;m&eacute; mais se flashe d&egrave;s le premier essai<br/></p><img src='images/ligne.png'></div><div id='mess6419'><p><b><u>kapuchka</u></b> (02/03/2020) :<br/>Flash&eacute; le 02/03/2020<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0976-grosplan.png' width=100/><br/><font class='normal'><b>PA_0976 [30 pts]</b><br>(Paris - 2&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : mai 2020</font></td><td width=300 align=left><div id='image25'><a class='chocolat-image' href='photos/PA_0976-mai2020.jpg' title='PA_0976-mai2020'><img src='images/PA_0976-mai2020.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left><div id='image26'><a class='chocolat-image' href='photos/PA_0976-avril2015.jpg' title='PA_0976-avril2015'><img src='images/PA_0976-avril2015.jpg' width=300 class='imagelien'/></a>
+</div></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo mai 2020</font></td><td align=left valign=top><font class='legende'>photo avril 2015</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix25' src='images/boutton_croix_plein.png' onMouseOver='survola("25", "over")' onMouseOut='survola("25", "out")' onClick='vision("25")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform25' style='display:none;'>
+<div id='mess6678'><p><b><u>Ghiome</u></b> (12/05/2020) :<br/>R&eacute;activ&eacute; le 11/05/20 et flash&eacute; ce matin<br/></p><img src='images/ligne.png'></div><div id='mess7415'><p><b><u>Loulou le Pou</u></b> (27/06/2020) :<br/>Il est bien l&agrave;;-)<br/></p><img src='images/ligne.png'></div><div id='mess8031'><p><b><u>rimrim</u></b> (26/07/2020) :<br/>Toujours vivant : flash&eacute; le 25/07/2020 !<br/></p><img src='images/ligne.png'></div><div id='mess8712'><p><b><u>Sardinemarteau</u></b> (14/09/2020) :<br/>flash&eacute; le 12/09/2020<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0977-grosplan.png' width=100/><br/><font class='normal'><b>PA_0977 [30 pts]</b><br>(Paris - 2&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : octobre 2019 (report)</font></td><td width=300 align=left><div id='image27'><a class='chocolat-image' href='photos/PA_0977-avril2019.jpg' title='PA_0977-avril2019'><img src='images/PA_0977-avril2019.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left><img src='images/PA_0977-decembre2020.jpg' width=300/></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2019</font></td><td align=left valign=top><font class='legende'>photo dÃ©cembre 2020</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix26' src='images/boutton_croix_plein.png' onMouseOver='survola("26", "over")' onMouseOut='survola("26", "out")' onClick='vision("26")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform26' style='display:none;'>
+<div id='mess3210'><p><b><u>Frederetienne</u></b> (14/07/2019) :<br/>Vu et flash&eacute; aujourd'hui!<br/></p><img src='images/ligne.png'></div><div id='mess4350'><p><b><u>Flash_in_the_city </u></b> (20/10/2019) :<br/>Flash&eacute; aujourd'hui, en bon etat !<br/></p><img src='images/ligne.png'></div><div id='mess6333'><p><b><u>kapuchka</u></b> (02/03/2020) :<br/>Flash&eacute; le 02/03/2020<br/></p><img src='images/ligne.png'></div><div id='mess10022'><p><b><u>Llumiere79</u></b> (02/03/2021) :<br/>flash&eacute; sans probl&egrave;me malgr&eacute; les &eacute;chaffaudages<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0978-grosplan.png' width=100/><br/><font class='normal'><b>PA_0978 [30 pts]</b><br>(Paris - 1er arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : mai 2021 (report)</font></td><td width=300 align=left><div id='image28'><a class='chocolat-image' href='photos/PA_0978-septembre2018.jpg' title='PA_0978-septembre2018'><img src='images/PA_0978-septembre2018.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left><div id='image29'><a class='chocolat-image' href='photos/PA_0978-mai2021.jpg' title='PA_0978-mai2021'><img src='images/PA_0978-mai2021.jpg' width=300 class='imagelien'/></a>
+</div></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo septembre 2018</font></td><td align=left valign=top><font class='legende'>photos mai 2021 (@Al1finy) - cliquer pour la derniÃ¨re version</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix27' src='images/boutton_croix_plein.png' onMouseOver='survola("27", "over")' onMouseOut='survola("27", "out")' onClick='vision("27")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform27' style='display:none;'>
+<div id='mess5782'><p><b><u>Gallou10</u></b> (16/02/2020) :<br/>Toujours en vie le 09 F&eacute;vrier 2020<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0979-grosplan.png' width=100/><br/><font class='normal'><b>PA_0979 [20 pts]</b><br>(Paris - 4&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : avril 2019 (report)</font></td><td width=300 align=left><div id='image30'><a class='chocolat-image' href='photos/PA_0979-septembre2018.jpg' title='PA_0979-septembre2018'><img src='images/PA_0979-septembre2018.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo septembre 2018</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix28' src='images/boutton_croix_plein.png' onMouseOver='survola("28", "over")' onMouseOut='survola("28", "out")' onClick='vision("28")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform28' style='display:none;'>
+<div id='mess2421'><p><b><u>rimrim</u></b> (14/04/2019) :<br/>Toujours vivant : flash&eacute; ce jour (14 avril 2019) !<br/></p><img src='images/ligne.png'></div><div id='mess5697'><p><b><u>suricate_saki</u></b> (14/02/2020) :<br/>Toujours vivant !<br/></p><img src='images/ligne.png'></div><div id='mess6246'><p><b><u>Loulou le Pou</u></b> (28/02/2020) :<br/>Flash&eacute; hier avec un peu de difficult&eacute;.<br/></p><img src='images/ligne.png'></div><div id='mess9919'><p><b><u>Llumiere79</u></b> (12/02/2021) :<br/>quais inaccessible &agrave; cause de la crue, il est visible du haut, mais impossible &agrave; flasher... <br/></p><img src='images/ligne.png'></div><div id='mess10180'><p><b><u>Llumiere79</u></b> (01/04/2021) :<br/>flash&eacute; sans probl&egrave;me depuis le quai accessible ce jour ! :)<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0980-grosplan.png' width=100/><br/><font class='normal'><b>PA_0980 [30 pts]</b><br>(Paris - 12&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : septembre 2018 (spott)</font></td><td width=300 align=left><div id='image31'><a class='chocolat-image' href='photos/PA_0980-septembre2018.jpg' title='PA_0980-septembre2018'><img src='images/PA_0980-septembre2018.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo septembre 2018</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix29' src='images/boutton_croix_plein.png' onMouseOver='survola("29", "over")' onMouseOut='survola("29", "out")' onClick='vision("29")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform29' style='display:none;'>
+<div id='mess592'><p><b><u>flolafloue</u></b> (24/09/2017) :<br/>toujours vivant, vu hier le 23/09<br/></p><img src='images/ligne.png'></div><div id='mess5428'><p><b><u>suricate_saki</u></b> (21/01/2020) :<br/>Toujours l&agrave; !<br/></p><img src='images/ligne.png'></div><div id='mess7520'><p><b><u>CRPARIS12</u></b> (30/06/2020) :<br/>PA_980 tirs l&agrave; .! Sorry <br />
+LE 30/06/2020<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0981-grosplan.png' width=100/><br/><font class='normal'><b>PA_0981 [30 pts]</b><br>(Paris - 12&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : mai 2019 (report)</font></td><td width=300 align=left><div id='image32'><a class='chocolat-image' href='photos/PA_0981-avril2015.jpg' title='PA_0981-avril2015'><img src='images/PA_0981-avril2015.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2015</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix30' src='images/boutton_croix_plein.png' onMouseOver='survola("30", "over")' onMouseOut='survola("30", "out")' onClick='vision("30")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform30' style='display:none;'>
+<div id='mess593'><p><b><u>flolafloue</u></b> (24/09/2017) :<br/>toujours vivant, vu hier le 23/09<br />
+<br/></p><img src='images/ligne.png'></div><div id='mess2699'><p><b><u>Flash_in_the_city </u></b> (11/05/2019) :<br/>Flash&eacute; aujourd'hui !<br/></p><img src='images/ligne.png'></div><div id='mess7108'><p><b><u>suricate_saki</u></b> (06/06/2020) :<br/>Toujours l&agrave; !<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0982-grosplan.png' width=100/><br/><font class='normal'><b>PA_0982 [30 pts]</b><br>(Paris - 12&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_destroyed.png' class='banniere' width=25> D&eacute;truit !<br/>Date et source : avril 2015 (spott)</font></td><td width=300 align=left><img src='images/PA_0982-archive.jpg' width=300/></td>
+<td width=300 align=left><img src='images/PA_0982-avril2015.jpg' width=300/></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo d'archive (<a href='http://www.space-invaders.com/' target='blank'>@Invader</a>)</font></td><td align=left valign=top><font class='legende'>photo avril 2015</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix31' src='images/boutton_croix_plein.png' onMouseOver='survola("31", "over")' onMouseOut='survola("31", "out")' onClick='vision("31")'/><br/>
+<div id='ajoutform31' style='display:none;'>
+<p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0983-grosplan.png' width=100/><br/><font class='normal'><b>PA_0983 [20 pts]</b><br>(Paris - 20&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : juin 2016 (spott)</font></td><td width=300 align=left><div id='image33'><a class='chocolat-image' href='photos/PA_0983-juin2016.jpg' title='PA_0983-juin2016'><img src='images/PA_0983-juin2016.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo juin 2016</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix32' src='images/boutton_croix_plein.png' onMouseOver='survola("32", "over")' onMouseOut='survola("32", "out")' onClick='vision("32")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform32' style='display:none;'>
+<div id='mess7299'><p><b><u>Loulou le Pou</u></b> (22/06/2020) :<br/>Dans les feuilles mais bien l&agrave;!<br/></p><img src='images/ligne.png'></div><div id='mess8977'><p><b><u>Frederetienne</u></b> (11/10/2020) :<br/>Flash&eacute; sans probl&egrave;me, malgr&eacute; les feuilles qui poussent !<br/></p><img src='images/ligne.png'></div><div id='mess9726'><p><b><u>Sardinemarteau</u></b> (20/01/2021) :<br/>flash&eacute; aujourd'hui<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0984-grosplan.png' width=100/><br/><font class='normal'><b>PA_0984 [20 pts]</b><br>(Paris - 19&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : septembre 2016 (spott)</font></td><td width=300 align=left><div id='image34'><a class='chocolat-image' href='photos/PA_0984-septembre2016.jpg' title='PA_0984-septembre2016'><img src='images/PA_0984-septembre2016.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo septembre 2016</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix33' src='images/boutton_croix_plein.png' onMouseOver='survola("33", "over")' onMouseOut='survola("33", "out")' onClick='vision("33")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform33' style='display:none;'>
+<div id='mess4820'><p><b><u>suricate_saki</u></b> (25/11/2019) :<br/>Toujours vivant et en parfait &eacute;tat.<br/></p><img src='images/ligne.png'></div><div id='mess9767'><p><b><u>rimrim</u></b> (24/01/2021) :<br/>Toujours vivant : flash&eacute; le 24/01/2021 !<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0985-grosplan.png' width=100/><br/><font class='normal'><b>PA_0985 [30 pts]</b><br>(Paris - 19&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_degraded.png' class='banniere' width=25> D&eacute;grad&eacute;<br/>Date et source : fÃ©vrier 2019 (report)</font></td><td width=300 align=left><div id='image35'><a class='chocolat-image' href='photos/PA_0985-avril2015.jpg' title='PA_0985-avril2015'><img src='images/PA_0985-avril2015.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left><div id='image36'><a class='chocolat-image' href='photos/PA_0985-mai2020.jpg' title='PA_0985-mai2020'><img src='images/PA_0985-mai2020.jpg' width=300 class='imagelien'/></a>
+</div></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2015</font></td><td align=left valign=top><font class='legende'>photo mai 2020 (@Marathon)</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix34' src='images/boutton_croix_plein.png' onMouseOver='survola("34", "over")' onMouseOut='survola("34", "out")' onClick='vision("34")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform34' style='display:none;'>
+<div id='mess1302'><p><b><u>MISS T.</u></b> (25/08/2018) :<br/>flashable le jour mais pas la nuit. <br/></p><img src='images/ligne.png'></div><div id='mess2070'><p><b><u> hippo schlemer</u></b> (16/02/2019) :<br/>Effectivement tr&egrave;s d&eacute;grad&eacute;, seule la partie haute reste visible<br/></p><img src='images/ligne.png'></div><div id='mess4819'><p><b><u>suricate_saki</u></b> (25/11/2019) :<br/>On ne voit que le haut mais apr&egrave;s quelques tentatives il reste flashable.<br/></p><img src='images/ligne.png'></div><div id='mess8414'><p><b><u>DELTA72</u></b> (27/08/2020) :<br/>Flash&eacute; ce week-end<br/></p><img src='images/ligne.png'></div><div id='mess8920'><p><b><u>Frederetienne</u></b> (04/10/2020) :<br/>Flash&eacute; ce jour en 2-3 tentatives. Est &agrave; moiti&eacute; cach&eacute; par le store.<br/></p><img src='images/ligne.png'></div><div id='mess9711'><p><b><u>Llumiere79</u></b> (18/01/2021) :<br/>flash&eacute; du 1er coup bien qu'on ne voie que le haut !<br/></p><img src='images/ligne.png'></div><div id='mess9874'><p><b><u>rimrim</u></b> (03/02/2021) :<br/>Toujours vivant : flash&eacute; le 03/02/2021 !<br /><br />Pas de soucis pour le flasher du 1er coup, malgr&eacute; le fait qu'on ne voit que le haut du SI.<br/></p><img src='images/ligne.png'></div><div id='mess10329'><p><b><u>Loulou le Pou</u></b> (02/05/2021) :<br/>Flash&eacute; facilement.<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0986-grosplan.png' width=100/><br/><font class='normal'><b>PA_0986 [10 pts]</b><br>(Paris - 19&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : septembre 2017 (spott)</font></td><td width=300 align=left><div id='image37'><a class='chocolat-image' href='photos/PA_0986-septembre2017.jpg' title='PA_0986-septembre2017'><img src='images/PA_0986-septembre2017.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo septembre 2017</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix35' src='images/boutton_croix_plein.png' onMouseOver='survola("35", "over")' onMouseOut='survola("35", "out")' onClick='vision("35")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform35' style='display:none;'>
+<div id='mess582'><p><b><u>spykedelik</u></b> (12/09/2017) :<br/>R&eacute;activ&eacute; (vu sur instagram)<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0987-grosplan.png' width=100/><br/><font class='normal'><b>PA_0987 [10 pts]</b><br>(Paris - 19&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : septembre 2018 (spott)</font></td><td width=300 align=left><div id='image38'><a class='chocolat-image' href='photos/PA_0987-septembre2018.jpg' title='PA_0987-septembre2018'><img src='images/PA_0987-septembre2018.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo septembre 2018</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix36' src='images/boutton_croix_plein.png' onMouseOver='survola("36", "over")' onMouseOut='survola("36", "out")' onClick='vision("36")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform36' style='display:none;'>
+<div id='mess4821'><p><b><u>suricate_saki</u></b> (25/11/2019) :<br/>Toujours vivant<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0988-grosplan.png' width=100/><br/><font class='normal'><b>PA_0988 [30 pts]</b><br>(Paris - 10&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : juillet 2019 (report)</font></td><td width=300 align=left><div id='image39'><a class='chocolat-image' href='photos/PA_0988-avril2015.jpg' title='PA_0988-avril2015'><img src='images/PA_0988-avril2015.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2015</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix37' src='images/boutton_croix_plein.png' onMouseOver='survola("37", "over")' onMouseOut='survola("37", "out")' onClick='vision("37")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform37' style='display:none;'>
+<div id='mess738'><p><b><u>NyRo</u></b> (24/03/2018) :<br/>La station est en travaux jusqu'en septembre 2019, et malheureusement PA_0988 n'est plus :^(<br/></p><img src='images/ligne.png'></div><div id='mess3164'><p><b><u>nicoalex</u></b> (10/07/2019) :<br/>flash&eacute; hier :)<br/></p><img src='images/ligne.png'></div><div id='mess5888'><p><b><u>Sardinemarteau</u></b> (18/02/2020) :<br/>impossible &agrave; flasher pour moi...<br/></p><img src='images/ligne.png'></div><div id='mess7153'><p><b><u>Loulou le Pou</u></b> (09/06/2020) :<br/>Flash&eacute; le 6/06 sans pb.<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0989-grosplan.png' width=100/><br/><font class='normal'><b>PA_0989 [30 pts]</b><br>(Paris - 18&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : avril 2019 (spott)</font></td><td width=300 align=left><div id='image40'><a class='chocolat-image' href='photos/PA_0989-avril2019.jpg' title='PA_0989-avril2019'><img src='images/PA_0989-avril2019.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2019</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix38' src='images/boutton_croix_plein.png' onMouseOver='survola("38", "over")' onMouseOut='survola("38", "out")' onClick='vision("38")'/><br/>
+<div id='ajoutform38' style='display:none;'>
+<p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0990-grosplan.png' width=100/><br/><font class='normal'><b>PA_0990 [20 pts]</b><br>(Paris - 18&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : fÃ©vrier 2019 (report)</font></td><td width=300 align=left><div id='image41'><a class='chocolat-image' href='photos/PA_0990-avril2015.jpg' title='PA_0990-avril2015'><img src='images/PA_0990-avril2015.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2015</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix39' src='images/boutton_croix_plein.png' onMouseOver='survola("39", "over")' onMouseOut='survola("39", "out")' onClick='vision("39")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform39' style='display:none;'>
+<div id='mess988'><p><b><u>LPFM</u></b> (27/06/2018) :<br/>Station en travaux, pas r&eacute;ussi &agrave; le voir.<br/></p><img src='images/ligne.png'></div><div id='mess1116'><p><b><u>LPFM</u></b> (27/07/2018) :<br/>Je l'ai finalement trouv&eacute; - il est visible et flashable malgr&eacute; les travaux !<br/></p><img src='images/ligne.png'></div><div id='mess2072'><p><b><u>Cilaon</u></b> (16/02/2019) :<br/>Les b&acirc;ches commencent &agrave; &ecirc;tre enlev&eacute;es.<br />
+Flash&eacute; ce matin sans probl&egrave;me.<br/></p><img src='images/ligne.png'></div><div id='mess7092'><p><b><u>suricate_saki</u></b> (06/06/2020) :<br/>Plus de b&acirc;che et SI toujours l&agrave;.<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0991-grosplan.png' width=100/><br/><font class='normal'><b>PA_0991 [30 pts]</b><br>(Paris - 10&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : octobre 2019 (report)</font></td><td width=300 align=left><div id='image42'><a class='chocolat-image' href='photos/PA_0991-juin2019.jpg' title='PA_0991-juin2019'><img src='images/PA_0991-juin2019.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo juin 2019</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix40' src='images/boutton_croix_plein.png' onMouseOver='survola("40", "over")' onMouseOut='survola("40", "out")' onClick='vision("40")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform40' style='display:none;'>
+<div id='mess493'><p><b><u>GaMeur1</u></b> (18/06/2017) :<br/>Je suis pass&eacute; devant aujourd'hui et la mosa&iuml;que &eacute;tait bien de nouveau pr&eacute;sente !<br />
+Par contre, impossible de la flasher... :-(<br/></p><img src='images/ligne.png'></div><div id='mess498'><p><b><u>GaMeur1</u></b> (23/06/2017) :<br/>edit: J'avais une photo en attente (j'avais d&eacute;sactiv&eacute; la geolocalisation pour la garder en m&eacute;moire) et le flash a bien fonctionn&eacute; aujourd'hui...<br/></p><img src='images/ligne.png'></div><div id='mess503'><p><b><u>brico12</u></b> (29/06/2017) :<br/>La mosa&iuml;que a &eacute;t&eacute; enti&egrave;rement enlev&eacute;e ce jour!! (pr&eacute;sente cette nuit vers 2h30 mais n'y est plus &agrave; 18h)<br/></p><img src='images/ligne.png'></div><div id='mess3165'><p><b><u>nicoalex</u></b> (10/07/2019) :<br/>flash&eacute; today :)<br/></p><img src='images/ligne.png'></div><div id='mess3389'><p><b><u>MaximusDebilus</u></b> (27/07/2019) :<br/>Recouverts de peinture. Pas r&eacute;ussi &agrave; le flasher...<br/></p><img src='images/ligne.png'></div><div id='mess3530'><p><b><u>AWDE</u></b> (15/08/2019) :<br/>Il a &eacute;t&eacute; recouvert de peinture totalement<br/></p><img src='images/ligne.png'></div><div id='mess3555'><p><b><u>Gafeman</u></b> (18/08/2019) :<br/>Recouvert de peinture mais flashable apr&egrave;s plusieurs essais<br/></p><img src='images/ligne.png'></div><div id='mess3795'><p><b><u>niaubry</u></b> (03/09/2019) :<br/>semble KO https://www.instagram.com/p/B1Y5QOiC5Mb/<br/></p><img src='images/ligne.png'></div><div id='mess4257'><p><b><u>Alma_Citronnelle</u></b> (15/10/2019) :<br/>Nettoy&eacute; de sa peinture par la Cl_team :(tebar692, alma_citronnelle, picasso4892, 42faby, graou, flashjaunille) <br /><br />le 12 octobre 2019 et de nouveau flashable<br/></p><img src='images/ligne.png'></div><div id='mess4333'><p><b><u>Mcfs</u></b> (19/10/2019) :<br/>Je l&rsquo;ai flash&eacute; ce soir plus de peinture tout va bien! <br/></p><img src='images/ligne.png'></div><div id='mess7155'><p><b><u>Loulou le Pou</u></b> (09/06/2020) :<br/>Flash&eacute; le 6/06 sans pb.-)<br/></p><img src='images/ligne.png'></div><div id='mess9469'><p><b><u>Sardinemarteau</u></b> (23/12/2020) :<br/>flash&eacute; aujourd'hui<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0992-grosplan.png' width=100/><br/><font class='normal'><b>PA_0992 [30 pts]</b><br>(Paris - 3&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_destroyed.png' class='banniere' width=25> D&eacute;truit !<br/>Date et source : fÃ©vrier 2018 (Instagram)</font></td><td width=300 align=left><img src='images/PA_0992-archive.jpg' width=300/></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo d'archive (<a href='http://www.space-invaders.com/' target='blank'>@Invader</a>)</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'>L'endroit n'est plus accessible depuis le dÃ©mÃ©nagement du journal en dÃ©cembre 2015. L'immeuble est en travaux et la terrasse devrait Ãªtre transformÃ©e en restaurant-concept.<br/></font><img id='croix41' src='images/boutton_croix_plein.png' onMouseOver='survola("41", "over")' onMouseOut='survola("41", "out")' onClick='vision("41")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform41' style='display:none;'>
+<div id='mess6905'><p><b><u>Archi & Philou</u></b> (28/05/2020) :<br/>La mosa&iuml;que a &eacute;t&eacute; retir&eacute;e de la terrasse (information communiqu&eacute;e par un salari&eacute; de Lib&eacute;ration) !<br/></p><img src='images/ligne.png'></div><div id='mess6923'><p><b><u>kapuchka</u></b> (29/05/2020) :<br/>Cela dit on voit toujours un Invader g&eacute;ant depuis le ciel : https://goo.gl/maps/BophC2VBZhR2xzMY7<br/></p><img src='images/ligne.png'></div><div id='mess7650'><p><b><u>matt75</u></b> (08/07/2020) :<br/>@kapuchka : https://www.dailymotion.com/video/x11hxmq<br />
+<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0993-grosplan.png' width=100/><br/><font class='normal'><b>PA_0993 [30 pts]</b><br>(Paris - 20&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : juillet 2020 (report)</font></td><td width=300 align=left><div id='image43'><a class='chocolat-image' href='photos/PA_0993-mars2019.jpg' title='PA_0993-mars2019'><img src='images/PA_0993-mars2019.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo mars 2019</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix42' src='images/boutton_croix_plein.png' onMouseOver='survola("42", "over")' onMouseOut='survola("42", "out")' onClick='vision("42")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform42' style='display:none;'>
+<div id='mess1984'><p><b><u>Scaph</u></b> (22/01/2019) :<br/>R&eacute;activ&eacute; ce jour <br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0994-grosplan.png' width=100/><br/><font class='normal'><b>PA_0994 [30 pts]</b><br>(Paris - 17&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_degraded.png' class='banniere' width=25> Un peu d&eacute;grad&eacute;<br/>Date et source : mars 2021 (report)</font></td><td width=300 align=left><div id='image44'><a class='chocolat-image' href='photos/PA_0994-juillet2015.jpg' title='PA_0994-juillet2015'><img src='images/PA_0994-juillet2015.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left><div id='image45'><a class='chocolat-image' href='photos/PA_0994-mars2021.jpg' title='PA_0994-mars2021'><img src='images/PA_0994-mars2021.jpg' width=300 class='imagelien'/></a>
+</div></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo juillet 2015</font></td><td align=left valign=top><font class='legende'>photo mars 2021 (@Heavenly)</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix43' src='images/boutton_croix_plein.png' onMouseOver='survola("43", "over")' onMouseOut='survola("43", "out")' onClick='vision("43")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform43' style='display:none;'>
+<div id='mess8374'><p><b><u>Marathon</u></b> (22/08/2020) :<br/>Beaucoup d'essais infructueux (en changeant d'angle, de cadrage...) avant de r&eacute;ussir &agrave; le flasher, dans des conditions d'&eacute;clairage correctes.<br/></p><img src='images/ligne.png'></div><div id='mess8490'><p><b><u>Aliax</u></b> (30/08/2020) :<br/>Pas r&eacute;ussi &agrave; le flasher pour ma part, de pr&egrave;s, de loin, de biais, etc... <br />
+J'ai l'impression que ce sont les c&acirc;bles qui tra&icirc;nent le long de la droite du SI qui polluent l'image et qui emp&ecirc;chent le flash... <br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0995-grosplan.png' width=100/><br/><font class='normal'><b>PA_0995 [30 pts]</b><br>(Paris - 17&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : juillet 2019 (spott)</font></td><td width=300 align=left><div id='image46'><a class='chocolat-image' href='photos/PA_0995-juillet2019.jpg' title='PA_0995-juillet2019'><img src='images/PA_0995-juillet2019.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo juillet 2019</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix44' src='images/boutton_croix_plein.png' onMouseOver='survola("44", "over")' onMouseOut='survola("44", "out")' onClick='vision("44")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform44' style='display:none;'>
+<div id='mess6500'><p><b><u>kapuchka</u></b> (09/03/2020) :<br/>Flash&eacute; le 09/03/2020<br/></p><img src='images/ligne.png'></div><div id='mess6821'><p><b><u>nicoalex</u></b> (22/05/2020) :<br/>la branche a pouss&eacute;e et cache un peu la mosa&iuml;que, difficile &agrave; flasher mais pas impossible !<br/></p><img src='images/ligne.png'></div><div id='mess6822'><p><b><u>nicoalex</u></b> (22/05/2020) :<br/>la branche a pouss&eacute;e et cache un peu la mosa&iuml;que, difficile &agrave; flasher mais pas impossible !<br/></p><img src='images/ligne.png'></div><div id='mess8488'><p><b><u>Aliax</u></b> (30/08/2020) :<br/>La branche a encore un peu plus pouss&eacute; et se trouve &agrave; pr&eacute;sent compl&egrave;tement en face du SI... Je n'ai pas r&eacute;ussi &agrave; le flasher malgr&eacute; plusieurs tentatives...<br/></p><img src='images/ligne.png'></div><div id='mess9826'><p><b><u>rimrim</u></b> (31/01/2021) :<br/>Toujours vivant : flash&eacute; le 31/01/2021 ! <br />
+Profitez de l'automne et de l'hiver pour flasher ce SI car les arbres n'ont plus leur feuillage et c'est bien plus simple ;)<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0996-grosplan.png' width=100/><br/><font class='normal'><b>PA_0996 [10 pts]</b><br>(Paris - 17&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_degraded.png' class='banniere' width=25> Un peu d&eacute;grad&eacute;<br/>Date et source : septembre 2020 (report)</font></td><td width=300 align=left><div id='image47'><a class='chocolat-image' href='photos/PA_0996-juin2017.jpg' title='PA_0996-juin2017'><img src='images/PA_0996-juin2017.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left><img src='images/PA_0996-septembre2020.jpg' width=300/></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo juin 2017</font></td><td align=left valign=top><font class='legende'>photo septembre 2020 (@Zurg)</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix45' src='images/boutton_croix_plein.png' onMouseOver='survola("45", "over")' onMouseOut='survola("45", "out")' onClick='vision("45")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform45' style='display:none;'>
+<div id='mess3008'><p><b><u>Laurent92974</u></b> (26/06/2019) :<br/>Flash&eacute; le 21/06/2019.<br/></p><img src='images/ligne.png'></div><div id='mess3797'><p><b><u>rimrim</u></b> (04/09/2019) :<br/>Toujours vivant : flash&eacute; le 03/09/2019 !<br/></p><img src='images/ligne.png'></div><div id='mess6128'><p><b><u>kapuchka</u></b> (21/02/2020) :<br/>Flash&eacute; le 21/02/2020<br/></p><img src='images/ligne.png'></div><div id='mess9863'><p><b><u>Sardinemarteau</u></b> (02/02/2021) :<br/>flash&eacute; aujourd'hui<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0997-grosplan.png' width=100/><br/><font class='normal'><b>PA_0997 [50 pts]</b><br>(Paris - 4&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : septembre 2018 (spott)</font></td><td width=300 align=left><div id='image48'><a class='chocolat-image' href='photos/PA_0997-septembre2018.jpg' title='PA_0997-septembre2018'><img src='images/PA_0997-septembre2018.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo septembre 2018</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix46' src='images/boutton_croix_plein.png' onMouseOver='survola("46", "over")' onMouseOut='survola("46", "out")' onClick='vision("46")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform46' style='display:none;'>
+<div id='mess5647'><p><b><u>Gallou10</u></b> (10/02/2020) :<br/>Toujours en vie, flash&eacute; ce week-end<br/></p><img src='images/ligne.png'></div><div id='mess7098'><p><b><u>suricate_saki</u></b> (06/06/2020) :<br/>Toujours l&agrave; ! Magnifiques yeux qui brillent.<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0998-grosplan.png' width=100/><br/><font class='normal'><b>PA_0998 [30 pts]</b><br>(Paris - 2&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : juillet 2019 (report)</font></td><td width=300 align=left><div id='image49'><a class='chocolat-image' href='photos/PA_0998-avril2019.jpg' title='PA_0998-avril2019'><img src='images/PA_0998-avril2019.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2019</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix47' src='images/boutton_croix_plein.png' onMouseOver='survola("47", "over")' onMouseOut='survola("47", "out")' onClick='vision("47")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform47' style='display:none;'>
+<div id='mess1947'><p><b><u>FredoB</u></b> (07/01/2019) :<br/>Restaur&eacute; et r&eacute;activ&eacute; ce 7/1/2019, photo dispo sur instagram<br/></p><img src='images/ligne.png'></div><div id='mess2199'><p><b><u>rimrim</u></b> (11/03/2019) :<br/>Toujours vivant : flash&eacute; le 10/03/2019 !<br/></p><img src='images/ligne.png'></div><div id='mess3211'><p><b><u>Frederetienne</u></b> (14/07/2019) :<br/>Vu et flash&eacute; aujourd'hui!<br/></p><img src='images/ligne.png'></div><div id='mess6006'><p><b><u>kapuchka</u></b> (19/02/2020) :<br/>Flash&eacute; le 19/02/2020, en tr&egrave;s bon &eacute;tat<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_0999-grosplan.png' width=100/><br/><font class='normal'><b>PA_0999 [50 pts]</b><br>(Paris - 11&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_ok.png' class='banniere' width=25> OK<br/>Date et source : juillet 2019 (report)</font></td><td width=300 align=left><div id='image50'><a class='chocolat-image' href='photos/PA_0999-avril2015.jpg' title='PA_0999-avril2015'><img src='images/PA_0999-avril2015.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left>&nbsp;</td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo avril 2015</font></td><td align=left valign=top>&nbsp;</td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix48' src='images/boutton_croix_plein.png' onMouseOver='survola("48", "over")' onMouseOut='survola("48", "out")' onClick='vision("48")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform48' style='display:none;'>
+<div id='mess2110'><p><b><u> hippo schlemer</u></b> (24/02/2019) :<br/>De retour et r&eacute;activ&eacute;, il est magnifique !<br/></p><img src='images/ligne.png'></div><div id='mess2441'><p><b><u>Flash_in_the_city </u></b> (15/04/2019) :<br/>Flash&eacute; fin fevrier<br/></p><img src='images/ligne.png'></div><div id='mess3228'><p><b><u>rimrim</u></b> (14/07/2019) :<br/>Toujours vivant : flash&eacute; le 13/07/2019 !<br/></p><img src='images/ligne.png'></div><div id='mess6309'><p><b><u>kapuchka</u></b> (01/03/2020) :<br/>Flash&eacute; le 29/02/2020<br/></p><img src='images/ligne.png'></div><div id='mess7012'><p><b><u>Alinvader</u></b> (01/06/2020) :<br/>Flash&eacute; hier <br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr><tr class='haut'>
+<td align=left rowspan='2' width=300><img src='images/PA_1000-grosplan.png' width=100/><br/><font class='normal'><b>PA_1000 [100 pts]</b><br>(Paris - 11&egrave;me arrondissement)<br/>Dernier &eacute;tat connu : <img src='images/spot_invader_destroyed.png' class='banniere' width=25> D&eacute;truit !<br/>Date et source : juillet 2020 (report)</font></td><td width=300 align=left><div id='image51'><a class='chocolat-image' href='photos/PA_1000-juin2016.jpg' title='PA_1000-juin2016'><img src='images/PA_1000-juin2016.jpg' width=300 class='imagelien'/></a>
+</div></td>
+<td width=300 align=left><img src='images/PA_1000-juillet2020.jpg' width=300/></td>
+</tr>
+<tr><td align=left valign=top><font class='legende'>photo juin 2016</font></td><td align=left valign=top><font class='legende'>photo juillet 2020 (@LEOVADER)</font></td>
+</tr>
+<tr class='bas'>
+<td>&nbsp;</td>
+<td align=left colspan=2><font class='normal'></font><img id='croix49' src='images/boutton_croix_plein.png' onMouseOver='survola("49", "over")' onMouseOut='survola("49", "out")' onClick='vision("49")'/> <font color='#FF0000'><b>!</b></font><br/>
+<div id='ajoutform49' style='display:none;'>
+<div id='mess2984'><p><b><u>lolokamala</u></b> (23/06/2019) :<br/>demander poliment l acces a l acceuil et le tour et jouer <br/></p><img src='images/ligne.png'></div><div id='mess5599'><p><b><u>CAT13</u></b> (08/02/2020) :<br/>Pass&eacute; avant hier : le b&acirc;timent est ferm&eacute; depuis plusieurs semaines et impossible d&rsquo;y entrer car il est en attente de repreneur. J&rsquo;ai m&ecirc;me essay&eacute; d&rsquo;appeler le N* qui est sur la porte et parl&eacute; &agrave; la boulang&egrave;re d&rsquo;&agrave; c&ocirc;t&eacute;. Il faut donc attendre la r&eacute;ouverture. Idem pour le PA 1001.<br/></p><img src='images/ligne.png'></div><div id='mess6772'><p><b><u>Archi & Philou</u></b> (18/05/2020) :<br/>Message sur Instagram ce jour : PA 1000 est bien d&eacute;truit, par contre PA 1001 n'est pas (encore) d&eacute;truit et flashe. Reste &agrave; persuader le gardien d'ouvrir pour rentrer et faire le flash ! Merci @snoil pour l'info.<br/></p><img src='images/ligne.png'></div><div id='mess7536'><p><b><u>MUADDIB</u></b> (01/07/2020) :<br/>Effectivement d&eacute;truit. Pas facile d'y acc&eacute;der. Trouv&eacute; une bonne &acirc;me pour aller capturer le 1001 still alive.<br/></p><img src='images/ligne.png'></div><div id='mess7629'><p><b><u>Gustqve</u></b> (07/07/2020) :<br/>Bel et bien d&eacute;truit ! PA_1001 reste flashable...<br/></p><img src='images/ligne.png'></div><p>Pour &eacute;crire un message vous devez &ecirc;tre <a href='inscription.php'>connect&eacute;</a></p></div><br/>
+</td>
+</tr></table></form><p>page : <a href='javascript:changepage(1)'>1</a> | <a href='javascript:changepage(2)'>2</a> | <a href='javascript:changepage(3)'>3</a> | <a href='javascript:changepage(4)'>4</a> | <a href='javascript:changepage(5)'>5</a> | <a href='javascript:changepage(6)'>6</a> | <a href='javascript:changepage(7)'>7</a> | <a href='javascript:changepage(8)'>8</a> | <a href='javascript:changepage(9)'>9</a> | <a href='javascript:changepage(10)'>10</a> | <a href='javascript:changepage(11)'>11</a> | <a href='javascript:changepage(12)'>12</a> | <a href='javascript:changepage(13)'>13</a> | <a href='javascript:changepage(14)'>14</a> | <a href='javascript:changepage(15)'>15</a> | <a href='javascript:changepage(16)'>16</a> | <a href='javascript:changepage(17)'>17</a> | <a href='javascript:changepage(18)'>18</a> | <a href='javascript:changepage(19)'>19</a> | 20 | <a href='javascript:changepage(21)'>21</a> | <a href='javascript:changepage(22)'>22</a> | <a href='javascript:changepage(23)'>23</a> | <a href='javascript:changepage(24)'>24</a> | <a href='javascript:changepage(25)'>25</a> | <a href='javascript:changepage(26)'>26</a> | <a href='javascript:changepage(27)'>27</a> | <a href='javascript:changepage(28)'>28</a> | <a href='javascript:changepage(29)'>29</a> | <a href='javascript:changepage(30)'>30</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;r&eacute;sultats 951-1000 / 1467</p><script>
+
+$(function(){
+	$('#image0').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image1').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image2').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image3').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image4').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image5').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image6').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image7').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image8').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image9').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image10').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image11').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image12').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image13').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image14').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image15').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image16').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image17').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image18').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image19').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image20').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image21').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image22').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image23').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image24').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image25').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image26').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image27').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image28').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image29').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image30').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image31').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image32').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image33').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image34').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image35').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image36').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image37').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image38').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image39').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image40').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image41').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image42').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image43').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image44').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image45').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image46').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image47').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image48').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image49').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image50').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+<script>
+
+$(function(){
+	$('#image51').Chocolat({
+
+	imageSize: 'contain'
+
+	});
+});
+</script>
+ </div>
+</div>
+
+<div id='footer'>
+ &nbsp;
+</div>
+
+<script>
+$(function(){
+
+	var instance = $('#container3').Chocolat({
+
+		setTitle : 'set title', loop: true, images : [
+{src : 'demo-images/1.jpg', title : 'caption 1'}, {src : 'demo-images/6.jpg', title : 'caption 2'}, {src : 'demo-images/8.jpg', title : 'caption 3'},
+], imageSize : 'contain',
+ container : '#container3' }).data('chocolat');
+		$('.api-open').on('click', function(e) {
+			e.preventDefault() console.log('open start');
+			var def = instance.api().open() def.done(function(){
+				console.log('open done');
+			})
+		})
+		$('.api-close').on('click', function(e) {
+
+			e.preventDefault() console.log('close start');
+
+			var def = instance.api().close()
+
+ def.done(function(){
+				console.log('close done');
+			})
+
+		})
+		$('.api-prev').on('click', function(e) {
+			e.preventDefault() console.log('prev start');
+			var def = instance.api().prev() def.done(function(){
+				console.log('prev done');
+			})
+		})
+
+		$('.api-next').on('click', function(e) {
+
+			e.preventDefault() console.log('next start');
+
+			var def = instance.api().next() def.done(function(){
+				console.log('next done');
+			})
+		})
+
+
+		$('.api-cover').on('click', function(e) {
+			e.preventDefault()
+
+ console.log('cover mode start') instance.api().set('imageSize', 'cover')
+
+			var def = instance.api().place() def.done(function(){
+				console.log('cover mode done')
+			})
+
+		})
+
+
+		$('.api-contain').on('click', function(e) {
+
+			e.preventDefault() console.log('contain mode start') instance.api().set('imageSize', 'contain')
+			var def = instance.api().place()
+
+ def.done(function(){
+
+				console.log('contain mode done')
+			})
+		})
+
+	});
+</script>
+
+</body>
+</html>
